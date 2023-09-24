@@ -1,8 +1,9 @@
 {
-  "title": "Welcome to Nextjs boilerplate from Clevertech",
+  "title": "Clevertech",
 
-  "home.meta.title": "Welcome to Nextjs boilerplate from Clevertech",
-  "home.meta.description": "Welcome to Nextjs boilerplate from Clevertech",
+  "header.appointment": "Make an appointment",
+  "home.meta.title": "Clevertech",
+  "home.meta.description": "Clevertech",
   "contact.meta.title": "Contact us",
   "contact.meta.description": "Contact us",
   "mission.meta.title": "Our mision and values",
@@ -57,7 +58,7 @@
   "home.title": "Your project, your ideas, our expertise",
   "home.description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin neque libero, venenatis sed ipsum ac, tincidunt mollis erat. Maecenas vulputate est eu finibus vestibulum. Nunc ex quam, vehicula eget varius placerat, dignissim vitae ligula.",
   "home.hero.primaryAction": "Get in touch",
-  "home.about.title": "Nextjs boilerplate from Clevertech Architecture",
+  "home.about.title": "Clevertech Architecture",
   "home.about.description": "An architectural firm that excels in refined simplicity. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin neque libero, venenatis sed ipsum ac, tincidunt mollis erat. Maecenas vulputate est eu finibus vestibulum. Nunc ex quam, vehicula eget varius placerat, dignissim vitae ligula. Duis metus augue, cursus sit amet mattis sit amet, blandit at metus. Aenean velit dolor, feugiat vel sagittis sed, hendrerit sit amet tortor. Maecenas consectetur ornare porttitor. Duis pretium bibendum dui interdum auctor. Curabitur et maximus neque.",
   "home.about.primaryAction": "More about us",
 
@@ -96,7 +97,7 @@
   "home.project12.title": "Project 12",
   "home.project12.description": "Lorem ipsum dolor sit amet",
 
-  "contact.card.title": "Nextjs boilerplate from Clevertech",
+  "contact.card.title": "Clevertech",
   "contact.card.action": "Make an appointement",
   "contact.card.map": "Show in Google Maps",
 

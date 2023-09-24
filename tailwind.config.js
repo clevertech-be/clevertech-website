@@ -1,8 +1,8 @@
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/flowbite-react/lib/**/*.{js,ts}',
-    './node_modules/flowbite/lib/**/*.{js,ts}',
+    './node_modules/flowbite-react/**/*.js',
+    './node_modules/flowbite/**/*.js',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {

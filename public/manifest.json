@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-tailwind-boilerplate",
-  "short_name": "nextjs-tailwind-boilerplate",
-  "description": "Nextjs template using tailwindcss",
+  "name": "clevertech-website",
+  "short_name": "clevertech-website",
+  "description": "Clevertech website",
   "icons": [
     {
       "src": "/favicon/android-chrome-36x36.png",

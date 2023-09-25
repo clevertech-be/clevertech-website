@@ -38,7 +38,7 @@ export default function Featured() {
             </p>
             <a
               href='#'
-              className='inline-flex items-center text-sm font-medium hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
+              className='inline-flex items-center text-sm font-medium transition-all ease-in-out duration-300 hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
             >
               Learn how to keep your funds safe{' '}
               <svg
@@ -75,7 +75,7 @@ export default function Featured() {
             </p>
             <a
               href='#'
-              className='inline-flex items-center text-sm font-medium hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
+              className='inline-flex items-center text-sm font-medium transition-all ease-in-out duration-300 hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
             >
               Learn how your crypto is covered{' '}
               <svg
@@ -111,7 +111,7 @@ export default function Featured() {
             </p>
             <a
               href='#'
-              className='inline-flex items-center text-sm font-medium hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
+              className='inline-flex items-center text-sm font-medium transition-all ease-in-out duration-300 hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
             >
               How to implement best practices{' '}
               <svg

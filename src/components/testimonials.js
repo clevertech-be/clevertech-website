@@ -82,7 +82,7 @@ export default function Testimonials() {
               className='flex justify-center items-center mr-4 h-full cursor-pointer group focus:outline-none'
               data-carousel-prev
             >
-              <span className='text-primary-400  hover:text-primary-600'>
+              <span className='text-primary-400  hover:text-primary-600 transition-all ease-in-out duration-300'>
                 <svg
                   className='w-6 h-6'
                   fill='currentColor'
@@ -103,7 +103,7 @@ export default function Testimonials() {
               className='flex justify-center items-center h-full cursor-pointer group focus:outline-none'
               data-carousel-next
             >
-              <span className='text-primary-400  hover:text-primary-600'>
+              <span className='text-primary-400  hover:text-primary-600 transition-all ease-in-out duration-300'>
                 <svg
                   className='w-6 h-6'
                   fill='currentColor'

@@ -26,15 +26,15 @@
   "socials": [
     {
       "title": "facebook",
-      "link": "https://www.facebook.com"
+      "link": "https://www.facebook.com/clevertech"
     },
     {
       "title": "instagram",
-      "link": "https://www.instagram.com"
+      "link": "https://www.instagram.com/"
     },
     {
       "title": "linkedin",
-      "link": "https://www.linkedin.com"
+      "link": "https://www.linkedin.com/clevertech"
     }
   ],
   "sla": [
@@ -61,7 +61,7 @@
   },
   "companyName": "Clevertech SRL",
   "tel": "+32488203567",
-  "email": "info@clevertech.be",
+  "email": "contact@clevertech.be",
   "tva": "BE 2220.556.668",
   "locales": ["fr", "nl", "en"],
   "defaultLocale": "en",

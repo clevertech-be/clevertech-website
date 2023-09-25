@@ -24,12 +24,12 @@ export default function Home() {
       <CTA />
       <FeatureList />
       <Pricing />
+      <Newsletter />
       <Team />
       <Blog />
       <Testimonials />
-      <Newsletter />
-      <Faq />
       <Contact />
+      <Faq />
     </Layout>
   )
 }

@@ -34,7 +34,7 @@ export default function Team() {
                     <span className='sr-only'>Facebook</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -49,7 +49,7 @@ export default function Team() {
                     <span className='sr-only'>Twitter</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -64,7 +64,7 @@ export default function Team() {
                     <span className='sr-only'>Dribbble</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -79,7 +79,7 @@ export default function Team() {
                     <span className='sr-only'>GitHub</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -116,7 +116,7 @@ export default function Team() {
                     <span className='sr-only'>Facebook</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -131,7 +131,7 @@ export default function Team() {
                     <span className='sr-only'>Twitter</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -146,7 +146,7 @@ export default function Team() {
                     <span className='sr-only'>Dribbble</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -161,7 +161,7 @@ export default function Team() {
                     <span className='sr-only'>GitHub</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -198,7 +198,7 @@ export default function Team() {
                     <span className='sr-only'>Facebook</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -213,7 +213,7 @@ export default function Team() {
                     <span className='sr-only'>Twitter</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -228,7 +228,7 @@ export default function Team() {
                     <span className='sr-only'>Dribbble</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -243,7 +243,7 @@ export default function Team() {
                     <span className='sr-only'>GitHub</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-black/80  hover:text-primary-600'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600 transition-all ease-in-out duration-300'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'

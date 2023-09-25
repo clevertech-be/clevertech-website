@@ -37,7 +37,10 @@ export default function Hero() {
         <div className='px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36'>
           <span className='font-semibold text-black uppercase'>FEATURED IN</span>
           <div className='flex flex-wrap justify-center items-center mt-8 text-black sm:justify-between'>
-            <a href='#' className='mr-5 mb-5 lg:mb-0 text-black/60  hover:text-black'>
+            <a
+              href='#'
+              className='mr-5 mb-5 lg:mb-0 text-black/60  hover:text-black transition-all ease-in-out duration-300'
+            >
               <svg
                 className='h-8'
                 viewBox='0 0 132 29'
@@ -79,7 +82,10 @@ export default function Hero() {
                 />
               </svg>
             </a>
-            <a href='#' className='mr-5 mb-5 lg:mb-0 text-black/60  hover:text-black'>
+            <a
+              href='#'
+              className='mr-5 mb-5 lg:mb-0 text-black/60  hover:text-black transition-all ease-in-out duration-300'
+            >
               <svg
                 className='h-11'
                 viewBox='0 0 208 42'
@@ -100,7 +106,10 @@ export default function Hero() {
                 />
               </svg>
             </a>
-            <a href='#' className='mr-5 mb-5 lg:mb-0 text-black/60  hover:text-black'>
+            <a
+              href='#'
+              className='mr-5 mb-5 lg:mb-0 text-black/60  hover:text-black transition-all ease-in-out duration-300'
+            >
               <svg
                 className='h-11'
                 viewBox='0 0 120 41'

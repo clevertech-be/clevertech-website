@@ -12,7 +12,7 @@ export default function CTA() {
         <div className='justify-center space-y-2 space-x-0 sm:space-y-0 sm:space-x-6 sm:flex'>
           <a
             href='#'
-            className='flex justify-center items-center text-base font-medium hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
+            className='flex justify-center items-center text-base font-medium transition-all ease-in-out duration-300 hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
           >
             Explore our integrations
             <svg
@@ -30,7 +30,7 @@ export default function CTA() {
           </a>
           <a
             href='#'
-            className='flex justify-center items-center text-base font-medium hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
+            className='flex justify-center items-center text-base font-medium transition-all ease-in-out duration-300 hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
           >
             API Overview
             <svg
@@ -50,7 +50,7 @@ export default function CTA() {
         <div className='mt-6 space-y-4 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-4 xl:gap-8 md:space-y-0 md:mb-8 md:mt-12'>
           <a
             href='#'
-            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white'
+            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white transition-all ease-in-out duration-300'
           >
             <svg
               className='h-9 text-primary-600'
@@ -68,7 +68,7 @@ export default function CTA() {
           </a>
           <a
             href='#'
-            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white'
+            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white transition-all ease-in-out duration-300'
           >
             <svg
               className='h-9 text-primary-600'
@@ -86,7 +86,7 @@ export default function CTA() {
           </a>
           <a
             href='#'
-            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white'
+            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white transition-all ease-in-out duration-300'
           >
             <svg
               className='h-8 text-primary-600'
@@ -114,7 +114,7 @@ export default function CTA() {
           </a>
           <a
             href='#'
-            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white'
+            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white transition-all ease-in-out duration-300'
           >
             <svg
               className='h-9 text-primary-600'
@@ -130,7 +130,7 @@ export default function CTA() {
           </a>
           <a
             href='#'
-            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white'
+            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white transition-all ease-in-out duration-300'
           >
             <svg
               className='h-9 text-primary-600'
@@ -154,7 +154,7 @@ export default function CTA() {
           </a>
           <a
             href='#'
-            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white'
+            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white transition-all ease-in-out duration-300'
           >
             <svg
               className='h-10 text-primary-600'
@@ -170,7 +170,7 @@ export default function CTA() {
           </a>
           <a
             href='#'
-            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white'
+            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white transition-all ease-in-out duration-300'
           >
             <svg
               className='h-8 text-primary-600'
@@ -231,7 +231,7 @@ export default function CTA() {
           </a>
           <a
             href='#'
-            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white'
+            className='flex justify-center items-center p-8 text-center bg-white/90 hover:bg-white transition-all ease-in-out duration-300'
           >
             <svg
               className='h-9 text-primary-600'

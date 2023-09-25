@@ -1,17 +1,17 @@
 export default function Featured() {
   return (
-    <section className='bg-white dark:bg-gray-900'>
+    <section className='bg-primary-800 p-5 rounded-lg'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6'>
-        <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
+        <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-white'>
           The most trusted cryptocurrency platform
         </h2>
-        <p className='text-gray-500 sm:text-xl dark:text-gray-400'>
+        <p className='text-white/80 sm:text-xl '>
           Here are a few reasons why you should choose Flowbite
         </p>
         <div className='mt-8 lg:mt-12 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0'>
           <div>
             <svg
-              className='mx-auto mb-4 w-12 h-12 text-primary-600 dark:text-primary-500'
+              className='mx-auto mb-4 w-12 h-12 text-white'
               fill='currentColor'
               viewBox='0 0 20 20'
               xmlns='http://www.w3.org/2000/svg'
@@ -32,13 +32,13 @@ export default function Featured() {
                 clip-rule='evenodd'
               ></path>
             </svg>
-            <h3 className='mb-2 text-xl font-bold dark:text-white'>Secure storage</h3>
-            <p className='mb-4 text-gray-500 dark:text-gray-400'>
+            <h3 className='mb-2 text-xl font-bold'>Secure storage</h3>
+            <p className='mb-4 text-white/80 '>
               We store the vast majority of the digital assets in secure offline storage.
             </p>
             <a
               href='#'
-              className='inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500 dark:hover:text-primary-400'
+              className='inline-flex items-center text-sm font-medium hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
             >
               Learn how to keep your funds safe{' '}
               <svg
@@ -57,7 +57,7 @@ export default function Featured() {
           </div>
           <div>
             <svg
-              className='mx-auto mb-4 w-12 h-12 text-primary-600 dark:text-primary-500'
+              className='mx-auto mb-4 w-12 h-12 text-white'
               fill='currentColor'
               viewBox='0 0 20 20'
               xmlns='http://www.w3.org/2000/svg'
@@ -69,13 +69,13 @@ export default function Featured() {
                 clip-rule='evenodd'
               ></path>
             </svg>
-            <h3 className='mb-2 text-xl font-bold dark:text-white'>Insurance</h3>
-            <p className='mb-4 text-gray-500 dark:text-gray-400'>
+            <h3 className='mb-2 text-xl font-bold'>Insurance</h3>
+            <p className='mb-4 text-white/80 '>
               Flowbite maintains crypto insurance and all USD cash balances are covered.
             </p>
             <a
               href='#'
-              className='inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500 dark:hover:text-primary-400'
+              className='inline-flex items-center text-sm font-medium hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
             >
               Learn how your crypto is covered{' '}
               <svg
@@ -94,7 +94,7 @@ export default function Featured() {
           </div>
           <div>
             <svg
-              className='mx-auto mb-4 w-12 h-12 text-primary-600 dark:text-primary-500'
+              className='mx-auto mb-4 w-12 h-12 text-white'
               fill='currentColor'
               viewBox='0 0 20 20'
               xmlns='http://www.w3.org/2000/svg'
@@ -105,13 +105,13 @@ export default function Featured() {
                 clip-rule='evenodd'
               ></path>
             </svg>
-            <h3 className='mb-2 text-xl font-bold dark:text-white'>Best practices</h3>
-            <p className='mb-4 text-gray-500 dark:text-gray-400'>
+            <h3 className='mb-2 text-xl font-bold'>Best practices</h3>
+            <p className='mb-4 text-white/80 '>
               Flowbite marketplace supports a variety of the most popular digital currencies.
             </p>
             <a
               href='#'
-              className='inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500 dark:hover:text-primary-400'
+              className='inline-flex items-center text-sm font-medium hover:underline-offset-4 hover:underline text-white/90 hover:text-white'
             >
               How to implement best practices{' '}
               <svg

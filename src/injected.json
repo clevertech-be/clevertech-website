@@ -4,12 +4,12 @@
   "description": "Clevertech digital agency",
   "manifest": {
     "projectShortName": "Clevertech digital agency",
-    "themeColor": "#ffffff",
+    "themeColor": "#DC2028",
     "url": "https://www.clevertech.be/",
     "description": "Clevertech digital agency",
     "display": "standalone",
     "orientation": "portrait",
-    "backgroundColor": "#ffffff"
+    "backgroundColor": "#DC2028"
   },
   "gtag": "G-xxxxxxxxxx",
   "pages": [

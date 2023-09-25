@@ -1,10 +1,10 @@
 export default function Testimonials() {
   return (
-    <section className='bg-white dark:bg-gray-900'>
+    <section className='bg-primary-800 p-5 rounded-lg'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
         <div className='mx-auto max-w-screen-sm mb-8 lg:mb-16'>
-          <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-black'>Testimonials</h2>
-          <p className='font-light text-gray-500 sm:text-xl dark:text-gray-400'>
+          <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-white'>Testimonials</h2>
+          <p className='font-light text-white/80 sm:text-xl '>
             Explore the whole collection of open-source web components and elements built with the
             utility classes from Tailwind
           </p>
@@ -13,7 +13,7 @@ export default function Testimonials() {
           <div className='overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-52 rounded-lg sm:h-48'>
             <figure className='hidden mx-auto w-full max-w-screen-md' data-carousel-item>
               <blockquote>
-                <p className='text-lg font-medium text-blackk:text-white'>
+                <p className='text-lg font-medium text-white'>
                   Flowbite is just awesome. It contains tons of predesigned components and pages
                   starting from login screen to complex dashboard. Perfect choice for your next SaaS
                   application.
@@ -25,9 +25,9 @@ export default function Testimonials() {
                   src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
                   alt='profile picture'
                 />
-                <div className='flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700'>
-                  <div className='pr-3 font-medium text-black'>Bonnie Green</div>
-                  <div className='pl-3 text-sm font-light text-gray-500 dark:text-gray-400'>
+                <div className='flex items-center divide-x-2 divide-white'>
+                  <div className='pr-3 font-medium text-white'>Bonnie Green</div>
+                  <div className='pl-3 text-sm font-light text-white/80 '>
                     Web developer at Google
                   </div>
                 </div>
@@ -35,7 +35,7 @@ export default function Testimonials() {
             </figure>
             <figure className='hidden mx-auto w-full max-w-screen-md' data-carousel-item>
               <blockquote>
-                <p className='text-lg font-medium text-blackk:text-white'>
+                <p className='text-lg font-medium text-white'>
                   As someone who mainly designs in the browser, I have been a casual user of Figma,
                   but as soon as I saw and started playing with FlowBite my mind was blown and
                   became so productive.
@@ -47,9 +47,9 @@ export default function Testimonials() {
                   src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png'
                   alt='profile picture'
                 />
-                <div className='flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700'>
-                  <div className='pr-3 font-medium text-black'>Helene Engels</div>
-                  <div className='pl-3 text-sm font-light text-gray-500 dark:text-gray-400'>
+                <div className='flex items-center divide-x-2 divide-white'>
+                  <div className='pr-3 font-medium text-white'>Helene Engels</div>
+                  <div className='pl-3 text-sm font-light text-white/80 '>
                     Creative designer at Adobe
                   </div>
                 </div>
@@ -57,7 +57,7 @@ export default function Testimonials() {
             </figure>
             <figure className='hidden mx-auto w-full max-w-screen-md' data-carousel-item>
               <blockquote>
-                <p className='text-lg font-medium text-blackk:text-white'>
+                <p className='text-lg font-medium text-white'>
                   Flowbite has code in one place and I am not joking when I say it took me a matter
                   of minutes to copy the code, customise it and integrate within a Laravel + Vue
                   application.
@@ -69,11 +69,9 @@ export default function Testimonials() {
                   src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/neil-sims.png'
                   alt='profile picture'
                 />
-                <div className='flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700'>
-                  <div className='pr-3 font-medium text-black'>Neil Sims</div>
-                  <div className='pl-3 text-sm font-light text-gray-500 dark:text-gray-400'>
-                    CTO at Microsoft
-                  </div>
+                <div className='flex items-center divide-x-2 divide-white'>
+                  <div className='pr-3 font-medium text-white'>Neil Sims</div>
+                  <div className='pl-3 text-sm font-light text-white/80 '>CTO at Microsoft</div>
                 </div>
               </figcaption>
             </figure>
@@ -84,7 +82,7 @@ export default function Testimonials() {
               className='flex justify-center items-center mr-4 h-full cursor-pointer group focus:outline-none'
               data-carousel-prev
             >
-              <span className='text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'>
+              <span className='text-white/80  hover:text-white'>
                 <svg
                   className='w-6 h-6'
                   fill='currentColor'
@@ -105,7 +103,7 @@ export default function Testimonials() {
               className='flex justify-center items-center h-full cursor-pointer group focus:outline-none'
               data-carousel-next
             >
-              <span className='text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'>
+              <span className='text-white/80  hover:text-white'>
                 <svg
                   className='w-6 h-6'
                   fill='currentColor'

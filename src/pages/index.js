@@ -18,17 +18,17 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
+      <Featured />
       <Heading />
       <CTA />
-      <Featured />
       <SimpleGallery />
       <FeatureList />
       <Pricing />
+      <Team />
+      <Newsletter />
       <Blog />
       <Testimonials />
-      <Team />
       <Contact />
-      <Newsletter />
       <Faq />
     </Layout>
   )

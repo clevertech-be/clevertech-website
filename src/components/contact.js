@@ -2,7 +2,7 @@ import Button from './button'
 
 export default function Contact() {
   return (
-    <section className='from-primary-600 to-primary-800 bg-gradient-to-tr p-5 rounded-lg'>
+    <section className='from-primary-500 to-primary-700 bg-gradient-to-tr p-5 rounded-lg'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 flex-col flex gap-4'>
         <div className='px-4 mx-auto max-w-screen-sm text-center lg:px-6 mb-8 lg:mb-16'>
           <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-white'>Contact Us</h2>

@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Layout from '../../components/layout'
-import { useTranslate } from '../../hooks/useTranslate'
 import { useRouter } from 'next/router'
 import { policies } from '../../api/policies'
 
 export default function PolicyDetail() {
   const router = useRouter()
-  const { t } = useTranslate()
   const [policy, setPolicy] = useState()
 
   useEffect(() => {
@@ -15,11 +13,5 @@ export default function PolicyDetail() {
     }
   }, [router.query])
 
-  return (
-    <Layout>
-      {policy && (
-        <h1 className='text-xl md:text-4xl font-bold'>{t(`policy.${policy.name}.page`)}</h1>
-      )}
-    </Layout>
-  )
+  return <Layout>{policy && <h1 className='text-xl md:text-4xl font-bold'>{}</h1>}</Layout>
 }

@@ -20,16 +20,16 @@ export default function Home() {
       <Hero />
       <Featured />
       <Heading />
-      <CTA />
       <SimpleGallery />
+      <CTA />
       <FeatureList />
       <Pricing />
       <Team />
-      <Newsletter />
       <Blog />
       <Testimonials />
-      <Contact />
+      <Newsletter />
       <Faq />
+      <Contact />
     </Layout>
   )
 }

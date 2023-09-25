@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <section className='bg-primary-800 p-5 rounded-lg'>
+    <section className='from-primary-600 to-primary-800 bg-gradient-to-tr  p-5 rounded-lg'>
       <div className='py-8 lg:py-16 px-4 mx-auto max-w-screen-xl'>
         <h2 className='mb-4 text-3xl font-extrabold tracking-tight leading-tight text-center text-white md:text-4xl'>
           You’ll be in good company

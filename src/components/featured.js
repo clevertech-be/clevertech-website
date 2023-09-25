@@ -1,8 +1,8 @@
 export default function Featured() {
   return (
-    <section className='bg-primary-800 p-5 rounded-lg'>
+    <section className='from-primary-600 to-primary-800 bg-gradient-to-tr p-5 rounded-lg text-white'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6'>
-        <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-white'>
+        <h2 className='mb-4 text-4xl tracking-tight font-extrabold'>
           The most trusted cryptocurrency platform
         </h2>
         <p className='text-white/80 sm:text-xl '>

@@ -3,10 +3,10 @@ export default function Team() {
     <section className=' antialiased'>
       <div className='max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24'>
         <div className='max-w-5xl'>
-          <h2 className='text-3xl font-extrabold leading-tight sm:text-4xl text-white'>
+          <h2 className='text-3xl font-extrabold leading-tight sm:text-4xl text-black'>
             Our people make us great
           </h2>
-          <p className='mt-4 text-base font-normal text-white/80 sm:text-xl '>
+          <p className='mt-4 text-base font-normal text-black/80 sm:text-xl '>
             Empower Developers, Designers, IT Ops, and business teams to collaborate at high
             velocity. Respond to changes and deliver great customer and employee service experiences
             fast.
@@ -22,10 +22,10 @@ export default function Team() {
             />
             <div className='mt-4 space-y-2'>
               <div>
-                <h3 className='text-xl font-bold text-white'>Bonnie Green</h3>
-                <p className='text-sm font-medium text-white/90'>CEO & Co-Founder</p>
+                <h3 className='text-xl font-bold text-black'>Bonnie Green</h3>
+                <p className='text-sm font-medium text-black/90'>CEO & Co-Founder</p>
               </div>
-              <p className='text-base font-normal text-white/80 '>
+              <p className='text-base font-normal text-black/80 '>
                 Bonnie drives the technical strategy of the themesberg platform and brand.
               </p>
               <ul className='flex items-center gap-3'>
@@ -34,7 +34,7 @@ export default function Team() {
                     <span className='sr-only'>Facebook</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -49,7 +49,7 @@ export default function Team() {
                     <span className='sr-only'>Twitter</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -64,7 +64,7 @@ export default function Team() {
                     <span className='sr-only'>Dribbble</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -79,7 +79,7 @@ export default function Team() {
                     <span className='sr-only'>GitHub</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -104,10 +104,10 @@ export default function Team() {
             />
             <div className='mt-4 space-y-2'>
               <div>
-                <h3 className='text-xl font-bold text-white'>Roberta Casas</h3>
-                <p className='text-sm font-medium text-white/90'>CTO & Co-Founder</p>
+                <h3 className='text-xl font-bold text-black'>Roberta Casas</h3>
+                <p className='text-sm font-medium text-black/90'>CTO & Co-Founder</p>
               </div>
-              <p className='text-base font-normal text-white/80 '>
+              <p className='text-base font-normal text-black/80 '>
                 Bonnie drives the technical strategy of the themesberg platform and brand.
               </p>
               <ul className='flex items-center gap-3'>
@@ -116,7 +116,7 @@ export default function Team() {
                     <span className='sr-only'>Facebook</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -131,7 +131,7 @@ export default function Team() {
                     <span className='sr-only'>Twitter</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -146,7 +146,7 @@ export default function Team() {
                     <span className='sr-only'>Dribbble</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -161,7 +161,7 @@ export default function Team() {
                     <span className='sr-only'>GitHub</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -186,10 +186,10 @@ export default function Team() {
             />
             <div className='mt-4 space-y-2'>
               <div>
-                <h3 className='text-xl font-bold text-white'>Robert Brown</h3>
-                <p className='text-sm font-medium text-white/90'>Senior Front-end Developer</p>
+                <h3 className='text-xl font-bold text-black'>Robert Brown</h3>
+                <p className='text-sm font-medium text-black/90'>Senior Front-end Developer</p>
               </div>
-              <p className='text-base font-normal text-white/80 '>
+              <p className='text-base font-normal text-black/80 '>
                 Bonnie drives the technical strategy of the themesberg platform and brand.
               </p>
               <ul className='flex items-center gap-3'>
@@ -198,7 +198,7 @@ export default function Team() {
                     <span className='sr-only'>Facebook</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -213,7 +213,7 @@ export default function Team() {
                     <span className='sr-only'>Twitter</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -228,7 +228,7 @@ export default function Team() {
                     <span className='sr-only'>Dribbble</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
@@ -243,7 +243,7 @@ export default function Team() {
                     <span className='sr-only'>GitHub</span>
                     <svg
                       aria-hidden='true'
-                      className='w-6 h-6 text-white/80  hover:text-white'
+                      className='w-6 h-6 text-black/80  hover:text-primary-600'
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'

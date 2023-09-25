@@ -1,4 +1,4 @@
-import Button, { InvertedButton } from './button'
+import { InvertedButton } from './button'
 
 export default function Hero() {
   return (
@@ -6,12 +6,10 @@ export default function Hero() {
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
         <a
           href='#'
-          className='inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-white bg-primary-800 rounded-full hover:bg-primary-900'
+          className='inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-white bg-primary-600 rounded-full hover:bg-primary-700'
           role='alert'
         >
-          <span className='text-xs bg-white rounded-full text-primary-800 px-4 py-1.5 mr-3'>
-            New
-          </span>{' '}
+          <span className='text-xs bg-white rounded-full text-black px-4 py-1.5 mr-3'>New</span>{' '}
           <span className='text-sm font-medium'>Flowbite is out! See what is new</span>
           <svg
             className='ml-2 w-5 h-5'
@@ -26,21 +24,20 @@ export default function Hero() {
             ></path>
           </svg>
         </a>
-        <h1 className='mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white'>
+        <h1 className='mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-black'>
           We invest in the world’s potential
         </h1>
-        <p className='mb-8 text-lg font-normal text-white/90 lg:text-xl sm:px-16 xl:px-48 '>
+        <p className='mb-8 text-lg font-normal text-black/90 lg:text-xl sm:px-16 xl:px-48 '>
           Here at Flowbite we focus on markets where technology, innovation, and capital can unlock
           long-term value and drive economic growth.
         </p>
         <div className='flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4'>
-          <Button link={'/contact'} message={'Contact us'} />
           <InvertedButton link={'/contact'} message={'Contact us'} />
         </div>
         <div className='px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36'>
-          <span className='font-semibold text-white uppercase'>FEATURED IN</span>
-          <div className='flex flex-wrap justify-center items-center mt-8 text-white sm:justify-between'>
-            <a href='#' className='mr-5 mb-5 lg:mb-0 text-white/80  hover:text-white/90'>
+          <span className='font-semibold text-black uppercase'>FEATURED IN</span>
+          <div className='flex flex-wrap justify-center items-center mt-8 text-black sm:justify-between'>
+            <a href='#' className='mr-5 mb-5 lg:mb-0 text-black/60  hover:text-black'>
               <svg
                 className='h-8'
                 viewBox='0 0 132 29'
@@ -82,7 +79,7 @@ export default function Hero() {
                 />
               </svg>
             </a>
-            <a href='#' className='mr-5 mb-5 lg:mb-0 text-white/80  hover:text-white/90'>
+            <a href='#' className='mr-5 mb-5 lg:mb-0 text-black/60  hover:text-black'>
               <svg
                 className='h-11'
                 viewBox='0 0 208 42'
@@ -103,7 +100,7 @@ export default function Hero() {
                 />
               </svg>
             </a>
-            <a href='#' className='mr-5 mb-5 lg:mb-0 text-white/80  hover:text-white/90'>
+            <a href='#' className='mr-5 mb-5 lg:mb-0 text-black/60  hover:text-black'>
               <svg
                 className='h-11'
                 viewBox='0 0 120 41'

@@ -17,7 +17,7 @@ export function InvertedButton({ message, link, onClick, className }) {
   return (
     <button
       onClick={onClick}
-      className={`${className} rounded-xl px-4 py-3 transition-all ease-in-out duration-300 hover:bg-primary-900 bg-primary-600 text-white font-bold text:xs md:text-md leading-normal border-2 border-primary-600 hover:border-primary-900`}
+      className={`${className} rounded-xl px-4 py-3 transition-all ease-in-out duration-300 hover:bg-primary-700 bg-primary-600 text-white font-bold text:xs md:text-md leading-normal border-2 border-primary-600 hover:border-primary-700`}
       type='submit'
     >
       {link ? <Link href={link}>{message}</Link> : <span>{message}</span>}

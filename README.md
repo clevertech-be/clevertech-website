@@ -59,3 +59,18 @@ Rachid Asli - rachid@clevertech.be
 ## Link
 
 ## TimeSheet
+
+### Pages to add
+
+- services
+- about us
+- contact us
+- jobs
+- Legal
+  --- terms
+  --- policy
+  --- cookie
+- projects
+  --- projects [slug]
+- blog
+  --- blog [slug]

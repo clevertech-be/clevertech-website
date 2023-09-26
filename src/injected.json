@@ -23,6 +23,293 @@
       }
     }
   ],
+  "articles": [
+    {
+      "title": "article.1.title",
+      "description": "article.1.description",
+      "link": "/articles/article1",
+      "image": "/images/articles/1.png",
+      "author": "Hamza Mounir",
+      "topic": "articles.topics.1",
+      "date": "2021-01-01"
+    },
+    {
+      "title": "article.2.title",
+      "description": "article.2.description",
+      "link": "/articles/article2",
+      "image": "/images/articles/2.png",
+      "author": "Hamza Mounir",
+      "topic": "articles.topics.2",
+      "date": "2022-02-02"
+    },
+    {
+      "title": "article.3.title",
+      "description": "article.3.description",
+      "link": "/articles/article3",
+      "image": "/images/articles/3.png",
+      "author": "Hamza Mounir",
+      "topic": "articles.topics.3",
+      "date": "2023-03-03"
+    }
+  ],
+  "services": [
+    {
+      "title": "service.1.title",
+      "description": "service.1.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service1"
+    },
+
+    {
+      "title": "service.2.title",
+      "description": "service.2.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service2"
+    },
+    {
+      "title": "service.3.title",
+      "description": "service.3.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service3"
+    },
+    {
+      "title": "service.4.title",
+      "description": "service.4.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service4"
+    },
+    {
+      "title": "service.5.title",
+      "description": "service.5.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service5"
+    },
+    {
+      "title": "service.6.title",
+      "description": "service.6.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service6"
+    },
+    {
+      "title": "service.7.title",
+      "description": "service.7.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service7"
+    },
+    {
+      "title": "service.8.title",
+      "description": "service.8.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service8"
+    }
+  ],
+  "pricing": [
+    {
+      "name": "pricing.1.name",
+      "description": "pricing.1.description",
+      "price": "$29",
+      "link": "/pricing#pricing1",
+      "features": [
+        "pricing.1.features.1",
+        "pricing.1.features.2",
+        "pricing.1.features.3",
+        "pricing.1.features.4",
+        "pricing.1.features.5"
+      ]
+    },
+    {
+      "name": "pricing.2.name",
+      "description": "pricing.2.description",
+      "price": "$29",
+      "link": "/pricing#pricing2",
+      "features": [
+        "pricing.2.features.1",
+        "pricing.2.features.2",
+        "pricing.2.features.3",
+        "pricing.2.features.4",
+        "pricing.2.features.5"
+      ]
+    },
+    {
+      "name": "pricing.3.name",
+      "description": "pricing.3.description",
+      "price": "$29",
+      "link": "/pricing#pricing3",
+      "features": [
+        "pricing.3.features.1",
+        "pricing.3.features.2",
+        "pricing.3.features.3",
+        "pricing.3.features.4",
+        "pricing.3.features.5"
+      ]
+    }
+  ],
+  "team": [
+    {
+      "name": "team.1.name",
+      "role": "team.1.role",
+      "description": "team.1.description",
+      "avatar": "/images/team/1.png",
+      "socials": [
+        {
+          "title": "facebook",
+          "link": "https://www.facebook.com/clevertech"
+        },
+        {
+          "title": "instagram",
+          "link": "https://www.instagram.com/"
+        },
+        {
+          "title": "linkedin",
+          "link": "https://www.linkedin.com/clevertech"
+        }
+      ]
+    },
+    {
+      "name": "team.2.name",
+      "role": "team.2.role",
+      "avatar": "/images/team/2.png",
+      "description": "team.2.description",
+      "socials": [
+        {
+          "title": "facebook",
+          "link": "https://www.facebook.com/clevertech"
+        },
+        {
+          "title": "instagram",
+          "link": "https://www.instagram.com/"
+        },
+        {
+          "title": "linkedin",
+          "link": "https://www.linkedin.com/clevertech"
+        }
+      ]
+    },
+    {
+      "name": "team.3.name",
+      "role": "team.3.role",
+      "description": "team.3.description",
+      "avatar": "/images/team/3.png",
+      "socials": [
+        {
+          "title": "facebook",
+          "link": "https://www.facebook.com/clevertech"
+        },
+        {
+          "title": "instagram",
+          "link": "https://www.instagram.com/"
+        },
+        {
+          "title": "linkedin",
+          "link": "https://www.linkedin.com/clevertech"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "testimonial.1.name",
+      "avatar": "/images/testimonials/bonnie-green.png",
+      "role": "testimonial.1.role",
+      "testimonial": "testimonial.1.description"
+    },
+    {
+      "name": "testimonial.2.name",
+      "avatar": "/images/testimonials/bonnie-green.png",
+      "role": "testimonial.2.role",
+      "testimonial": "testimonial.2.description"
+    },
+    {
+      "name": "testimonial.3.name",
+      "avatar": "/images/testimonials/bonnie-green.png",
+      "role": "testimonial.3.role",
+      "testimonial": "testimonial.3.description"
+    }
+  ],
+  "faqs": [
+    {
+      "title": "faq.1.title",
+      "description": "faq.1.description"
+    },
+    {
+      "title": "faq.2.title",
+      "description": "faq.2.description"
+    },
+    {
+      "title": "faq.3.title",
+      "description": "faq.3.description"
+    },
+    {
+      "title": "faq.4.title",
+      "description": "faq.4.description"
+    },
+    {
+      "title": "faq.5.title",
+      "description": "faq.5.description"
+    }
+  ],
+  "usps": [
+    {
+      "name": "usp1",
+      "title": "usp1.title",
+      "description": "usp1.description",
+      "icon": "/icons/usp/1.svg",
+      "messageLink": "usp1.messageLink",
+      "link": "/mission#usp1"
+    },
+    {
+      "name": "usp2",
+      "title": "usp2.title",
+      "description": "usp2.description",
+      "icon": "/icons/usp/2.svg",
+      "messageLink": "usp2.messageLink",
+      "link": "/mission#usp2"
+    },
+    {
+      "name": "usp3",
+      "title": "usp3.title",
+      "description": "usp3.description",
+      "icon": "/icons/usp/3.svg",
+      "messageLink": "usp3.messageLink",
+      "link": "/mission#usp3"
+    }
+  ],
+  "featured": [
+    {
+      "name": "youtube",
+      "icon": "/icons/featured/youtube.svg"
+    },
+    {
+      "name": "google",
+      "icon": "/icons/featured/google.svg"
+    },
+    {
+      "name": "productHunt",
+      "icon": "/icons/featured/productHunt.svg"
+    }
+  ],
+  "partners": [
+    {
+      "name": "youtube",
+      "link": "https://www.facebook.com/clevertech",
+      "icon": "/icons/partners/youtube.svg"
+    },
+    {
+      "name": "google",
+      "link": "https://www.facebook.com/clevertech",
+      "icon": "/icons/partners/google.svg"
+    },
+    {
+      "name": "productHunt",
+      "link": "https://www.facebook.com/clevertech",
+      "icon": "/icons/partners/productHunt.svg"
+    },
+    {
+      "name": "facebook",
+      "link": "https://www.facebook.com/clevertech",
+      "icon": "/icons/partners/facebook.svg"
+    }
+  ],
   "socials": [
     {
       "title": "facebook",

@@ -70,14 +70,8 @@ Rachid Asli - rachid@clevertech.be
 ### Pages to add
 
 - services
-- about us
-- contact us
+  --- service [slug]
 - jobs
-- Legal
-  --- terms
-  --- policy
-  --- cookie
+  --- job [slug]
 - projects
   --- projects [slug]
-- blog
-  --- blog [slug]

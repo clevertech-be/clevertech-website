@@ -5,43 +5,42 @@ import Link from 'next/link'
 export default function Team({ team }) {
   const { t } = useTranslate()
   return (
-    <section className=' antialiased'>
-      <div className='max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24'>
-        <div className='max-w-5xl'>
-          <h2 className='text-3xl font-extrabold leading-tight sm:text-4xl text-black'>
-            {t('home.team.title')}
+    <section className=''>
+      <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 '>
+        <div className='mx-auto max-w-screen-sm text-center mb-8 lg:mb-16'>
+          <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-black'>
+            {t('team.title')}
           </h2>
-          <p className='mt-4 text-base font-normal text-black/80 sm:text-xl '>
-            {t('home.team.description')}
-          </p>
+          <p className='font-light text-black lg:mb-16 sm:text-xl'>{t('team.description')}</p>
         </div>
-
-        <div className='grid grid-cols-1 mt-12 gap-y-12 gap-x-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
-          {team.map((item, index) => (
-            <div key={index}>
+        <div className='grid gap-8 mb-6 lg:mb-16 md:grid-cols-2'>
+          {team.map((member) => (
+            <div
+              key={member.name}
+              className='items-center bg-primary-400 rounded-lg shadow sm:flex'
+            >
               <Image
-                className='object-cover object-top w-full h-64 lg:h-48 rounded-lg'
-                width={250}
-                height={250}
-                src={item.avatar}
-                alt='team.member'
+                width={600}
+                height={600}
+                loading='lazy'
+                className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
+                src={member.avatar}
+                alt={`${member.name} Avatar`}
               />
-              <div className='mt-4 space-y-2'>
-                <div>
-                  <h3 className='text-xl font-bold text-black'>{t(item.name)}</h3>
-                  <p className='text-sm font-medium text-black/90'>{t(item.role)}</p>
-                </div>
-                <p className='text-base font-normal text-black/80 '>{t(item.description)}</p>
-                <ul className='flex items-center gap-3'>
-                  {item.socials.map((social, index) => (
+              <div className='p-5'>
+                <h3 className='text-xl font-bold tracking-tight text-white'>{t(member.name)}</h3>
+                <span className='text-white'>{t(member.role)}</span>
+                <p className='mt-3 mb-4 font-light text-white'>{t(member.description)}</p>
+                <ul className='flex space-x-4 sm:mt-0'>
+                  {member.socials.map((social, index) => (
                     <li key={index}>
                       <Link href={social.link}>
-                        <span className='sr-only'>{social.title}</span>
                         <Image
+                          width={20}
+                          height={20}
+                          loading='lazy'
                           src={`/icons/socials/${social.title}.svg`}
-                          width={24}
-                          height={24}
-                          alt={social.title}
+                          alt={`${social.title} icon`}
                         />
                       </Link>
                     </li>

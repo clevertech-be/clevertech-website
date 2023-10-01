@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
-import Team from '../components/team'
 import SimpleGallery from '../components/simpleGallery'
 import Heading from '../components/heading'
 import Partners from '../components/partners'
@@ -27,7 +26,6 @@ export default function Home() {
       <Services services={injected.services} />
       <Pricing pricing={injected.pricing} />
       <Blog articles={injected.articles} />
-      <Team team={injected.team} />
       <Newsletter />
       <Testimonials testimonials={injected.testimonials} />
       <Contact />

@@ -58,7 +58,14 @@ Rachid Asli - rachid@clevertech.be
 
 ## Link
 
-## TimeSheet
+## TODO
+
+### Various
+
+- specify all keys
+- fix images
+- check all links
+- working forms
 
 ### Pages to add
 

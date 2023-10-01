@@ -21,6 +21,69 @@
         "description": "home.meta.description",
         "keywords": []
       }
+    },
+    {
+      "title": "link.about",
+      "link": "/",
+      "meta": {
+        "title": "about.meta.title",
+        "description": "about.meta.description",
+        "keywords": []
+      }
+    },
+    {
+      "title": "link.services",
+      "link": "/",
+      "meta": {
+        "title": "services.meta.title",
+        "description": "services.meta.description",
+        "keywords": []
+      }
+    },
+    {
+      "title": "link.pricing",
+      "link": "/",
+      "meta": {
+        "title": "pricing.meta.title",
+        "description": "pricing.meta.description",
+        "keywords": []
+      }
+    },
+    {
+      "title": "link.blog",
+      "link": "/",
+      "meta": {
+        "title": "blog.meta.title",
+        "description": "blog.meta.description",
+        "keywords": []
+      }
+    },
+    {
+      "title": "link.projects",
+      "link": "/",
+      "meta": {
+        "title": "projects.meta.title",
+        "description": "projects.meta.description",
+        "keywords": []
+      }
+    },
+    {
+      "title": "link.contact",
+      "link": "/",
+      "meta": {
+        "title": "contact.meta.title",
+        "description": "contact.meta.description",
+        "keywords": []
+      }
+    },
+    {
+      "title": "link.jobs",
+      "link": "/",
+      "meta": {
+        "title": "jobs.meta.title",
+        "description": "jobs.meta.description",
+        "keywords": []
+      }
     }
   ],
   "articles": [
@@ -325,10 +388,6 @@
     }
   ],
   "sla": [
-    {
-      "title": "@ 2023 Clevertech SPRL",
-      "link": "/"
-    },
     {
       "title": "Privacy Policy",
       "link": "/policy/privacy"

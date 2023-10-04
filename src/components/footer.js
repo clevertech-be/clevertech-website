@@ -3,101 +3,128 @@ import injected from '../injected.json'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useTranslate } from '../hooks/useTranslate'
-import { useLocale } from '../hooks/useLocale'
-import Button from './button'
+import Newsletter from './newsletter'
 
 export default function Footer() {
   const { t } = useTranslate()
-  const { switchLocale } = useLocale()
 
   return (
-    <footer className='text-white bg-primary-700 text-sm'>
+    <footer className='text-white bg-black text-sm'>
       <div className={`p-6 md:p-8 w-full max-w-screen-xl mx-auto`}>
-        <div className='font-bold leading-normal w-full flex flex-col md:flex-row gap-10 items-center justify-between'>
-          <div className='flex'>
+        <div className='border-b-2 border-primary-600 pb-10 mb-10'>
+          <div className='grid gap-8 grid-cols-1 md:grid-cols-4'>
+            <div className='flex flex-col md:flex-row gap-5 text-center items-center'>
+              <Image
+                loading='lazy'
+                width={25}
+                height={25}
+                alt='Contact phone illustration'
+                src={'/icons/phone.svg'}
+              />
+              <Link href={`tel:+${injected.tel}`}>
+                <div className='flex flex-col gap-1'>
+                  <div className='font-bold'>{injected.tel}</div>
+                  <div className=''>{t('footer.tel.description')}</div>
+                </div>
+              </Link>
+            </div>
+            <div className='flex flex-col md:flex-row gap-5 text-center items-center'>
+              <Image
+                loading='lazy'
+                width={25}
+                height={25}
+                alt='Contact email illustration'
+                src={'/icons/email.svg'}
+              />
+              <Link href={`mailto:+${injected.email}`}>
+                <div className='flex flex-col gap-1'>
+                  <div className='font-bold'>{injected.email}</div>
+                  <div className=''>{t('footer.email.description')}</div>
+                </div>
+              </Link>
+            </div>
+            <div className='flex flex-col md:flex-row gap-5 text-center items-center'>
+              <Image
+                loading='lazy'
+                width={25}
+                height={25}
+                alt='Contact location illustration'
+                src={'/icons/location.svg'}
+              />
+              <Link href={injected.address.url}>
+                <div className='flex flex-col gap-1'>
+                  <div className='font-bold'>{injected.address.address}</div>
+                  <div className=''>{t('footer.location.description')}</div>
+                </div>
+              </Link>
+            </div>
+            <div className='flex flex-col-reverse md:flex-row gap-5 text-center items-center text-xl'>
+              <Link href='/contact'>{t('footer.action.link')}</Link>
+              <Image
+                loading='lazy'
+                width={25}
+                height={25}
+                alt='Contact hint illustration'
+                src={'/icons/hint.svg'}
+              />
+            </div>
+          </div>
+        </div>
+        <div className='grid gap-8 md:gap-4 grid-cols-1 md:grid-cols-4'>
+          <div className='leading-normal flex flex-col gap-10 items-center md:justify-start md:items-start'>
             <Link href={'/'}>
-              <Image loading='lazy' width={50} height={60} src='/favicon2.png' alt={`Logo`} />
+              <Image loading='lazy' width={200} height={60} src='/logo.png' alt={`Logo`} />
             </Link>
-          </div>
-          <div className='flex flex-row gap-4 xl:gap-6 items-center'>
-            <Button message={t('header.appointment')} link='/contact' />
-          </div>
-        </div>
-      </div>
-      <div className='p-6 md:p-8 w-full max-w-screen-xl mx-auto font-bold flex flex-col md:flex-row gap-10 md:gap-5 items-center md:items-start justify-between'>
-        <div className='flex flex-col justify-between items-center md:items-start gap-4 font-normal text-white'>
-          <div className='flex gap-2 flex-col items-center md:items-start text-center'>
-            <div className='font-bold'>{injected.companyName}</div>
-            <div className='text-base flex flex-col md:flex-row gap-6'>
-              <div className='flex flex-row gap-2'>
-                <Image
-                  loading='lazy'
-                  width={20}
-                  height={20}
-                  alt='Contact phone illustration'
-                  src={'/icons/phone.svg'}
-                />
-                <Link href={`tel:+${injected.tel}`}>{injected.tel}</Link>
+            <div className='flex gap-5 flex-col items-center md:items-start text-center'>
+              <div className='flex gap-2 flex-col items-center md:items-start text-center'>
+                <div className='font-bold'>{injected.companyName}</div>
+                <div>{injected.tva}</div>
               </div>
-              <div className='flex flex-row gap-2'>
-                <Image
-                  loading='lazy'
-                  width={20}
-                  height={20}
-                  alt='Contact mail illustration'
-                  src={'/icons/email.svg'}
-                />
-                <Link href={`mailto:+${injected.email}`}>{injected.email}</Link>
-              </div>
+              <div>{t('footer.description')}</div>
             </div>
-            <div>{injected.address.address}</div>
-            <div>{injected.tva}</div>
-          </div>
-          <div className='flex gap-2 flex-col md:flex-row items-center font-bold'>
-            <div>Follow us on</div>
-            <div className='flex gap-2 flex-col md:flex-row items-center'>
-              <div className='flex gap-2 flex-row'>
-                {injected.socials.map((item, index) => (
-                  <Link key={index} className='text-black' href={item.link}>
-                    <Image
-                      loading='lazy'
-                      width={20}
-                      height={20}
-                      src={`/icons/socials/${item.title}.svg`}
-                      alt={`Social ${item.title} - ${item.link}`}
-                    />
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div className='flex gap-2 flex-col md:flex-row items-center font-bold'>
-            <select
-              onChange={(e) => {
-                switchLocale(e.target.value)
-              }}
-              className={`text-white bg-transparent border-none focus:ring-0 focus:outline-none p-0`}
-            >
-              {injected.locales.map((item, index) => (
-                <option
-                  key={index}
-                  className={`uppercase text-white inline-flex items-center`}
-                  value={item}
-                >
-                  {item.toUpperCase()}
-                </option>
+            <div className='flex gap-5 flex-row'>
+              {injected.socials.map((item, index) => (
+                <Link key={index} href={item.link}>
+                  <Image
+                    loading='lazy'
+                    width={20}
+                    height={20}
+                    src={`/icons/socials/${item.title}.svg`}
+                    alt={`Social ${item.title} - ${item.link}`}
+                  />
+                </Link>
               ))}
-            </select>
+            </div>
+          </div>
+          <div className='flex flex-col gap-4 items-center md:justify-start md:items-start'>
+            <div className='font-bold text-lg'>{t('footer.navigation.title')}</div>
+            <div className='flex flex-col gap-4'>
+              {injected.pages.map((item, index) => (
+                <div className='flex flex-row gap-5 text-center items-center text-md' key={index}>
+                  <Link href={item.link}>{t(item.title)}</Link>
+                  <Image
+                    loading='lazy'
+                    width={10}
+                    height={10}
+                    alt='Contact hint illustration'
+                    src={'/icons/hint.svg'}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className='md:col-span-2'>
+            <Newsletter />
           </div>
         </div>
       </div>
-      <div className='bg-primary-800 w-full'>
+      <div className='bg-primary-600 w-full'>
         <div className='p-6 md:p-8 mx-auto font-bold leading-normal max-w-screen-xl flex flex-col md:flex-row gap-4 justify-center items-center text-xs'>
-          <div className='flex flex-row items-center gap-2'>
+          <div className='flex flex-col md:flex-row items-center gap-2'>
             {injected.sla.map((item, index) => (
               <Link
                 key={index}
-                className='font-normal hover:font-bold transition-all ease-in-out duration-300 hover:underline hover:underline-offset-8'
+                className='text-white font-bold text-sm md:text-md leading-normal border-b-2 py-2 border-transparent hover:border-white transition-all ease-in-out duration-300'
                 href={item.link}
               >
                 {item.title}

@@ -16,7 +16,7 @@ export default function Pricing({ pricing }) {
         </div>
         <div className='space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0'>
           {pricing.map((pricing, index) => (
-            <PricingCard key={index} pricing={pricing} />
+            <PricingCard key={index} pricing={pricing} inverted={index === 1} />
           ))}
         </div>
       </div>

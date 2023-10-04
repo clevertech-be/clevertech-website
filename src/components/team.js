@@ -13,22 +13,24 @@ export default function Team({ team }) {
           </h2>
           <p className='font-light text-black lg:mb-16 sm:text-xl'>{t('team.description')}</p>
         </div>
-        <div className='grid gap-8 mb-6 lg:mb-16 md:grid-cols-2'>
+        <div className='grid gap-8 mb-6 lg:mb-16 grid-cols-3'>
           {team.map((member) => (
             <div
               key={member.name}
-              className='items-center bg-primary-400 rounded-lg shadow sm:flex'
+              className='items-center bg-black rounded-lg shadow sm:flex sm:flex-col'
             >
               <Image
                 width={600}
                 height={600}
                 loading='lazy'
-                className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
+                className='w-full rounded-lg'
                 src={member.avatar}
                 alt={`${member.name} Avatar`}
               />
               <div className='p-5'>
-                <h3 className='text-xl font-bold tracking-tight text-white'>{t(member.name)}</h3>
+                <h3 className='text-xl font-bold tracking-tight text-primary-500'>
+                  {t(member.name)}
+                </h3>
                 <span className='text-white'>{t(member.role)}</span>
                 <p className='mt-3 mb-4 font-light text-white'>{t(member.description)}</p>
                 <ul className='flex space-x-4 sm:mt-0'>

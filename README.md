@@ -60,18 +60,18 @@ Rachid Asli - rachid@clevertech.be
 
 ## TODO
 
-### Various
-
-- specify all keys
-- fix images
-- check all links
-- working forms
-
-### Pages to add
-
-- services
-  --- service [slug]
-- jobs
-  --- job [slug]
-- projects
-  --- projects [slug]
+[x] home
+[x] about us
+[x] contact us
+[x] 400 error page
+[x] 500 error page
+[x] policy
+--[] policy [slug] (terms, cookie, privacy)
+[x] blog
+--[x] blog [slug]
+[] services
+--[] service [slug] (avec pricing)
+[] jobs
+--[] job [slug]
+[] projects
+--[] projects [slug]

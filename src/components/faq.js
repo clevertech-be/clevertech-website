@@ -29,9 +29,9 @@ export default function Faq({ faqs }) {
                     <span>{t(item.title)}</span>
                     <Image
                       className='w-6 h-6 shrink-0'
-                      src={'/icons/arrow-right-red.svg'}
-                      width={20}
-                      height={20}
+                      src={'/icons/hint.svg'}
+                      width={10}
+                      height={10}
                       alt='arrow'
                     />
                   </button>

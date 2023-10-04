@@ -8,7 +8,7 @@ export default function SimpleGallery() {
         <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-black'>
           {t('home.gallery.title')}
         </h2>
-        <p className='font-light text-black/80 sm:text-lg md:px-20 lg:px-38 xl:px-48'>
+        <p className='font-light text-black sm:text-lg md:px-20 lg:px-38 xl:px-48'>
           {t('home.gallery.description')}
         </p>
         <div className='gap-4 mt-8 sm:grid sm:grid-cols-4 sm:mt-12'>

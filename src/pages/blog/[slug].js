@@ -22,7 +22,7 @@ export default function ArticleDetail() {
   return (
     <Layout>
       {article && (
-        <>
+        <div className='bg-white w-full'>
           <Container>
             <div className='max-w-4xl text-base text-black items-start justify-between flex flex-col gap-4 lg:gap-10'>
               <div className='rounded-xl h-[240px] md:h-[420px] lg:h-[340px] w-full relative'>
@@ -80,7 +80,7 @@ export default function ArticleDetail() {
               </div>
             </div>
           </div>
-        </>
+        </div>
       )}
     </Layout>
   )

@@ -7,23 +7,22 @@ export default function Testimonials({ testimonials }) {
     <section className='p-5 rounded-lg' id='testimonials'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
         <div className='mx-auto max-w-screen-sm mb-8 lg:mb-16'>
+          <p className='font-bold text-primary-600 mb-5'>{t('home.testimonials.label')} </p>{' '}
           <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-black'>
             {t('home.testimonials.title')}
           </h2>
-          <p className='font-light text-black/80 sm:text-xl '>
-            {t('home.testimonials.description')}{' '}
-          </p>
+          <p className='font-light text-black sm:text-xl '>{t('home.testimonials.description')} </p>
         </div>
         <div id='testimonial-carousel' className='relative' data-carousel='slide'>
           <div className='overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-52 rounded-lg sm:h-48'>
             {testimonials.map((item, index) => (
               <figure
-                className='hidden mx-auto w-full max-w-screen-md'
+                className='hidden mx-auto w-full max-w-screen-md bg-black p-5 justify-center items-center rounded-lg sm:flex sm:flex-col mb-4'
                 data-carousel-item
                 key={index}
               >
                 <blockquote>
-                  <p className='text-lg font-medium text-black'>{t(item.testimonial)}</p>
+                  <p className='text-lg font-medium text-white'>{t(item.testimonial)}</p>
                 </blockquote>
                 <figcaption className='flex justify-center items-center mt-6 space-x-3'>
                   <Image
@@ -34,8 +33,8 @@ export default function Testimonials({ testimonials }) {
                     alt='profile picture'
                   />
                   <div className='flex items-center divide-x-2 divide-primary-600'>
-                    <div className='pr-3 font-medium text-black'>{t(item.name)}</div>
-                    <div className='pl-3 text-sm font-light text-black/80 '>{t(item.role)}</div>
+                    <div className='pr-3 font-medium text-white'>{t(item.name)}</div>
+                    <div className='pl-3 text-sm font-light text-white '>{t(item.role)}</div>
                   </div>
                 </figcaption>
               </figure>
@@ -49,8 +48,8 @@ export default function Testimonials({ testimonials }) {
             >
               <span className='text-primary-400  hover:text-primary-600 transition-all ease-in-out duration-300'>
                 <Image
-                  className='w-6 h-6'
-                  src={'/icons/arrow-previous.svg'}
+                  className='w-6 h-6 rotate-180'
+                  src={'/icons/hint.svg'}
                   width={20}
                   height={20}
                   alt='arrow'
@@ -66,7 +65,7 @@ export default function Testimonials({ testimonials }) {
               <span className='text-primary-400  hover:text-primary-600 transition-all ease-in-out duration-300'>
                 <Image
                   className='w-6 h-6'
-                  src={'/icons/arrow-next.svg'}
+                  src={'/icons/hint.svg'}
                   width={20}
                   height={20}
                   alt='arrow'

@@ -29,13 +29,7 @@ export default function Newsletter() {
   }
   return (
     <InfoBox title={t('newsletter.title')} description={t('newsletter.description')}>
-      <div className='w-full'>
-        <NewsletterForm
-          formSuccess={formSuccess}
-          handleSubmit={handleSubmit}
-          formError={formError}
-        />
-      </div>
+      <NewsletterForm formSuccess={formSuccess} handleSubmit={handleSubmit} formError={formError} />
     </InfoBox>
   )
 }

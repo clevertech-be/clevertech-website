@@ -1,6 +1,5 @@
 import React from 'react'
 import SEO from './seo'
-import Container from './container'
 import Footer from './footer'
 import Header from './header'
 import CookieBanner from './banners/cookie'
@@ -11,7 +10,7 @@ export default function Layout({ children }) {
       <main>
         <SEO />
         <Header />
-        <Container>{children}</Container>
+        {children}
         <Footer />
         <CookieBanner />
       </main>

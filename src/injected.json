@@ -24,7 +24,7 @@
     },
     {
       "title": "link.about",
-      "link": "/",
+      "link": "/about",
       "meta": {
         "title": "about.meta.title",
         "description": "about.meta.description",
@@ -32,56 +32,11 @@
       }
     },
     {
-      "title": "link.services",
-      "link": "/",
-      "meta": {
-        "title": "services.meta.title",
-        "description": "services.meta.description",
-        "keywords": []
-      }
-    },
-    {
-      "title": "link.pricing",
-      "link": "/",
-      "meta": {
-        "title": "pricing.meta.title",
-        "description": "pricing.meta.description",
-        "keywords": []
-      }
-    },
-    {
       "title": "link.blog",
-      "link": "/",
+      "link": "/blog",
       "meta": {
         "title": "blog.meta.title",
         "description": "blog.meta.description",
-        "keywords": []
-      }
-    },
-    {
-      "title": "link.projects",
-      "link": "/",
-      "meta": {
-        "title": "projects.meta.title",
-        "description": "projects.meta.description",
-        "keywords": []
-      }
-    },
-    {
-      "title": "link.contact",
-      "link": "/",
-      "meta": {
-        "title": "contact.meta.title",
-        "description": "contact.meta.description",
-        "keywords": []
-      }
-    },
-    {
-      "title": "link.jobs",
-      "link": "/",
-      "meta": {
-        "title": "jobs.meta.title",
-        "description": "jobs.meta.description",
         "keywords": []
       }
     }
@@ -337,20 +292,6 @@
       "link": "/mission#usp3"
     }
   ],
-  "featured": [
-    {
-      "name": "youtube",
-      "icon": "/icons/featured/youtube.svg"
-    },
-    {
-      "name": "google",
-      "icon": "/icons/featured/google.svg"
-    },
-    {
-      "name": "productHunt",
-      "icon": "/icons/featured/productHunt.svg"
-    }
-  ],
   "partners": [
     {
       "name": "youtube",
@@ -377,6 +318,18 @@
     {
       "title": "facebook",
       "link": "https://www.facebook.com/clevertech"
+    },
+    {
+      "title": "twitter",
+      "link": "https://www.twitter.com/clevertech"
+    },
+    {
+      "title": "whatsapp",
+      "link": "https://www.whatsapp.com/clevertech"
+    },
+    {
+      "title": "github",
+      "link": "https://www.github.com/clevertech"
     },
     {
       "title": "instagram",

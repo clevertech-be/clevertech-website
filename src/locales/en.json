@@ -5,6 +5,12 @@
   "home.meta.description": "Clevertech",
 
   "link.home": "Home",
+  "link.blog": "Blog",
+  "link.contact": "Contact",
+  "link.about": "About us",
+  "link.privacy": "Privacy",
+  "link.terms": "Terms",
+  "link.cookies": "Cookies",
 
   "contact.form.success": "Your message has been sent successfully.",
   "contact.form.error": "There was an error while processing your request.",

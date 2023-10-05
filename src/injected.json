@@ -50,6 +50,15 @@
       }
     },
     {
+      "title": "link.contact",
+      "link": "/contact",
+      "meta": {
+        "title": "contact.meta.title",
+        "description": "contact.meta.description",
+        "keywords": []
+      }
+    },
+    {
       "title": "link.blog",
       "link": "/blog",
       "meta": {

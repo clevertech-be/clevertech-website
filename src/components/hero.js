@@ -1,6 +1,7 @@
 import { useTranslate } from '../hooks/useTranslate'
 import Link from 'next/link'
 import HeroGallery from './heroGallery'
+import Image from 'next/image'
 
 export default function Hero() {
   const { t } = useTranslate()
@@ -17,6 +18,9 @@ export default function Hero() {
         </span>{' '}
         <span className='text-sm font-medium'>{t('home.hero.message')}</span>
       </Link>
+      <div className='flex justify-center items-center my-10'>
+        <Image loading='lazy' width={200} height={60} src='/logo.png' alt={`Logo`} />
+      </div>
       <h1 className='mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white'>
         {t('home.hero.title')}
         <span className='text-primary-600 pl-2'>{t('home.hero.title.span')}</span>

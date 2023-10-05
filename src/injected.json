@@ -23,6 +23,24 @@
       }
     },
     {
+      "title": "link.projects",
+      "link": "/projects",
+      "meta": {
+        "title": "projects.meta.title",
+        "description": "projects.meta.description",
+        "keywords": []
+      }
+    },
+    {
+      "title": "link.services",
+      "link": "/services",
+      "meta": {
+        "title": "services.meta.title",
+        "description": "services.meta.description",
+        "keywords": []
+      }
+    },
+    {
       "title": "link.about",
       "link": "/about",
       "meta": {

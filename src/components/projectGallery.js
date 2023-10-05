@@ -55,14 +55,14 @@ export default function ProjectGallery() {
         <div className='rounded-lg flex flex-col justify-center items-center bg-primary-500 text-white'>
           <h2 className='mb-4 tracking-tight font-extrabold'>{t('project.title')}</h2>
           <p className='mb-4'>{t('project.description')}</p>
-          <Button link='/about' message={t('project.button')} />
+          <Button link='/projects/project1' message={t('project.button')} />
         </div>
       </div>
       <div className='gap-4 mt-8 sm:grid sm:grid-cols-4 sm:mt-12'>
         <div className='rounded-lg flex flex-col justify-center items-center bg-primary-500 text-white'>
           <h2 className='mb-4 tracking-tight font-extrabold'>{t('project.title')}</h2>
           <p className='mb-4'>{t('project.description')}</p>
-          <Button link='/about' message={t('project.button')} />
+          <Button link='/projects/project2' message={t('project.button')} />
         </div>{' '}
         <div className='rounded-lg flex flex-col justify-center items-center bg-black text-white'>
           <h2 className='mb-4 tracking-tight font-extrabold'>{t('project.features')}</h2>
@@ -145,7 +145,7 @@ export default function ProjectGallery() {
         <div className='rounded-lg flex flex-col justify-center items-center bg-primary-500 text-white'>
           <h2 className='mb-4 tracking-tight font-extrabold'>{t('project.title')}</h2>
           <p className='mb-4'>{t('project.description')}</p>
-          <Button link='/about' message={t('project.button')} />
+          <Button link='/projects/project3' message={t('project.button')} />
         </div>
       </div>
       <div className='mt-10 justify-center flex'>

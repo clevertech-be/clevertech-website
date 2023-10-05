@@ -8,7 +8,7 @@ import { InvertedButton } from '../../components/button'
 import Image from 'next/image'
 import ArticleCard from '../../components/card/article'
 
-export default function ArticleDetail() {
+export default function ArticleSlug() {
   const router = useRouter()
   const { t } = useTranslate()
   const [article, setArticle] = useState()

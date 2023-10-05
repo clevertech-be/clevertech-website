@@ -23,8 +23,8 @@ export default function Hero() {
       </div>
       <h1 className='mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white'>
         {t('home.hero.title')}
-        <span className='text-primary-600 pl-2'>{t('home.hero.title.span')}</span>
       </h1>
+      <span className='text-primary-600 pl-2'>{t('home.hero.title.span')}</span>
       <p className='mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 '>
         {t('home.hero.description')}
       </p>

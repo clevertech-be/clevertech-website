@@ -11,7 +11,7 @@ export default function SocialProof() {
         <p className='font-light sm:text-lg sm:px-8 lg:px-32 xl:px-64 '>
           {t('about.socialProof.description')}
         </p>
-        <dl className='grid grid-cols-2 gap-8 mx-auto mt-8 max-w-screen-md  lg:mt-14 sm:grid-cols-3 '>
+        <dl className='grid grid-cols-1 gap-8 mx-auto mt-8 max-w-screen-md  lg:mt-14 sm:grid-cols-3 '>
           <div className='flex flex-col justify-center items-center'>
             <dt className='mb-2 text-4xl font-extrabold'>73M+</dt>
             <dd className='text-xl font-normal '>developers</dd>

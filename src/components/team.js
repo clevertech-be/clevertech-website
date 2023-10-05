@@ -13,7 +13,7 @@ export default function Team({ team }) {
           </h2>
           <p className='font-light text-black lg:mb-16 sm:text-xl'>{t('team.description')}</p>
         </div>
-        <div className='grid gap-8 mb-6 lg:mb-16 grid-cols-3'>
+        <div className='grid gap-8 mb-6 lg:mb-16 grid-cols-1 md:grid-cols-3'>
           {team.map((member) => (
             <div
               key={member.name}

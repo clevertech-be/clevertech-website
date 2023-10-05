@@ -11,10 +11,8 @@ export default function PricingCard({ pricing, inverted }) {
     >
       <h3 className='mb-4 text-2xl font-semibold'>{t(pricing.name)}</h3>
       <p className='font-light sm:text-lg '>{t(pricing.description)}</p>
-      <div className='flex justify-center items-baseline my-8'>
-        <span className='mr-2 text-5xl font-extrabold'>{t(pricing.price)}</span>
-      </div>
-      <ul role='list' className='mb-8 space-y-4 text-left'>
+      <span className='my-10 text-2xl md:text-5xl font-extrabold'>{t(pricing.price)}</span>
+      <ul role='list' className='mb-8 space-y-4 flex flex-col items-center justify-center'>
         {pricing.features.map((feature, index) => (
           <li className='flex items-center' key={index}>
             <span>{t(feature)}</span>

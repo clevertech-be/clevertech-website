@@ -36,7 +36,7 @@ export default function ArticleSlug() {
               </div>
               <div className='flex flex-col gap-4 items-start justify-between'>
                 <div className='text-primary-600 font-bold'>{t(article.topic)}</div>
-                <div className='font-bold text-2xl lg:text-4xl'>{article.title}</div>
+                <div className='font-bold text-2xl lg:text-4xl'>{t(article.title)}</div>
                 <div className='flex flex-row gap-2 items-center  justify-between'>
                   <div className='text-primary-600 text-sm font-bold flex flex-row gap-2'>
                     <Image
@@ -53,7 +53,7 @@ export default function ArticleSlug() {
                   </div>
                 </div>
               </div>
-              <div className='font-bold text-base'>{article.description}</div>
+              <div className='font-bold text-base'>{t(article.description)}</div>
               <div className='text-base'>
                 {article.text.split('\n\n').map((paragraph, index) => (
                   <p key={`p-${index}`} className='py-2'>

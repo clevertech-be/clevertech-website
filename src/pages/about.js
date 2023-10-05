@@ -14,15 +14,11 @@ export default function AboutUs() {
     <Layout>
       <div className='bg-white text-black'>
         <Heading />
-        <Container>
-          <Partners partners={injected.partners} />
-          <SimpleGallery />
-        </Container>
-        <div>
-          <SocialProof />
-        </div>
+        <SocialProof />
         <Container>
           <Team team={injected.team} />
+          <Partners partners={injected.partners} />
+          <SimpleGallery />
           <Faq faqs={injected.faqs} />
         </Container>
       </div>

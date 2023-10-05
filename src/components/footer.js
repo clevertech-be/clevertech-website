@@ -99,7 +99,7 @@ export default function Footer() {
             <div className='font-bold text-lg'>{t('footer.navigation.title')}</div>
             <div className='flex flex-col gap-4'>
               {injected.pages.map((item, index) => (
-                <div className='flex flex-row gap-5 text-center items-center text-md' key={index}>
+                <div className='flex flex-row gap-5 text-md' key={index}>
                   <Image
                     loading='lazy'
                     width={10}

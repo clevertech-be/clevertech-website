@@ -13,21 +13,21 @@ export default function Heading() {
           <h2 className='mb-4 text-4xl tracking-tight font-extrabold'>
             {t('about.heading.title')}
           </h2>
-          <p className='mb-4'>{t('about.heading.description.1')}</p>
-          <p>{t('about.heading.description.2')}</p>
+          <p className='mb-4'>{t('about.heading.description')}</p>
+          <p>{t('about.heading.description')}</p>
         </div>
-        <div className='grid grid-cols-2 gap-4 mt-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mt-8'>
           <img
             className='w-full rounded-lg'
             src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
             alt='office content 1'
           />
-          <div className='mt-4 w-full lg:mt-10 rounded-lg flex flex-col justify-center items-center bg-primary-500'>
+          <div className='p-4 md:p-0 mt-4 w-full lg:mt-10 rounded-lg md:flex flex-col justify-center items-center bg-primary-500 hidden'>
             <h2 className='mb-4 text-xs tracking-tight font-bold bg-white text-black p-2 rounded-lg'>
               {t('about.heading.card.label')}
             </h2>
             <h2 className='mb-4 tracking-tight font-extrabold'>{t('about.heading.card.title')}</h2>
-            <p className='mb-4'>{t('about.heading.card.description.1')}</p>
+            <p className='mb-4'>{t('about.heading.card.description')}</p>
             <Button link='/services' message={t('about.heading.card.button')} />
           </div>
         </div>

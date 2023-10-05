@@ -8,7 +8,7 @@ export default function Testimonials({ testimonials }) {
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
         <div className='mx-auto max-w-screen-sm mb-8 lg:mb-16'>
           <p className='font-bold text-primary-600 mb-5'>{t('home.testimonials.label')} </p>{' '}
-          <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-black'>
+          <h2 className='mb-4 md:text-4xl text-3xl tracking-tight font-extrabold text-black'>
             {t('home.testimonials.title')}
           </h2>
           <p className='font-light text-black sm:text-xl '>{t('home.testimonials.description')} </p>

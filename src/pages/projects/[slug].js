@@ -27,7 +27,7 @@ export default function ProjectSlug() {
           <Heading />
           <div className='bg-white w-full'>
             <Container>
-              <div className='max-w-4xl text-base text-black items-start justify-between flex flex-col gap-4 lg:gap-10'>
+              <div className='max-w-xl text-base text-black items-start justify-between flex flex-col gap-4 lg:gap-10 p-5 md:p-0'>
                 <div className='font-bold text-xl text-primaryDark-600'>
                   {t('project.detail.description')}
                 </div>
@@ -41,7 +41,7 @@ export default function ProjectSlug() {
                       alt='Contact hint illustration'
                       src={'/icons/hint.svg'}
                     />
-                    <div>{t('project.feature.1')}</div>
+                    <div>{t('project.feature.name')}</div>
                   </div>
                   <div className='mt-2 flex flex-row gap-5 text-center items-center text-sm'>
                     <Image
@@ -51,7 +51,7 @@ export default function ProjectSlug() {
                       alt='Contact hint illustration'
                       src={'/icons/hint.svg'}
                     />
-                    <div>{t('project.feature.1')}</div>
+                    <div>{t('project.feature.name')}</div>
                   </div>
                   <div className='mt-2 flex flex-row gap-5 text-center items-center text-sm'>
                     <Image
@@ -61,7 +61,7 @@ export default function ProjectSlug() {
                       alt='Contact hint illustration'
                       src={'/icons/hint.svg'}
                     />
-                    <div>{t('project.feature.1')}</div>
+                    <div>{t('project.feature.name')}</div>
                   </div>
                   <div className='mt-2 flex flex-row gap-5 text-center items-center text-sm'>
                     <Image
@@ -71,7 +71,7 @@ export default function ProjectSlug() {
                       alt='Contact hint illustration'
                       src={'/icons/hint.svg'}
                     />
-                    <div>{t('project.feature.1')}</div>
+                    <div>{t('project.feature.name')}</div>
                   </div>
                 </div>
                 <div className='font-bold text-xl text-primaryDark-600'>

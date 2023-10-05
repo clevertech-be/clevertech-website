@@ -16,12 +16,12 @@ export default function HeroGallery() {
           src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png'
           alt='content gallery 3'
         />
-        <div className='rounded-lg flex flex-col justify-center items-center bg-primary-500 text-white'>
-          <h2 className='mb-4 tracking-tight font-extrabold'>{t('about.heading.card.title')}</h2>
-          <p className='mb-4'>{t('home.hero.card.description.1')}</p>
+        <div className='my-2 p-4 md:my-0 md:p-0 rounded-lg flex flex-col justify-center items-center bg-primary-500 text-white'>
+          <h2 className='mb-4 tracking-tight font-extrabold'>{t('home.hero.card.title')}</h2>
+          <p className='mb-4'>{t('home.hero.card.description')}</p>
           <Button link='/services' message={t('home.hero.card.button')} />
         </div>
-        <div className='rounded-lg flex flex-col justify-center items-center bg-primary-500 text-white'>
+        <div className='my-2 p-4 md:my-0 md:p-0 rounded-lg flex flex-col justify-center items-center bg-primary-500 text-white'>
           <h2 className='mb-4 tracking-tight font-extrabold'>{t('home.hero.card.title')}</h2>
           <p className='mb-4'>{t('home.hero.card.description')}</p>
           <Button link='/about' message={t('home.hero.card.button')} />

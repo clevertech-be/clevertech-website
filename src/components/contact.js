@@ -27,13 +27,10 @@ export default function Contact() {
       })
   }
   return (
-    <section
-      className='from-primary-500 to-primary-700 bg-gradient-to-tr p-5 rounded-lg'
-      id='contact'
-    >
+    <section className='from-primary-500 to-primary-700 bg-gradient-to-tr rounded-lg' id='contact'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 flex-col flex gap-4'>
         <div className='px-4 mx-auto max-w-screen-sm text-center lg:px-6 mb-8 lg:mb-16'>
-          <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-white'>
+          <h2 className='mb-4 text-2xl md:text-4xl tracking-tight font-extrabold text-white'>
             {t('home.contact.title')}
           </h2>
           <p className='font-light text-white/90  sm:text-xl'>{t('home.contact.description')}</p>

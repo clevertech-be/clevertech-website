@@ -6,7 +6,7 @@ export default function FeatureList() {
     <section className='bg-white dark:bg-gray-900'>
       <div className='py-8 px-4 mx-auto space-y-12 max-w-screen-xl lg:space-y-20 sm:py-16 lg:px-6'>
         <div className='gap-8 items-center lg:grid lg:grid-cols-2 xl:gap-16'>
-          <div className='text-pblack sm:text-lg'>
+          <div className='text-black sm:text-lg'>
             <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-primary-600'>
               Work with tools you already use
             </h2>
@@ -66,7 +66,7 @@ export default function FeatureList() {
             src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/features/feature-office-1.png'
             alt='office feature image'
           />
-          <div className='text-pblack sm:text-lg'>
+          <div className='text-black sm:text-lg'>
             <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-primary-600'>
               Work with tools you already use
             </h2>
@@ -117,7 +117,7 @@ export default function FeatureList() {
         </div>
         <Newsletter />
         <div className='gap-8 items-center lg:grid lg:grid-cols-2 xl:gap-16'>
-          <div className='text-pblack sm:text-lg'>
+          <div className='text-black sm:text-lg'>
             <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-primary-600'>
               Work with tools you already use
             </h2>
@@ -177,7 +177,7 @@ export default function FeatureList() {
             src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/features/feature-office-1.png'
             alt='office feature image'
           />
-          <div className='text-pblack sm:text-lg'>
+          <div className='text-black sm:text-lg'>
             <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-primary-600'>
               Work with tools you already use
             </h2>

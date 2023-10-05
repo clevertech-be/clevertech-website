@@ -291,7 +291,7 @@
       "description": "usp1.description",
       "icon": "/icons/usp/1.svg",
       "messageLink": "usp1.messageLink",
-      "link": "/mission#usp1"
+      "link": "/about#usp1"
     },
     {
       "name": "usp2",
@@ -299,7 +299,7 @@
       "description": "usp2.description",
       "icon": "/icons/usp/2.svg",
       "messageLink": "usp2.messageLink",
-      "link": "/mission#usp2"
+      "link": "/about#usp2"
     },
     {
       "name": "usp3",
@@ -307,7 +307,7 @@
       "description": "usp3.description",
       "icon": "/icons/usp/3.svg",
       "messageLink": "usp3.messageLink",
-      "link": "/mission#usp3"
+      "link": "/about#usp3"
     }
   ],
   "partners": [

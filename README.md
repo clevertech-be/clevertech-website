@@ -69,9 +69,6 @@ Rachid Asli - rachid@clevertech.be
 --[] policy [slug] (terms, cookie, privacy)
 [x] blog
 --[x] blog [slug]
-[] services
---[] service [slug] (avec pricing)
-[] jobs
---[] job [slug]
-[] projects
---[] projects [slug]
+[x] services
+[x] projects
+--[x] projects [slug]

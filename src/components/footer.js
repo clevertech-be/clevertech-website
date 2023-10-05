@@ -101,7 +101,6 @@ export default function Footer() {
             <div className='flex flex-col gap-4'>
               {injected.pages.map((item, index) => (
                 <div className='flex flex-row gap-5 text-center items-center text-md' key={index}>
-                  <Link href={item.link}>{t(item.title)}</Link>
                   <Image
                     loading='lazy'
                     width={10}
@@ -109,6 +108,7 @@ export default function Footer() {
                     alt='Contact hint illustration'
                     src={'/icons/hint.svg'}
                   />
+                  <Link href={item.link}>{t(item.title)}</Link>
                 </div>
               ))}
             </div>

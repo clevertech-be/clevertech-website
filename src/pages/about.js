@@ -13,8 +13,8 @@ export default function AboutUs() {
   return (
     <Layout>
       <div className='bg-white text-black'>
+        <Heading />
         <Container>
-          <Heading />
           <Partners partners={injected.partners} />
           <SimpleGallery />
         </Container>

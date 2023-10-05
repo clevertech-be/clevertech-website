@@ -17,13 +17,13 @@ export default function Team({ team }) {
           {team.map((member) => (
             <div
               key={member.name}
-              className='items-center bg-black rounded-lg shadow sm:flex sm:flex-col'
+              className='items-center bg-black rounded-lg shadow-lg sm:flex sm:flex-col'
             >
               <Image
                 width={600}
                 height={600}
                 loading='lazy'
-                className='w-full rounded-lg'
+                className='w-full rounded-t-lg'
                 src={member.avatar}
                 alt={`${member.name} Avatar`}
               />

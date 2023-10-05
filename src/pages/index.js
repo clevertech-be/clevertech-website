@@ -12,7 +12,7 @@ import Services from '../components/services'
 import Partners from '../components/partners'
 import Usp from '../components/usp'
 import Pricing from '../components/pricing'
-import SimpleGallery from '../components/simpleGallery'
+import ProjectGallery from '../components/projectGallery'
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
           <Partners partners={injected.partners} />
           <Services services={injected.services} />
           <Pricing pricing={injected.pricing} />
-          <SimpleGallery />
+          <ProjectGallery />
           <Testimonials testimonials={injected.testimonials} />
           <Newsletter />
           <Blog articles={allArticles.slice(0, 3)} />

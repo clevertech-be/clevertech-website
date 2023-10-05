@@ -1,4 +1,5 @@
 import { useTranslate } from '../hooks/useTranslate'
+import Button from './button'
 
 export default function HeroGallery() {
   const { t } = useTranslate()
@@ -15,41 +16,15 @@ export default function HeroGallery() {
           src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png'
           alt='content gallery 3'
         />
-        <div className='sm:flex sm:flex-col sm:gap-2 hidden col-span-1 rounded-lg justify-between'>
-          <div className='flex flex-row gap-2 text-white'>
-            <div className='flex flex-row gap-1 text-center items-center'>
-              <div className='flex flex-col gap-2 items-start text-left border-l-2 px-2 border-primary-600 transition-all ease-in-out duration-300'>
-                <span>{t('home.hero.extra')}</span>
-                <span className='text-primary-600'>{t('home.hero.extra')}</span>
-              </div>
-            </div>
-          </div>
-          <div className='flex flex-row gap-2 text-white items-end justify-end'>
-            <div className='flex flex-row gap-1 text-center items-center'>
-              <div className='flex flex-col gap-2 items-start text-left border-r-2 px-2 border-primary-600 transition-all ease-in-out duration-300'>
-                <span>{t('home.hero.extra')}</span>
-                <span className='text-primary-600'>{t('home.hero.extra')}</span>
-              </div>
-            </div>
-          </div>
+        <div className='rounded-lg flex flex-col justify-center items-center bg-primary-500 text-white'>
+          <h2 className='mb-4 tracking-tight font-extrabold'>{t('about.heading.card.title')}</h2>
+          <p className='mb-4'>{t('home.hero.card.description.1')}</p>
+          <Button link='/services' message={t('home.hero.card.button')} />
         </div>
-        <div className='sm:flex sm:flex-col sm:gap-2 hidden col-span-1 rounded-lg justify-between'>
-          <div className='flex flex-row gap-2 text-primary-600 items-end justify-end'>
-            <div className='flex flex-row gap-1 text-center items-center'>
-              <div className='flex flex-col gap-2 items-start text-left border-r-2 px-2 border-pwhite transition-all ease-in-out duration-300'>
-                <span>{t('home.hero.extra')}</span>
-                <span className='text-white'>{t('home.hero.extra')}</span>
-              </div>
-            </div>
-          </div>
-          <div className='flex flex-row gap-2 text-primary-600'>
-            <div className='flex flex-row gap-1 text-center items-center'>
-              <div className='flex flex-col gap-2 items-start text-left border-l-2 px-2 border-pwhite transition-all ease-in-out duration-300'>
-                <span>{t('home.hero.extra')}</span>
-                <span className='text-white'>{t('home.hero.extra')}</span>
-              </div>
-            </div>
-          </div>
+        <div className='rounded-lg flex flex-col justify-center items-center bg-primary-500 text-white'>
+          <h2 className='mb-4 tracking-tight font-extrabold'>{t('home.hero.card.title')}</h2>
+          <p className='mb-4'>{t('home.hero.card.description')}</p>
+          <Button link='/about' message={t('home.hero.card.button')} />
         </div>
         <img
           className='col-span-2 rounded-lg'

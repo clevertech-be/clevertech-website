@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { useTranslate } from '../hooks/useTranslate'
 import Link from 'next/link'
+import { InvertedButton } from './button'
 
 export default function Services({ services }) {
   const { t } = useTranslate()
@@ -43,6 +44,9 @@ export default function Services({ services }) {
               </div>
             </div>
           ))}
+        </div>
+        <div className='mt-10 justify-center flex'>
+          <InvertedButton link='/services' message={t('home.services.button')} />
         </div>
       </div>
     </section>

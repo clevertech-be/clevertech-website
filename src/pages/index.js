@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
-import injected from '../injected.json'
 import Container from '../components/container'
 import Newsletter from '../components/newsletter'
 import Faq from '../components/faq'
@@ -13,22 +12,28 @@ import Partners from '../components/partners'
 import Usp from '../components/usp'
 import Pricing from '../components/pricing'
 import ProjectGallery from '../components/projectGallery'
+import { usps } from '../api/usps'
+import { partners } from '../api/partners'
+import { services } from '../api/services'
+import { pricing } from '../api/pricing'
+import { testimonials } from '../api/testimonials'
+import { faqs } from '../api/faqs'
 
 export default function Home() {
   return (
     <Layout>
-      <Hero featured={injected.featured} />
+      <Hero/>
       <div className='w-full bg-white'>
         <Container>
-          <Usp usps={injected.usps} />
-          <Partners partners={injected.partners} />
-          <Services services={injected.services} />
-          <Pricing pricing={injected.pricing} />
+          <Usp usps={usps} />
+          <Partners partners={partners} />
+          <Services services={services} />
+          <Pricing pricing={pricing} />
           <ProjectGallery />
-          <Testimonials testimonials={injected.testimonials} />
+          <Testimonials testimonials={testimonials} />
           <Newsletter />
           <Blog articles={allArticles.slice(0, 3)} />
-          <Faq faqs={injected.faqs} />
+          <Faq faqs={faqs} />
         </Container>
       </div>
     </Layout>

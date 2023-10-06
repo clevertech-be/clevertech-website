@@ -16,6 +16,7 @@ export default function Usp({ usps }) {
                 className='mx-auto mb-4 w-12 h-12 '
                 src={usp.icon}
                 width={20}
+                loading='lazy'
                 height={20}
                 alt='icon usp'
               />
@@ -27,6 +28,7 @@ export default function Usp({ usps }) {
                   className='ml-1 w-5 h-5'
                   src={'/icons/hint.svg'}
                   width={10}
+                  loading='lazy'
                   height={10}
                   alt='arrow'
                 />

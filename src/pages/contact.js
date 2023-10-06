@@ -3,10 +3,11 @@ import Layout from '../components/layout'
 import Testimonials from '../components/testimonials'
 import Faq from '../components/faq'
 import Contact from '../components/contact'
-import injected from '../injected.json'
 import Container from '../components/container'
 import Newsletter from '../components/newsletter'
 import Heading from '../components/heading'
+import { faqs } from '../api/faqs'
+import { testimonials } from '../api/testimonials'
 
 export default function ContactUs() {
   return (
@@ -15,9 +16,9 @@ export default function ContactUs() {
       <div className='bg-white text-black'>
         <Container>
           <Contact />
-          <Testimonials testimonials={injected.testimonials} />
+          <Testimonials testimonials={testimonials} />
           <Newsletter />
-          <Faq faqs={injected.faqs} />
+          <Faq faqs={faqs} />
         </Container>
       </div>
     </Layout>

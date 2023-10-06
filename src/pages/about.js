@@ -1,13 +1,15 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Faq from '../components/faq'
-import injected from '../injected.json'
 import Container from '../components/container'
 import Heading from '../components/heading'
 import SimpleGallery from '../components/simpleGallery'
 import SocialProof from '../components/socialProof'
 import Team from '../components/team'
 import Partners from '../components/partners'
+import { team } from '../api/team'
+import { partners } from '../api/partners'
+import { faqs } from '../api/faqs'
 
 export default function AboutUs() {
   return (
@@ -16,10 +18,10 @@ export default function AboutUs() {
         <Heading />
         <SocialProof />
         <Container>
-          <Team team={injected.team} />
-          <Partners partners={injected.partners} />
+          <Team team={team} />
+          <Partners partners={partners} />
           <SimpleGallery />
-          <Faq faqs={injected.faqs} />
+          <Faq faqs={faqs} />
         </Container>
       </div>
     </Layout>

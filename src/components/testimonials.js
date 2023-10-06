@@ -26,6 +26,7 @@ export default function Testimonials({ testimonials }) {
                 </blockquote>
                 <figcaption className='flex justify-center items-center mt-6 space-x-3'>
                   <Image
+                    loading='lazy'
                     width={20}
                     height={20}
                     className='w-6 h-6 rounded-full'
@@ -52,6 +53,7 @@ export default function Testimonials({ testimonials }) {
                   src={'/icons/hint.svg'}
                   width={20}
                   height={20}
+                  loading='lazy'
                   alt='arrow'
                 />
                 <span className='hidden'>{t('home.testimonials.previous')}</span>
@@ -68,6 +70,7 @@ export default function Testimonials({ testimonials }) {
                   src={'/icons/hint.svg'}
                   width={20}
                   height={20}
+                  loading='lazy'
                   alt='arrow'
                 />
                 <span className='hidden'>{t('home.testimonials.next')}</span>

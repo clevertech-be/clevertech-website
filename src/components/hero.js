@@ -1,6 +1,5 @@
 import { useTranslate } from '../hooks/useTranslate'
 import Link from 'next/link'
-import HeroGallery from './heroGallery'
 import Image from 'next/image'
 
 export default function Hero() {
@@ -28,9 +27,6 @@ export default function Hero() {
       <p className='mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 '>
         {t('home.hero.description')}
       </p>
-      <div className='flex flex-col mb-8 lg:mb-16 sm:flex-row sm:justify-center'>
-        <HeroGallery />
-      </div>
     </section>
   )
 }

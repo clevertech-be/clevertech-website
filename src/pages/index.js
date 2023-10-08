@@ -18,18 +18,30 @@ import { services } from '../api/services'
 import { pricing } from '../api/pricing'
 import { testimonials } from '../api/testimonials'
 import { faqs } from '../api/faqs'
+import { InvertedButton } from '../components/button'
+import { useTranslate } from '../hooks/useTranslate'
+import { allProjects } from '../api/projects'
 
 export default function Home() {
+  const { t } = useTranslate()
   return (
     <Layout>
-      <Hero/>
+      <Hero />
       <div className='w-full bg-white'>
         <Container>
           <Usp usps={usps} />
           <Partners partners={partners} />
           <Services services={services} />
           <Pricing pricing={pricing} />
-          <ProjectGallery />
+          <ProjectGallery
+            label={t('projects.gallery.label')}
+            title={t('projects.gallery.title')}
+            description={t('projects.gallery.description')}
+            projects={allProjects}
+          />
+          <div className='mt-10 justify-center flex'>
+            <InvertedButton link='/projects' message={t('projects.button')} />
+          </div>
           <Testimonials testimonials={testimonials} />
           <Newsletter />
           <Blog articles={allArticles.slice(0, 3)} />

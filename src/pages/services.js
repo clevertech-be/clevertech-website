@@ -11,14 +11,25 @@ import { faqs } from '../api/faqs'
 import { partners } from '../api/partners'
 import { testimonials } from '../api/testimonials'
 import { pricing } from '../api/pricing'
+import { services } from '../api/services'
 
 export default function Services() {
   return (
     <Layout>
-      <Heading />
+      <Heading
+        title='services.heading.title'
+        description='services.heading.description'
+        label='services.heading.label'
+        link='/about'
+        cta='services.heading.cta'
+        image='/images/services.png'
+        cardLabel='services.card.label'
+        cardTitle='services.card.title'
+        cardDescription='services.card.description'
+      />
       <div className='w-full bg-white'>
         <Container>
-          <FeatureList />
+          <FeatureList services={services} />
           <Pricing pricing={pricing} />
           <Testimonials testimonials={testimonials} />
           <Partners partners={partners} />

@@ -1,6 +1,6 @@
 import { useTranslate } from '../hooks/useTranslate'
 
-export default function SocialProof() {
+export default function SocialProof({ socialProofs }) {
   const { t } = useTranslate()
   return (
     <section className='text-white bg-primary-500'>
@@ -12,18 +12,12 @@ export default function SocialProof() {
           {t('about.socialProof.description')}
         </p>
         <dl className='grid grid-cols-1 gap-8 mx-auto mt-8 max-w-screen-md  lg:mt-14 sm:grid-cols-3 '>
-          <div className='flex flex-col justify-center items-center'>
-            <dt className='mb-2 text-4xl font-extrabold'>73M+</dt>
-            <dd className='text-xl font-normal '>developers</dd>
-          </div>
-          <div className='flex flex-col justify-center items-center'>
-            <dt className='mb-2 text-4xl font-extrabold'>1B+</dt>
-            <dd className='text-xl font-normal '>contributors</dd>
-          </div>
-          <div className='flex flex-col justify-center items-center'>
-            <dt className='mb-2 text-4xl font-extrabold'>4M+</dt>
-            <dd className='text-xl font-normal '>organizations</dd>
-          </div>
+          {socialProofs.map((socialProof, index) => (
+            <div className='flex flex-col justify-center items-center' key={index}>
+              <dt className='mb-2 text-4xl font-extrabold'>{t(socialProof.value)}</dt>
+              <dd className='text-xl font-normal'>{t(socialProof.title)}</dd>
+            </div>
+          ))}
         </dl>
       </div>
     </section>

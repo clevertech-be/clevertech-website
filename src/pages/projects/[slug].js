@@ -24,7 +24,17 @@ export default function ProjectSlug() {
     <Layout>
       {project && (
         <>
-          <Heading />
+          <Heading
+            title='projects.heading.title'
+            description='projects.heading.description'
+            label='projects.heading.label'
+            link='/about'
+            cta='projects.heading.cta'
+            image='/images/projects.png'
+            cardLabel='projects.card.label'
+            cardTitle='projects.card.title'
+            cardDescription='projects.card.description'
+          />
           <div className='bg-white w-full'>
             <Container>
               <div className='max-w-xl text-base text-black items-start justify-between flex flex-col gap-4 lg:gap-10 p-5 md:p-0'>
@@ -86,7 +96,16 @@ export default function ProjectSlug() {
                     </p>
                   ))}
                 </div>
-                <SimpleGallery />
+                <SimpleGallery
+                  title={'about.gallery.title'}
+                  description={'about.gallery.description'}
+                  images={[
+                    '/images/about-gallery-2.png',
+                    '/images/about-gallery-3.png',
+                    '/images/about-gallery-4.png',
+                    '/images/about-gallery-6.png',
+                  ]}
+                />
                 <div className='font-bold text-xl text-primaryDark-600'>
                   {t('project.detail.web')}
                 </div>

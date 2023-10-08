@@ -27,7 +27,17 @@ export default function Blog() {
 
   return (
     <Layout>
-      <Heading />
+      <Heading
+        title='blog.heading.title'
+        description='blog.heading.description'
+        label='blog.heading.label'
+        link='/about'
+        cta='blog.heading.cta'
+        image='/images/blog.png'
+        cardLabel='blog.card.label'
+        cardTitle='blog.card.title'
+        cardDescription='blog.card.description'
+      />
       <div className='bg-white w-full'>
         <Container>
           <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>

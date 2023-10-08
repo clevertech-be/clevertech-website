@@ -12,7 +12,17 @@ import { testimonials } from '../api/testimonials'
 export default function ContactUs() {
   return (
     <Layout>
-      <Heading />
+      <Heading
+        title='contact.heading.title'
+        description='contact.heading.description'
+        label='contact.heading.label'
+        link='/about'
+        cta='contact.heading.cta'
+        image='/images/contact.png'
+        cardLabel='contact.card.label'
+        cardTitle='contact.card.title'
+        cardDescription='contact.card.description'
+      />
       <div className='bg-white text-black'>
         <Container>
           <Contact />

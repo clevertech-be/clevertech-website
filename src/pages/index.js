@@ -10,12 +10,10 @@ import { allArticles } from '../api/articles'
 import Services from '../components/services'
 import Partners from '../components/partners'
 import Usp from '../components/usp'
-import Pricing from '../components/pricing'
 import ProjectGallery from '../components/projectGallery'
 import { usps } from '../api/usps'
 import { partners } from '../api/partners'
 import { services } from '../api/services'
-import { pricing } from '../api/pricing'
 import { testimonials } from '../api/testimonials'
 import { faqs } from '../api/faqs'
 import { InvertedButton } from '../components/button'
@@ -32,7 +30,6 @@ export default function Home() {
           <Usp usps={usps} />
           <Partners partners={partners} />
           <Services services={services} />
-          <Pricing pricing={pricing} />
           <ProjectGallery
             label={t('projects.gallery.label')}
             title={t('projects.gallery.title')}

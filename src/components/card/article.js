@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { useTranslate } from '../../hooks/useTranslate'
+import Image from 'next/image'
 
 export default function ArticleCard({ article }) {
   const { t } = useTranslate()
@@ -7,7 +8,14 @@ export default function ArticleCard({ article }) {
     <div className='group'>
       <Link href={article.link}>
         <div className='p-4 bg-black group-hover:bg-primary-600 rounded-lg shadow-lg transition-all ease-in-out duration-300'>
-          <img className='mb-5 rounded-lg' src={article.image} alt='office laptop working' />
+          <Image
+            className='mb-5 rounded-lg w-full'
+            src={article.image}
+            alt='office laptop working'
+            width={200}
+            height={300}
+            loading='lazy'
+          />
           <span className='group-hover:bg-black bg-primary-600 text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded'>
             {t(article.topic)}
           </span>

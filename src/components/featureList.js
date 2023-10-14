@@ -23,7 +23,7 @@ export default function FeatureList({ services }) {
               <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-primary-600'>
                 {t(service.title)}
               </h2>
-              <p className='mb-8 font-light lg:text-xl'>{t(service.description)}</p>
+              <p className='mb-8 font-light lg:text-xl'>{t(service.cta)}</p>
               <ul role='list' className='pt-8 my-7 space-y-5 border-t border-primary-600'>
                 {service.features.map((feature, indexF) => (
                   <li className={`flex space-x-3`} key={indexF}>
@@ -38,7 +38,7 @@ export default function FeatureList({ services }) {
                   </li>
                 ))}
               </ul>
-              <p className='mb-8 font-light lg:text-xl'>{t(service.cta)}</p>
+              <p className='mb-8 font-light lg:text-xl'>{t(service.description)}</p>
             </div>
             {index % 2 ? (
               <Image

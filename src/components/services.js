@@ -31,7 +31,7 @@ export default function Services({ services }) {
                 />
               </div>
               <h3 className='mb-2 text-xl font-bold text-white'>{t(service.title)}</h3>
-              <p className='font-light text-white'>{t(service.description)}</p>
+              <p className='font-light text-white'>{t(service.cta)}</p>
               <div className='flex flex-row gap-5 text-center items-center text-md text-white font-bold mt-5'>
                 <Link href={service.link}>{t('home.services.more')}</Link>
                 <Image

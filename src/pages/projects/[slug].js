@@ -42,46 +42,21 @@ export default function ProjectSlug() {
                 </div>
                 <div className='font-bold text-base'>{project.description}</div>
                 <div>
-                  <div className='mt-2 flex flex-row gap-5 text-center items-center text-sm'>
-                    <Image
-                      loading='lazy'
-                      width={10}
-                      height={10}
-                      alt='Contact hint illustration'
-                      src={'/icons/hint.svg'}
-                    />
-                    <div>{t('project.feature.name')}</div>
-                  </div>
-                  <div className='mt-2 flex flex-row gap-5 text-center items-center text-sm'>
-                    <Image
-                      loading='lazy'
-                      width={10}
-                      height={10}
-                      alt='Contact hint illustration'
-                      src={'/icons/hint.svg'}
-                    />
-                    <div>{t('project.feature.name')}</div>
-                  </div>
-                  <div className='mt-2 flex flex-row gap-5 text-center items-center text-sm'>
-                    <Image
-                      loading='lazy'
-                      width={10}
-                      height={10}
-                      alt='Contact hint illustration'
-                      src={'/icons/hint.svg'}
-                    />
-                    <div>{t('project.feature.name')}</div>
-                  </div>
-                  <div className='mt-2 flex flex-row gap-5 text-center items-center text-sm'>
-                    <Image
-                      loading='lazy'
-                      width={10}
-                      height={10}
-                      alt='Contact hint illustration'
-                      src={'/icons/hint.svg'}
-                    />
-                    <div>{t('project.feature.name')}</div>
-                  </div>
+                  {project.features.map((feature, index) => (
+                    <div
+                      key={index}
+                      className='mt-2 flex flex-row gap-5 text-center items-center text-sm'
+                    >
+                      <Image
+                        loading='lazy'
+                        width={10}
+                        height={10}
+                        alt='Contact hint illustration'
+                        src={'/icons/hint.svg'}
+                      />
+                      <div>{t(feature)}</div>
+                    </div>
+                  ))}
                 </div>
                 <div className='font-bold text-xl text-primaryDark-600'>
                   {t('project.detail.brand')}

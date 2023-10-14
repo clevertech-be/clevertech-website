@@ -14,7 +14,7 @@ export const allProjects = [
     link: '/projects/project1',
     website: '/projects/project1',
     label: 'projects.label.ui',
-    features: ['features.feature1', 'features.feature2', 'features.feature3'],
+    features: ['features.1.feature1', 'features.1.feature2', 'features.1.feature3'],
   },
   {
     name: 'project2',
@@ -32,7 +32,7 @@ export const allProjects = [
     link: '/projects/project2',
     website: '/projects/project2',
     label: 'projects.label.ui',
-    features: ['features.feature1', 'features.feature2', 'features.feature3'],
+    features: ['features.2.feature1', 'features.2.feature2', 'features.2.feature3'],
   },
   {
     name: 'project3',
@@ -49,6 +49,6 @@ export const allProjects = [
     link: '/projects/project3',
     website: '/projects/project3',
     label: 'projects.label.ui',
-    features: ['features.feature1', 'features.feature2', 'features.feature3'],
+    features: ['features.3.feature1', 'features.3.feature2', 'features.3.feature3'],
   },
 ]

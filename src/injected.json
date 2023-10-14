@@ -19,7 +19,14 @@
       "meta": {
         "title": "home.meta.title",
         "description": "home.meta.description",
-        "keywords": []
+        "keywords": [
+          "digital solutions",
+          "small businesses",
+          "branding",
+          "marketing",
+          "web development",
+          "online presence"
+        ]
       }
     },
     {
@@ -28,7 +35,13 @@
       "meta": {
         "title": "projects.meta.title",
         "description": "projects.meta.description",
-        "keywords": []
+        "keywords": [
+          "portfolio",
+          "Clevertech",
+          "successful projects",
+          "digital solutions",
+          "business transformation"
+        ]
       }
     },
     {
@@ -37,7 +50,13 @@
       "meta": {
         "title": "services.meta.title",
         "description": "services.meta.description",
-        "keywords": []
+        "keywords": [
+          "our services, digital solutions",
+          "small businesses",
+          "branding",
+          "marketing",
+          "success"
+        ]
       }
     },
     {
@@ -46,7 +65,13 @@
       "meta": {
         "title": "about.meta.title",
         "description": "about.meta.description",
-        "keywords": []
+        "keywords": [
+          "about us",
+          "Clevertech",
+          "digital solutions",
+          "small businesses",
+          "brand success"
+        ]
       }
     },
     {
@@ -55,7 +80,7 @@
       "meta": {
         "title": "contact.meta.title",
         "description": "contact.meta.description",
-        "keywords": []
+        "keywords": ["contact us", "Clevertech", "digital solutions", "inquiries", "online success"]
       }
     },
     {
@@ -64,7 +89,7 @@
       "meta": {
         "title": "blog.meta.title",
         "description": "blog.meta.description",
-        "keywords": []
+        "keywords": ["blog", "Clevertech", "insights", "branding", "marketing", "web development"]
       }
     }
   ],
@@ -112,7 +137,7 @@
     "url": "https://goo.gl/maps/3PUt1WiDQX2icvds5",
     "address": "Chau. de Wavre 1341, 1160 Auderghem, Belgique"
   },
-  "companyName": "Clevertech SRL",
+  "companyName": "Clevertech BV",
   "tel": "+32488203567",
   "email": "contact@clevertech.be",
   "tva": "BE 2220.556.668",

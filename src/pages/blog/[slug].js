@@ -55,13 +55,15 @@ export default function ArticleSlug() {
               </div>
               <div className='font-bold text-base'>{t(article.description)}</div>
               <div className='text-base'>
-                {article.text.split('\n\n').map((paragraph, index) => (
-                  <p key={`p-${index}`} className='py-2'>
-                    {paragraph
-                      .split('\n')
-                      .reduce((total, line) => [total, <br key={`br-${index}`} />, line])}
-                  </p>
-                ))}
+                {t(article.text)
+                  .split('\n\n')
+                  .map((paragraph, index) => (
+                    <p key={`p-${index}`} className='py-2'>
+                      {paragraph
+                        .split('\n')
+                        .reduce((total, line) => [total, <br key={`br-${index}`} />, line])}
+                    </p>
+                  ))}
               </div>
             </div>
           </Container>

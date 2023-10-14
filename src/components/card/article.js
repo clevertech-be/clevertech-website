@@ -13,7 +13,7 @@ export default function ArticleCard({ article }) {
           {t(article.topic)}
         </span>
         <h2 className='my-2 text-2xl font-bold tracking-tight text-white'>{t(article.title)}</h2>
-        <p className='mb-4 font-light text-white'>{t(article.description)}</p>
+        <p className='mb-4 font-light text-white'>{t(article.shortDescription)}</p>
         <div className='flex items-center space-x-4'>
           <div className='font-medium text-primary-500 group-hover:text-white'>
             <div>{article.author}</div>

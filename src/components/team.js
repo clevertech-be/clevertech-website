@@ -32,8 +32,7 @@ export default function Team({ team }) {
                   {t(member.name)}
                 </h3>
                 <span className='text-white'>{t(member.role)}</span>
-                <p className='mt-3 mb-4 font-light text-white'>{t(member.description)}</p>
-                <ul className='flex space-x-4 sm:mt-0'>
+                <ul className='mt-3 mb-4 flex space-x-4'>
                   {member.socials.map((social, index) => (
                     <li key={index}>
                       <Link href={social.link}>

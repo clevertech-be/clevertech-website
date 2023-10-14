@@ -13,70 +13,29 @@ export default function Testimonials({ testimonials }) {
           </h2>
           <p className='font-light text-black sm:text-xl '>{t('home.testimonials.description')} </p>
         </div>
-        <div id='testimonial-carousel' className='relative' data-carousel='slide'>
-          <div className='overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-52 rounded-lg sm:h-48'>
-            {testimonials.map((item, index) => (
-              <figure
-                className='hidden mx-auto w-full max-w-screen-md bg-black p-5 justify-center items-center rounded-lg sm:flex sm:flex-col mb-4'
-                data-carousel-item
-                key={index}
-              >
-                <blockquote>
-                  <p className='text-lg font-medium text-white'>{t(item.testimonial)}</p>
-                </blockquote>
-                <figcaption className='flex justify-center items-center mt-6 space-x-3'>
-                  <Image
-                    loading='lazy'
-                    width={20}
-                    height={20}
-                    className='w-6 h-6 rounded-full'
-                    src={item.avatar}
-                    alt='profile picture'
-                  />
-                  <div className='flex items-center divide-x-2 divide-primary-600'>
-                    <div className='pr-3 font-medium text-white'>{t(item.name)}</div>
-                    <div className='pl-3 text-sm font-light text-white '>{t(item.role)}</div>
-                  </div>
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-          <div className='flex justify-center items-center'>
-            <button
-              type='button'
-              className='flex justify-center items-center mr-4 h-full cursor-pointer group focus:outline-none'
-              data-carousel-prev
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto my-5'>
+          {testimonials.map((item, index) => (
+            <div
+              className='mx-auto w-full max-w-screen-md bg-black p-5 justify-center items-center rounded-lg flex flex-col mb-4'
+              key={index}
             >
-              <span className='text-primary-400  hover:text-primary-600 transition-all ease-in-out duration-300'>
+              <p className='text-lg font-medium text-white'>{t(item.testimonial)}</p>
+              <div className='flex justify-center items-center mt-6 space-x-3'>
                 <Image
-                  className='w-6 h-6 rotate-180'
-                  src={'/icons/hint.svg'}
+                  loading='lazy'
                   width={20}
                   height={20}
-                  loading='lazy'
-                  alt='arrow'
+                  className='w-6 h-6 rounded-full'
+                  src={item.avatar}
+                  alt='profile picture'
                 />
-                <span className='hidden'>{t('home.testimonials.previous')}</span>
-              </span>
-            </button>
-            <button
-              type='button'
-              className='flex justify-center items-center h-full cursor-pointer group focus:outline-none'
-              data-carousel-next
-            >
-              <span className='text-primary-400  hover:text-primary-600 transition-all ease-in-out duration-300'>
-                <Image
-                  className='w-6 h-6'
-                  src={'/icons/hint.svg'}
-                  width={20}
-                  height={20}
-                  loading='lazy'
-                  alt='arrow'
-                />
-                <span className='hidden'>{t('home.testimonials.next')}</span>
-              </span>
-            </button>
-          </div>
+                <div className='flex items-center divide-x-2 divide-primary-600'>
+                  <div className='pr-3 font-medium text-white'>{t(item.name)}</div>
+                  <div className='pl-3 text-sm font-light text-white '>{t(item.role)}</div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

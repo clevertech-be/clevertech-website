@@ -9,7 +9,6 @@ export default function Heading({
   link,
   cta,
   image,
-  cardLabel,
   cardTitle,
   cardDescription,
 }) {
@@ -31,13 +30,9 @@ export default function Heading({
             src={image}
             alt={`heading image`}
           />
-          <div className='p-4 mt-4 w-full lg:mt-10 rounded-lg md:flex flex-col justify-center items-center bg-primary-500 hidden'>
-            <h2 className='mb-4 text-xs tracking-tight font-bold bg-white text-black p-2 rounded-lg'>
-              {t(cardLabel)}
-            </h2>
+          <div className='p-4 mt-4 w-full lg:mt-10 rounded-lg md:flex md:flex-col md:justify-center md:text-center md:items-center bg-primary-500 hidden'>
             <h2 className='mb-4 tracking-tight font-extrabold'>{t(cardTitle)}</h2>
             <p className='mb-4'>{t(cardDescription)}</p>
-
             <Button link={link} message={t(cta)} />
           </div>
         </div>

@@ -17,7 +17,7 @@ export default function SimpleGallery({ title, description, images }) {
               width={300}
               height={300}
               key={index}
-              className='col-span-2 mb-4 sm:mb-0 rounded-lg'
+              className='col-span-1 mb-4 sm:mb-0 rounded-lg'
               src={image}
               alt='content gallery'
             />

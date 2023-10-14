@@ -38,18 +38,18 @@ export default function Blog() {
         cardTitle='blog.card.title'
         cardDescription='blog.card.description'
       />
-      <div className='bg-white w-full'>
+      <div className='w-full bg-white'>
         <Container>
-          <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
-            <div className='flex flex-col items-start justify-between gap-4'>
+          <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
+            <div className='flex flex-col items-start justify-start gap-4'>
               <p className='font-bold text-primary-600'>{t('blog.label')} </p>
               <div className='text-2xl xl:text-4xl font-bold'>{t('blog.title')}</div>
               <div className='text-base font-normal max-w-2xl'>{t('blog.description')}</div>
-              <div className='flex flex-row text-primary-500 mt-10'>
+              <div className='flex flex-col md:flex-row text-primary-500 mt-10 gap-1 md:gap-6'>
                 {filters.map((item, index) => (
                   <Link key={index} href={`/blog?filter=${item}`}>
                     <div
-                      className={`transition-all cursor-pointer text-base pr-5 mb-5 text-black md:m-0 ${
+                      className={`transition-all cursor-pointer text-base text-black  ${
                         item === filter && 'font-bold text-primary-500'
                       } border-b-2 py-2 border-transparent hover:border-primary-600 transition-all ease-in-out duration-300`}
                     >
@@ -60,12 +60,10 @@ export default function Blog() {
               </div>
             </div>
 
-            <div className='items-center w-full'>
-              <div className='grid grid-flow-dense grid-cols-1 md:grid-cols-3 gap-4'>
-                {articles.map((article) => (
-                  <ArticleCard article={article} key={article.name} />
-                ))}
-              </div>
+            <div className='grid grid-flow-dense grid-cols-1 md:grid-cols-3 gap-4 mt-5 md:mt-10'>
+              {articles.map((article) => (
+                <ArticleCard article={article} key={article.name} />
+              ))}
             </div>
           </div>
         </Container>

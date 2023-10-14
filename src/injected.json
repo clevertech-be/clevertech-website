@@ -76,6 +76,7 @@
     },
     {
       "title": "link.contact",
+      "hideHeader": true,
       "link": "/contact",
       "meta": {
         "title": "contact.meta.title",

@@ -3,7 +3,6 @@ import Layout from '../components/layout'
 import Hero from '../components/hero'
 import Container from '../components/container'
 import Newsletter from '../components/newsletter'
-import Faq from '../components/faq'
 import Testimonials from '../components/testimonials'
 import Blog from '../components/blog'
 import { allArticles } from '../api/articles'
@@ -15,7 +14,6 @@ import { usps } from '../api/usps'
 import { partners } from '../api/partners'
 import { services } from '../api/services'
 import { testimonials } from '../api/testimonials'
-import { faqs } from '../api/faqs'
 import { InvertedButton } from '../components/button'
 import { useTranslate } from '../hooks/useTranslate'
 import { allProjects } from '../api/projects'
@@ -42,7 +40,9 @@ export default function Home() {
           <Testimonials testimonials={testimonials} />
           <Newsletter />
           <Blog articles={allArticles.slice(0, 3)} />
-          <Faq faqs={faqs} />
+          <div className='mb-5 justify-center flex'>
+            <InvertedButton link='/blog' message={t('blog.button')} />
+          </div>
         </Container>
       </div>
     </Layout>

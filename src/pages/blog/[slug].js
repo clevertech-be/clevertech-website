@@ -24,7 +24,7 @@ export default function ArticleSlug() {
       {article && (
         <div className='bg-white w-full'>
           <Container>
-            <div className='max-w-4xl text-base text-black items-start justify-between flex flex-col gap-4 lg:gap-10'>
+            <div className='justify-between py-8 px-4 mx-auto max-w-screen-xl lg:px-12 items-center lg:py-16 lex flex-col gap-4 lg:gap-10'>
               <div className='rounded-xl h-[240px] md:h-[420px] lg:h-[340px] w-full relative'>
                 <Image
                   loading='lazy'
@@ -34,10 +34,10 @@ export default function ArticleSlug() {
                   src={article.image}
                 />
               </div>
-              <div className='flex flex-col gap-4 items-start justify-between'>
+              <div className='mt-10 flex flex-col gap-4 items-start justify-between'>
                 <div className='text-primary-600 font-bold'>{t(article.topic)}</div>
                 <div className='font-bold text-2xl lg:text-4xl'>{t(article.title)}</div>
-                <div className='flex flex-row gap-2 items-center  justify-between'>
+                <div className='flex flex-row gap-2 items-center justify-between'>
                   <div className='text-primary-600 text-sm font-bold flex flex-row gap-2'>
                     <Image
                       loading='lazy'
@@ -53,8 +53,8 @@ export default function ArticleSlug() {
                   </div>
                 </div>
               </div>
-              <div className='font-bold text-base'>{t(article.description)}</div>
-              <div className='text-base'>
+              <div className='mt-10 font-bold text-base'>{t(article.description)}</div>
+              <div className='mt-10 text-base'>
                 {t(article.text)
                   .split('\n\n')
                   .map((paragraph, index) => (

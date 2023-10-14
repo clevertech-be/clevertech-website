@@ -54,7 +54,7 @@ export default function ContactForm({ handleSubmit }) {
           {t('contact.form.phoneNumber')}
         </label>
         <input
-          type='number'
+          type='tel'
           name='phone-number'
           className='block w-full text-sm rounded-lg shadow-sm border-2 bg-primary-500 text-white focus:border-white focus:ring-white border-white placeholder:text-white'
           placeholder='+12 345 6789'

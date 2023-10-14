@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Container from '../components/container'
-import Newsletter from '../components/newsletter'
 import ProjectGallery from '../components/projectGallery'
 import Heading from '../components/heading'
 import { useTranslate } from '../hooks/useTranslate'
@@ -30,7 +29,6 @@ export default function Projects() {
             description={t('projects.gallery.description')}
             projects={allProjects}
           />
-          <Newsletter />
         </Container>
       </div>
     </Layout>

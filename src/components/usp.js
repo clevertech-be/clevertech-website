@@ -9,7 +9,7 @@ export default function Usp({ usps }) {
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6'>
         <h2 className='mb-4 text-4xl tracking-tight font-extrabold'>{t('home.usp.title')}</h2>
         <p className=' sm:text-xl '>{t('home.usp.description')}</p>
-        <div className='mt-8 lg:mt-12 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0'>
+        <div className='mt-8 lg:mt-12 space-y-8 grid md:grid-cols-3 grid-cols-1 gap-6 md:gap-12 md:space-y-0'>
           {usps.map((usp, index) => (
             <div key={index}>
               <Image

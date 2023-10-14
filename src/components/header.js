@@ -24,15 +24,17 @@ export default function Header() {
             <Image loading='lazy' width={150} height={60} src='/logo.png' alt={`Logo`} />
           </Link>
           <div className='md:flex md:flex-row gap-4 hidden'>
-            {injected.pages.map((item, index) => (
-              <Link
-                href={item.link}
-                key={index}
-                className='text-white font-bold text-sm md:text-md leading-normal border-b-2  py-2 border-transparent hover:border-primary-600 transition-all ease-in-out duration-300'
-              >
-                {t(item.title)}
-              </Link>
-            ))}
+            {injected.pages
+              .filter((i) => !i.hideHeader)
+              .map((item, index) => (
+                <Link
+                  href={item.link}
+                  key={index}
+                  className='text-white font-bold text-sm md:text-md leading-normal border-b-2  py-2 border-transparent hover:border-primary-600 transition-all ease-in-out duration-300'
+                >
+                  {t(item.title)}
+                </Link>
+              ))}
           </div>
           <div className='flex flex-row gap-5 items-center'>
             <InvertedButton message='Contact' link='/contact' className={'hidden md:block'} />

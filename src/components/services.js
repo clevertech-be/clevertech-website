@@ -15,7 +15,7 @@ export default function Services({ services }) {
           </h2>
           <p className='font-light text-black sm:text-xl'>{t('home.services.description')}</p>
         </div>
-        <div className='space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 xl:gap-8 md:space-y-0'>
+        <div className='space-y-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 xl:gap-8 md:space-y-0'>
           {services.map((service, index) => (
             <div
               className='p-6 bg-black rounded shadow hover:from-primary-500 hover:to-primary-700 hover:bg-gradient-to-tr transition-all ease-in-out duration-300'

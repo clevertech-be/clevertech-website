@@ -13,7 +13,7 @@ export default function Blog({ articles }) {
           </h2>
           <p className='font-light text-black sm:text-xl '>{t('home.blog.description')} </p>
         </div>
-        <div className='grid gap-8 sm:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:w-full'>
           {articles.map((article, index) => (
             <ArticleCard article={article} key={index} />
           ))}

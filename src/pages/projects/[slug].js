@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 import { allProjects } from '../../api/projects'
 import Container from '../../components/container'
 import Image from 'next/image'
-import SimpleGallery from '../../components/simpleGallery'
 import Newsletter from '../../components/newsletter'
 import Heading from '../../components/heading'
 
@@ -96,16 +95,7 @@ export default function ProjectSlug() {
                     </p>
                   ))}
                 </div>
-                <SimpleGallery
-                  title={'about.gallery.title'}
-                  description={'about.gallery.description'}
-                  images={[
-                    '/images/about-gallery-2.png',
-                    '/images/about-gallery-3.png',
-                    '/images/about-gallery-4.png',
-                    '/images/about-gallery-6.png',
-                  ]}
-                />
+
                 <div className='font-bold text-xl text-primaryDark-600'>
                   {t('project.detail.web')}
                 </div>

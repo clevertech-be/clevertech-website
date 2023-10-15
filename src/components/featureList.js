@@ -5,21 +5,24 @@ export default function FeatureList({ services }) {
   const { t } = useTranslate()
   return (
     <section className='bg-white dark:bg-gray-900'>
-      <div className='py-8 px-4 mx-auto space-y-12 max-w-screen-xl lg:space-y-20 sm:py-16 lg:px-6'>
+      <div className='py-8 px-4 mx-auto space-y-12 max-w-screen-xl lg:space-y-20 sm:py-16 lg:px-6 flex flex-col gap-10'>
         {services.map((service, index) => (
-          <div className='gap-8 items-center lg:grid lg:grid-cols-2 xl:gap-16' key={index}>
-            {!(index % 2) && (
-              <Image
-                className='mb-4 w-full lg:mb-0 lg:flex rounded-lg'
-                loading='lazy'
-                width={600}
-                height={60}
-                src={service.image}
-                alt={`feature illustration`}
-              />
-            )}
+          <div
+            className={`gap-8 items-center md:gap-16 flex justify-between flex-col ${
+              index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'
+            }`}
+            key={index}
+          >
+            <Image
+              className='w-full md:w-1/2'
+              loading='lazy'
+              width={300}
+              height={60}
+              src={service.image}
+              alt={`feature illustration`}
+            />
 
-            <div className='text-black sm:text-lg '>
+            <div className='text-black sm:text-lg flex-2'>
               <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-primary-600'>
                 {t(service.title)}
               </h2>
@@ -40,18 +43,6 @@ export default function FeatureList({ services }) {
               </ul>
               <p className='mb-8 font-light lg:text-xl'>{t(service.description)}</p>
             </div>
-            {index % 2 ? (
-              <Image
-                className='mb-4 w-full lg:mb-0 lg:flex rounded-lg'
-                loading='lazy'
-                width={600}
-                height={60}
-                src={service.image}
-                alt={`feature illustration`}
-              />
-            ) : (
-              <></>
-            )}
           </div>
         ))}
       </div>

@@ -24,12 +24,12 @@ export default function ProjectSlug() {
       {project && (
         <>
           <Heading
-            title='projects.heading.title'
-            description='projects.heading.description'
+            title={t(project.title)}
+            description={t(project.shortDescription)}
             label='projects.heading.label'
-            link='/about'
+            link='/projects'
             cta='projects.heading.cta'
-            image='/images/projects.png'
+            image={project.image}
             cardLabel='projects.card.label'
             cardTitle='projects.card.title'
             cardDescription='projects.card.description'
@@ -37,10 +37,19 @@ export default function ProjectSlug() {
           <div className='bg-white w-full'>
             <Container>
               <div className='max-w-xl text-base text-black items-start justify-between flex flex-col gap-4 lg:gap-10 p-5 md:p-0'>
+                <div className='rounded-xl h-[240px] md:h-[420px] lg:h-[340px] w-full relative'>
+                  <Image
+                    loading='lazy'
+                    className='rounded-xl'
+                    fill
+                    alt='Project illustration'
+                    src={project.image}
+                  />
+                </div>
                 <div className='font-bold text-xl text-primaryDark-600'>
                   {t('project.detail.description')}
                 </div>
-                <div className='font-bold text-base'>{project.description}</div>
+                <div className='font-bold text-base'>{t(project.description)}</div>
                 <div>
                   {project.features.map((feature, index) => (
                     <div
@@ -61,28 +70,12 @@ export default function ProjectSlug() {
                 <div className='font-bold text-xl text-primaryDark-600'>
                   {t('project.detail.brand')}
                 </div>
-                <div className='text-base'>
-                  {project.textBrand.split('\n\n').map((paragraph, index) => (
-                    <p key={`p-${index}`} className='py-2'>
-                      {paragraph
-                        .split('\n')
-                        .reduce((total, line) => [total, <br key={`br-${index}`} />, line])}
-                    </p>
-                  ))}
-                </div>
+                <div className='text-base'></div>
 
                 <div className='font-bold text-xl text-primaryDark-600'>
                   {t('project.detail.web')}
                 </div>
-                <div className='text-base'>
-                  {project.textWeb.split('\n\n').map((paragraph, index) => (
-                    <p key={`p-${index}`} className='py-2'>
-                      {paragraph
-                        .split('\n')
-                        .reduce((total, line) => [total, <br key={`br-${index}`} />, line])}
-                    </p>
-                  ))}
-                </div>
+                <div className='text-base'></div>
                 <Newsletter />
               </div>
             </Container>

@@ -1,22 +1,22 @@
 export const partners = [
   {
-    name: 'youtube',
+    name: 'premierArt',
     link: 'https://www.facebook.com/clevertech',
-    icon: '/icons/partners/youtube.svg',
+    icon: '/icons/partners/premierArt.svg',
   },
   {
-    name: 'google',
+    name: 'lbPartner',
     link: 'https://www.facebook.com/clevertech',
-    icon: '/icons/partners/google.svg',
+    icon: '/icons/partners/lbPartner.svg',
   },
   {
-    name: 'productHunt',
+    name: 'medistia',
     link: 'https://www.facebook.com/clevertech',
-    icon: '/icons/partners/productHunt.svg',
+    icon: '/icons/partners/medistia.svg',
   },
   {
-    name: 'facebook',
-    link: 'https://www.facebook.com/clevertech',
-    icon: '/icons/partners/facebook.svg',
+    name: 'rubthebuilding',
+    link: 'https://www.rubthebuilding.com/clevertech',
+    icon: '/icons/partners/rubthebuilding.svg',
   },
 ]

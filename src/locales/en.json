@@ -1,6 +1,8 @@
 {
   "title": "Clevertech",
 
+  "project.button": "View projects",
+
   "about.heading.title": "Bring businesses in the digital world",
   "about.heading.description": "Get to know the heart and soul of vision. We're here to empower businesses, big and small, with cutting-edge digital solutions. Join us in the digital process.",
   "about.heading.label": "Discover Our Story",
@@ -183,17 +185,33 @@
   "team.3.name": "Mehdi",
   "team.3.role": "UX / UI Designer",
 
-  "features.1.feature1": "features.1.feature1",
-  "features.1.feature2": "features.1.feature2",
-  "features.1.feature3": "features.1.feature3",
+  "project.1.title": "Lb Partners",
+  "project.1.description": "Lb Partners is a law firm that provides legal services to businesses. We designe service that reflects their brand identity and showcases their expertise.",
+  "project.1.shortDescription": "Buisness leader and legal partner to help you growth safely",
+  "features.1.feature1": "Branding design",
+  "features.1.feature2": "SEO & Marketing services",
+  "features.1.feature3": "Website and CRM access",
 
-  "features.2.feature1": "features.2.feature1",
-  "features.2.feature2": "features.2.feature2",
-  "features.2.feature3": "features.2.feature3",
+  "project.2.title": "Premier Art",
+  "project.2.description": "Premier Art is a architecture firm based in Brussels. We helped them with a nice website and branding guidlines to reflect their brand identity.",
+  "project.2.shortDescription": "Modern and flexible architecture firm",
+  "features.2.feature1": "Branding design",
+  "features.2.feature2": "SEO & Marketing services",
+  "features.2.feature3": "Website and CRM access",
 
-  "features.3.feature1": "features.3.feature1",
-  "features.3.feature2": "features.3.feature2",
-  "features.3.feature3": "features.3.feature3",
+  "project.3.title": "Medistia",
+  "project.3.description": "Medistia is a medical center based in Brussels. Creating brand guidlines, CRM to manage their patients and a website to showcase their services.",
+  "project.3.shortDescription": "Medical center in Brussels",
+  "features.3.feature1": "Branding design",
+  "features.3.feature2": "SEO & Marketing services",
+  "features.3.feature3": "Website and CRM access",
+
+  "project.4.title": "Rub The building",
+  "project.4.description": "Rub The building is a property services company based in Brusselsn they provide professional cleaning services, moving and more. We helped them with a nice website and branding guidlines to reflect their brand identity.",
+  "project.4.shortDescription": "A modern professional property services company",
+  "features.4.feature1": "Branding design",
+  "features.4.feature2": "SEO & Marketing services",
+  "features.4.feature3": "Website and CRM access",
 
   "about.gallery.title": "Explore Our Journey in Pictures",
   "about.gallery.description": "A picture is worth a thousand words. Dive into our visual story and discover the moments that define us, our work, and our commitment to helping businesses thrive in the digital age.",
@@ -218,8 +236,8 @@
   "testimonial.2.name": "Laura",
   "testimonial.2.role": "Medistia",
   "testimonial.2.description": "What's most impressive is their ongoing support and adaptability to our evolving needs. If you're looking for a reliable, forward-thinking partner in the digital space, Clevertech is the one.",
-  "testimonial.3.name": "Mathieu",
-  "testimonial.3.role": "CEO Rub the building",
+  "testimonial.3.name": "Bilal",
+  "testimonial.3.role": "CEO Lb Partners",
   "testimonial.3.description": "Their team took our outdated website and gave it a fresh, modern look. The increase in traffic and engagement was almost immediate.",
 
   "project.detail.description": "Project description",
@@ -269,7 +287,7 @@
   "articles.filter.topic.5": "Publications",
 
   "article1.title": "Mastering the Art of Branding: How a Strong Brand Boosts Your Business",
-  "article1.description": "In this article, discover the power of effective branding and how it can set your business apart in a crowded market. We explore key strategies and tips for creating a strong and memorable brand identity that resonates with your target audience.",
+  "article1.description": "In today's fast-paced business world, branding has become the cornerstone of success. Your brand is more than a logo or tagline; it's your business's unique identity that distinguishes you in a crowded market. In this quick read, we'll explore how a strong brand can supercharge your business.",
   "article1.shortDescription": "Elevate Your Brand for Success",
   "article1.text": "The world of business is competitive, and a strong brand is your key to standing out. Read this article to learn why investing in branding is a smart move.",
 

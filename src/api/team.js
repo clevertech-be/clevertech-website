@@ -3,7 +3,7 @@ export const team = [
     name: 'team.1.name',
     role: 'team.1.role',
     description: 'team.1.description',
-    avatar: '/images/team/1.png',
+    avatar: '/images/team/hamza.jpeg',
     socials: [
       {
         title: 'facebook',
@@ -22,7 +22,7 @@ export const team = [
   {
     name: 'team.2.name',
     role: 'team.2.role',
-    avatar: '/images/team/2.png',
+    avatar: '/images/team/rachid.jpeg',
     description: 'team.2.description',
     socials: [
       {
@@ -43,7 +43,7 @@ export const team = [
     name: 'team.3.name',
     role: 'team.3.role',
     description: 'team.3.description',
-    avatar: '/images/team/3.png',
+    avatar: '/images/team/mehdi.jpeg',
     socials: [
       {
         title: 'facebook',

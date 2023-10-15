@@ -17,7 +17,7 @@ export default function Team({ team }) {
           {team.map((member) => (
             <div
               key={member.name}
-              className='items-center bg-black rounded-lg shadow-lg sm:flex sm:flex-col'
+              className='items-left bg-black rounded-lg shadow-lg sm:flex sm:flex-col'
             >
               <Image
                 width={600}

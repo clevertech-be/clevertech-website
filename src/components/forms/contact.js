@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslate } from '../../hooks/useTranslate'
 import Button from '../button'
 
-export default function ContactForm({ handleSubmit }) {
+export default function ContactForm({ formSuccess, handleSubmit, formError }) {
   const { t } = useTranslate()
   return (
     <form
@@ -71,7 +71,16 @@ export default function ContactForm({ handleSubmit }) {
           className='block p-2.5 w-full text-sm rounded-lg shadow-sm border-2 bg-primary-500 text-white focus:border-white focus:ring-white border-white placeholder:text-white'
           placeholder='...'
         ></textarea>
-        <p className='mt-4 text-sm text-white/90'>{t('contact.form.privacy')}</p>
+        {formSuccess && (
+          <div className='mt-4 bg-white p-2 rounded-lg text-green-500 transition-all'>
+            {formSuccess.message}
+          </div>
+        )}
+        {formError && (
+          <div className='mt-4 bg-white p-2 rounded-lg text-red-500 transition-all'>
+            {formError.message}
+          </div>
+        )}
       </div>
       <Button message={t('contact.form.submit')} className={'sm:col-span-2'} />
     </form>

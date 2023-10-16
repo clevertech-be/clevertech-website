@@ -4,7 +4,9 @@ import Faq from '../components/faq'
 import Container from '../components/container'
 import Heading from '../components/heading'
 import SimpleGallery from '../components/simpleGallery'
+import UspAbout from '../components/uspAbout'
 import Team from '../components/team'
+import { usps } from '../api/usps'
 import { team } from '../api/team'
 import { faqs } from '../api/faqs'
 
@@ -24,6 +26,7 @@ export default function AboutUs() {
           cardDescription='about.card.description'
         />
         <Container>
+          <UspAbout usps={usps} />
           <Team team={team} />
           <SimpleGallery
             title={'about.gallery.title'}

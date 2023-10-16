@@ -4,7 +4,7 @@
   "blog.button": "Voir tous les articles",
 
   "about.heading.title": "Mise en puissance des entreprises à l'ère numérique",
-  "about.heading.description": "Apprenez à connaître le cœur et l'âme de notre parcours. Nous sommes là pour donner aux entreprises, grandes et petites, des solutions numériques de pointe. Rejoignez-nous dans la révolution numérique.",
+  "about.heading.description": "Apprenez à connaître le cœur et l'âme de notre vision. Nous sommes là pour donner aux entreprises, grandes et petites, des solutions numériques de pointe. Rejoignez-nous dans la révolution numérique.",
   "about.heading.label": "Découvrez notre histoire",
   "about.heading.cta": "Rencontrez l'équipe",
   "about.card.label": "Rencontrez l'équipe",
@@ -29,7 +29,7 @@
   "blog.card.description": "Explorez une multitude d'articles couvrant la conception Web, le marketing numérique, et bien plus. Plongez dans le monde de l'information.",
 
   "contact.heading.title": "Connectons-nous et créons",
-  "contact.heading.description": "Vous avez une question ou un projet passionnant en tête ? Nous aimerions vous entendre. Connectons-nous et créons quelque chose d'incroyable.",
+  "contact.heading.description": "Vous avez une question ou un projet passionnant en tête ? Nous aimerions vous entendre. Contactez-nous et créons. Ensemble quelque chose d'incroyable.",
   "contact.heading.label": "Entrer en contact",
   "contact.heading.cta": "Coordonnées",
   "contact.card.label": "Coordonnées",
@@ -37,7 +37,7 @@
   "contact.card.description": "Que ce soit par téléphone, par e-mail ou en nous rendant visite, voici comment vous pouvez nous contacter. Nous sommes à un message de distance.",
 
   "services.heading.title": "Solutions sur mesure pour votre réussite",
-  "services.heading.description": "Découvrez notre gamme complète de services conçus pour répondre à vos besoins uniques. Nous sommes là pour alimenter votre succès.",
+  "services.heading.description": "Découvrez notre gamme complète de services conçus pour répondre à vos besoins uniques. Nous sommes là pour vous accompagner dans votre succès.",
   "services.heading.label": "Ce que nous offrons",
   "services.heading.cta": "Explorer tous les services",
   "services.card.label": "Explorer tous les services",
@@ -77,14 +77,14 @@
   "home.hero.title.span": "Solutions informatiques pour votre entreprise",
 
   "home.usp.title": "Découvrez nos avantages",
-  "home.usp.description": "Chez Clevertech, nous sommes fiers de notre ensemble distinctif de fonctionnalités qui nous distingue dans le paysage numérique. Lorsque vous vous associez à nous, vous ne choisissez pas seulement un service ; vous optez pour une expérience transformative.",
+  "home.usp.description": "Chez Clevertech, nous offrons un ensemble de fonctionnalités qui vous permettrons de faire grandir votre marque.  Lorsque vous vous associez à nous, vous ne choisissez pas seulement un service, vous optez pour une expérience unique.",
 
   "home.contact.title": "Contactez-nous",
-  "home.contact.description": "Vous avez des questions, des suggestions ou un projet en tête ? Nous sommes là pour écouter et prêts à vous aider.",
+  "home.contact.description": "Vous avez des questions, des suggestions ou un projet en tête ? Nous sommes là pour vous écouter et vous aider.",
 
   "home.services.label": "Services",
   "home.services.title": "Nos services complets",
-  "home.services.description": "Découvrez la large gamme de services que nous offrons pour améliorer votre présence numérique et alimenter votre entreprise. Du branding au marketing en passant par le développement de sites Web et de logiciels, nous avons tout ce qu'il vous faut. Explorez nos services pour trouver les solutions parfaites adaptées à vos besoins.",
+  "home.services.description": "Découvrez la large gamme de services que nous offrons afin de renforcer votre présence en ligne. Du branding au marketing en passant par le développement de sites Web et de logiciels, nous avons tout ce qu'il vous faut. Explorez nos services pour trouver les solutions parfaites adaptées à vos besoins.",
   "home.services.more": "Plus de services",
   "home.services.button": "Tous les services",
 
@@ -105,11 +105,11 @@
   "home.faq.title": "Questions fréquemment posées",
 
   "usp1.title": "Livraison rapide",
-  "usp1.description": "Le temps, c'est de l'argent, et nous livrons en un temps record sans compromettre la qualité.",
+  "usp1.description": "Le temps, c'est de l'argent. C’est pourquoi nous vous livrons en un temps record et sans compromettre la qualité.",
   "usp1.messageLink": "En voir plus",
 
   "usp2.title": "Solutions personnalisées",
-  "usp2.description": "Adaptées à vos besoins ; votre vision, votre chemin.",
+  "usp2.description": "Adaptées à vos besoins, votre vision, votre chemin.",
   "usp2.messageLink": "En voir plus",
 
   "usp3.title": "Assurance qualité",
@@ -118,7 +118,7 @@
 
   "service.1.title": "Transformation des marques",
   "service.1.description": "Nous concevons des identités de marque convaincantes qui résonnent auprès de votre public.",
-  "service.1.cta": "Rehaussez l'identité de votre marque",
+  "service.1.cta": "Promouvez l'identité de votre marque",
   "service.1.feature1": "Création d'identité visuelle",
   "service.1.feature2": "Stratégie de marque",
   "service.1.feature3": "Directives de marque",
@@ -130,9 +130,9 @@
   "service.2.feature2": "Optimisation des moteurs de recherche (SEO)",
   "service.2.feature3": "Marketing de contenu",
 
-  "service.3.title": "Administration rationalisée",
+  "service.3.title": "Administration simplifiée",
   "service.3.description": "De la configuration des e-mails à la gestion des enregistrements DNS, nous maintenons vos opérations sans accroc.",
-  "service.3.cta": "Simplifiez la gestion de l'entreprise",
+  "service.3.cta": "Simplifiez la gestion de votre entreprise",
   "service.3.feature2": "Configuration Office 365",
   "service.3.feature3": "Hébergement d'e-mails",
   "service.3.feature4": "Gestion DNS",
@@ -159,7 +159,7 @@
   "service.6.feature4": "Plan de réponse aux incidents",
 
   "service.7.title": "Informations basées sur les données",
-  "service.7.description": "Transformez vos données en l'actif le plus précieux de votre entreprise.",
+  "service.7.description": "Transformez vos données en l'atout le plus précieux de votre entreprise.",
   "service.7.cta": "Libérez la puissance des données",
   "service.7.feature2": "Analyse de la performance",
   "service.7.feature3": "Surveillance des tendances du marché",
@@ -167,25 +167,25 @@
 
   "service.8.title": "Amélioration de la présence en ligne",
   "service.8.description": "Nous enrichissons votre présence en ligne avec du contenu engageant et des expériences utilisateur.",
-  "service.8.cta": "Capturez votre public en ligne",
+  "service.8.cta": "Captivez votre audience digitale",
   "service.8.feature2": "Optimisation SEO",
   "service.8.feature3": "Engagement sur les médias sociaux",
   "service.8.feature4": "Gestion de la réputation en ligne",
 
-  "faq.1.title": "Quel est le délai de réalisation typique pour le développement d'un site Web ?",
-  "faq.1.description": "Le délai de réalisation pour le développement d'un site Web peut varier en fonction de la complexité et des exigences du projet. Pour un site Web standard, nous visons à avoir la conception initiale et la structure prêtes dans un délai de 4 à 6 semaines. Cependant, ce calendrier peut être ajusté en fonction des fonctionnalités spécifiques ou des personnalisations. Nous travaillons en étroite collaboration avec les clients pour établir des jalons de projet et vous tenir informés tout au long du processus de développement.",
+  "faq.1.title": "Quel est le délai de réalisation moyen d'un site Web ?",
+  "faq.1.description": "Le délai de réalisation d'un site Web peut varier en fonction de la complexité et des exigences du projet. Pour un site Web standard, nous aspirons à avoir la conception et la structure initiale prêtes dans un délai de 4 à 6 semaines. Cependant, ce calendrier peut être ajusté en fonction des fonctionnalités spécifiques ou des personnalisations. Nous travaillons en étroite collaboration avec les clients pour établir des jalons de projet et vous tenir informés tout au long du processus de développement.",
 
   "faq.2.title": "Pouvez-vous fournir une estimation des coûts pour les services de branding ?",
-  "faq.2.description": "Les coûts de branding peuvent varier considérablement en fonction de vos besoins uniques. Notre tarification est adaptée à la portée du travail, tels que la conception de logo, les directives de marque et les supports marketing. Nous offrons une consultation initiale gratuite pour discuter de vos besoins et vous fournir une proposition détaillée et personnalisée.",
+  "faq.2.description": "Les coûts de branding peuvent varier considérablement en fonction de vos besoins uniques. Notre tarification est adaptée à l’étendue du travail tels que la conception de logo, les directives de marque et les supports marketing. Nous offrons une consultation initiale gratuite pour discuter de vos besoins et vous fournir une proposition détaillée et personnalisée.",
 
   "faq.3.title": "Dois-je avoir des connaissances techniques pour gérer le contenu de mon site Web ?",
-  "faq.3.description": "Absolument pas ! Nous construisons des sites Web avec des systèmes de gestion de contenu (CMS) conviviaux qui vous permettent de mettre à jour facilement le texte, les images et d'autres contenus sans aucune expertise technique. Nous fournissons également une formation et un support pour vous aider à tirer le meilleur parti de votre site Web.",
+  "faq.3.description": "Absolument pas ! Nous construisons des sites Web avec des systèmes de gestion de contenu (CMS) facile d’utilisation qui vous permettent de mettre à jour facilement le texte, les images et d'autres contenus sans aucune expertise technique. Nous fournissons également une formation et un support pour vous aider à tirer le meilleur parti de votre site Web.",
 
   "faq.4.title": "Qu'est-ce que le référencement (SEO) et comment cela peut-il bénéficier à mon entreprise ?",
   "faq.4.description": "Le référencement, ou Search Engine Optimization, est une stratégie visant à améliorer la visibilité de votre site Web sur des moteurs de recherche tels que Google. Il contribue à augmenter le trafic organique (non payant) vers votre site. Une meilleure visibilité signifie plus de clients potentiels qui trouvent votre entreprise en ligne. Nos services de référencement sont adaptés à votre secteur et à votre public cible, en mettant l'accent sur les mots clés, l'optimisation du contenu et la création de liens pour améliorer votre classement dans les moteurs de recherche.",
 
   "faq.5.title": "Puis-je mettre à niveau ou personnaliser mon site Web une fois qu'il est construit ?",
-  "faq.5.description": "Absolument. Nous comprenons que votre entreprise peut croître et évoluer. Nos sites Web sont conçus pour être évolutifs et flexibles. Vous pouvez ajouter de nouvelles fonctionnalités, des pages ou des fonctionnalités au fur et à mesure de l'évolution de vos besoins. Nous proposons des services de support et de maintenance continus pour vous aider à effectuer ces mises à jour, garantissant ainsi que votre site Web reste à jour et efficace.",
+  "faq.5.description": "Absolument. Nous comprenons que votre entreprise peut croître et évoluer. Nos sites Web sont conçus pour être évolutifs et flexibles. Vous pouvez ajouter de nouvelles fonctionnalités, des pages ou des fonctionnalités au fur et à mesure de l'évolution de vos besoins. Nous proposons des services de support et de maintenance continus pour vous aider à effectuer ces mises à jour, garantissant ainsi que votre site Web reste à jour et optimal.",
 
   "team.1.name": "Mounir Hamza",
   "team.1.role": "PDG",
@@ -203,7 +203,7 @@
 
   "projects.gallery.label": "Projets",
   "projects.gallery.title": "Un aperçu de notre travail",
-  "projects.gallery.description": "Découvrez certains de nos projets exceptionnels qui reflètent notre expertise.",
+  "projects.gallery.description": "Découvrez certains de nos projets notables qui reflètent notre expertise.",
 
   "project.features": "Fonctionnalités",
   "projects.button": "Tous les projets",
@@ -218,7 +218,7 @@
   "blog.description": "Lisez notre blog pour des informations précieuses et des mises à jour de l'industrie.",
 
   "team.title": "Rencontrez notre équipe dévouée",
-  "team.description": "Derrière notre succès se trouve une équipe talentueuse et passionnée. Faites connaissance avec les personnes qui rendent possible notre mission de transformer votre entreprise dans le monde numérique.",
+  "team.description": "Derrière notre succès se trouve une équipe talentueuse et passionnée. Faites connaissance avec les personnes qui rendent possible notre mission.",
 
   "testimonial.1.name": "Ahmed",
   "testimonial.1.role": "PDG Premier Art",

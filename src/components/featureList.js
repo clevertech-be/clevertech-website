@@ -16,18 +16,18 @@ export default function FeatureList({ services }) {
             <Image
               className='w-full md:w-1/2'
               loading='lazy'
-              width={300}
+              width={500}
               height={60}
               src={service.image}
               alt={`feature illustration`}
             />
 
             <div className='text-black sm:text-lg flex-2'>
-              <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-primary-600'>
+              <h2 className='mb-2 text-2xl tracking-tight font-extrabold text-primary-600'>
                 {t(service.title)}
               </h2>
-              <p className='mb-8 font-light lg:text-xl'>{t(service.cta)}</p>
-              <ul role='list' className='pt-8 my-7 space-y-5 border-t border-primary-600'>
+              <p className='mb-2 lg:text-xl'>{t(service.cta)}</p>
+              <ul role='list' className='pt-4 my-4 space-y-5 border-t border-primary-600'>
                 {service.features.map((feature, indexF) => (
                   <li className={`flex space-x-3`} key={indexF}>
                     <Image
@@ -41,7 +41,7 @@ export default function FeatureList({ services }) {
                   </li>
                 ))}
               </ul>
-              <p className='mb-8 font-light lg:text-xl'>{t(service.description)}</p>
+              <p className='mb-8 lg:text-xl'>{t(service.description)}</p>
             </div>
           </div>
         ))}

@@ -23,7 +23,7 @@ export default function ProjectGallery({ projects, label, title, description }) 
             className='col-span-2 mb-4 sm:mb-0 rounded-lg'
             alt='content gallery'
           />
-          <div className='my-2 p-4  md:my-0 md:p-0 rounded-lg flex flex-col justify-center items-center bg-black text-white'>
+          <div className='my-2 p-4 rounded-lg flex flex-col justify-center items-start bg-black text-white'>
             <h2 className='mb-4 tracking-tight font-extrabold'>{t('project.features')}</h2>
             {project.features.map((feature, index) => (
               <div

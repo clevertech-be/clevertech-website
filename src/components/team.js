@@ -15,15 +15,12 @@ export default function Team({ team }) {
         </div>
         <div className='grid gap-8 mb-6 lg:mb-16 grid-cols-1 md:grid-cols-3'>
           {team.map((member) => (
-            <div
-              key={member.name}
-              className='items-left bg-black rounded-lg shadow-lg sm:flex sm:flex-col'
-            >
+            <div key={member.name} className='items-left sm:flex sm:flex-col'>
               <Image
-                width={600}
+                width={150}
                 height={600}
                 loading='lazy'
-                className='w-full rounded-t-lg'
+                className='self-center rounded-t-lg'
                 src={member.avatar}
                 alt={`${member.name} Avatar`}
               />
@@ -31,7 +28,7 @@ export default function Team({ team }) {
                 <h3 className='text-xl font-bold tracking-tight text-primary-500'>
                   {t(member.name)}
                 </h3>
-                <span className='text-white'>{t(member.role)}</span>
+                <span className='text-black'>{t(member.role)}</span>
                 <ul className='mt-3 mb-4 flex space-x-4'>
                   {member.socials.map((social, index) => (
                     <li key={index}>
@@ -40,7 +37,7 @@ export default function Team({ team }) {
                           width={20}
                           height={20}
                           loading='lazy'
-                          src={`/icons/socials/${social.title}.svg`}
+                          src={`/icons/socials/black/${social.title}.svg`}
                           alt={`${social.title} icon`}
                         />
                       </Link>

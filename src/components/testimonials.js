@@ -16,10 +16,12 @@ export default function Testimonials({ testimonials }) {
         <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto my-5'>
           {testimonials.map((item, index) => (
             <div
-              className='mx-auto w-full max-w-screen-md bg-black p-5 justify-center items-center rounded-lg flex flex-col mb-4'
+              className={`${
+                index === 1 ? 'bg-black text-white' : 'bg-gray-200 text-black'
+              } mx-auto w-full max-w-screen-md shadow-lg p-5 justify-center items-center rounded-lg flex flex-col mb-4`}
               key={index}
             >
-              <p className='text-lg font-medium text-white'>{t(item.testimonial)}</p>
+              <p className='text-lg font-medium '>{t(item.testimonial)}</p>
               <div className='flex justify-center items-center mt-6 space-x-3'>
                 <Image
                   loading='lazy'
@@ -30,8 +32,8 @@ export default function Testimonials({ testimonials }) {
                   alt='profile picture'
                 />
                 <div className='flex items-center divide-x-2 divide-primary-600'>
-                  <div className='pr-3 font-medium text-white'>{t(item.name)}</div>
-                  <div className='pl-3 text-sm font-light text-white '>{t(item.role)}</div>
+                  <div className='pr-3 font-medium '>{t(item.name)}</div>
+                  <div className='pl-3 text-sm font-light  '>{t(item.role)}</div>
                 </div>
               </div>
             </div>

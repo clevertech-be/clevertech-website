@@ -3,6 +3,7 @@ import injected from '../injected.json'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useTranslate } from '../hooks/useTranslate'
+import Newsletter from './newsletter'
 
 export default function Footer() {
   const { t } = useTranslate()
@@ -69,7 +70,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className='grid gap-8 md:gap-4 grid-cols-1 md:grid-cols-2'>
+        <div className='grid gap-8 md:gap-4 grid-cols-1 md:grid-cols-4'>
           <div className='leading-normal flex flex-col gap-10 items-center md:justify-start md:items-start'>
             <Link href={'/'}>
               <Image loading='lazy' width={200} height={60} src='/logo.png' alt={`Logo`} />
@@ -79,7 +80,7 @@ export default function Footer() {
                 <div className='font-bold'>{injected.companyName}</div>
                 <div>{injected.tva}</div>
               </div>
-              <div>{t('footer.description')}</div>
+              <div className='md:text-start '>{t('footer.description')}</div>
             </div>
             <div className='flex gap-5 flex-row'>
               {injected.socials.map((item, index) => (
@@ -95,7 +96,7 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div className='flex flex-col gap-4 items-center md:justify-end md:items-end'>
+          <div className='flex flex-col gap-4 items-center'>
             <div className='font-bold text-lg'>{t('footer.navigation.title')}</div>
             <div className='flex flex-col gap-4'>
               {injected.pages.map((item, index) => (
@@ -111,6 +112,9 @@ export default function Footer() {
                 </div>
               ))}
             </div>
+          </div>
+          <div className='col-span-2'>
+            <Newsletter />
           </div>
         </div>
       </div>

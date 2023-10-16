@@ -17,32 +17,31 @@ export default function Services({ services }) {
         </div>
         <div className='space-y-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 xl:gap-8 md:space-y-0'>
           {services.map((service, index) => (
-            <div
-              className='p-6 bg-black rounded shadow hover:from-primary-500 hover:to-primary-700 hover:bg-gradient-to-tr transition-all ease-in-out duration-300'
-              key={index}
-            >
-              <div className='flex justify-center items-center mb-4 w-10 h-10 rounded lg:h-12 lg:w-12'>
-                <Image
-                  src={service.icon}
-                  width={24}
-                  height={24}
-                  alt='icon'
-                  className='w-5 h-5 text-white lg:w-6 lg:h-6'
-                />
+            <Link href={service.link} key={index}>
+              <div className='p-6 bg-gray-200 rounded shadow hover:bg-black transition-all ease-in-out duration-300 text-black hover:text-white'>
+                <div className='flex justify-center items-center mb-4 w-10 h-10 rounded lg:h-12 lg:w-12'>
+                  <Image
+                    src={service.icon}
+                    width={24}
+                    height={24}
+                    alt='icon'
+                    className='w-5 h-5 lg:w-6 lg:h-6'
+                  />
+                </div>
+                <h3 className='mb-2 text-xl font-bold'>{t(service.title)}</h3>
+                <p className='font-light'>{t(service.cta)}</p>
+                <div className='flex flex-row gap-5 text-center items-center text-md font-bold mt-5'>
+                  {t('home.services.more')}
+                  <Image
+                    loading='lazy'
+                    width={10}
+                    height={10}
+                    alt='Contact hint illustration'
+                    src={'/icons/hint.svg'}
+                  />
+                </div>
               </div>
-              <h3 className='mb-2 text-xl font-bold text-white'>{t(service.title)}</h3>
-              <p className='font-light text-white'>{t(service.cta)}</p>
-              <div className='flex flex-row gap-5 text-center items-center text-md text-white font-bold mt-5'>
-                <Link href={service.link}>{t('home.services.more')}</Link>
-                <Image
-                  loading='lazy'
-                  width={10}
-                  height={10}
-                  alt='Contact hint illustration'
-                  src={'/icons/hint.svg'}
-                />
-              </div>
-            </div>
+            </Link>
           ))}
         </div>
         <div className='mt-10 justify-center flex'>

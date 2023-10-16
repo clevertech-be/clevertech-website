@@ -6,7 +6,7 @@ export const usps = [
     text: 'usp1.text',
     icon: '/icons/usp/1.svg',
     messageLink: 'usp1.messageLink',
-    link: '/services',
+    link: '/about#usp1',
   },
   {
     name: 'usp2',
@@ -15,7 +15,7 @@ export const usps = [
     text: 'usp2.text',
     icon: '/icons/usp/2.svg',
     messageLink: 'usp2.messageLink',
-    link: '/services',
+    link: '/about#usp2',
   },
   {
     name: 'usp3',
@@ -24,6 +24,6 @@ export const usps = [
     text: 'usp3.text',
     icon: '/icons/usp/3.svg',
     messageLink: 'usp3.messageLink',
-    link: '/services',
+    link: '/about#usp3',
   },
 ]

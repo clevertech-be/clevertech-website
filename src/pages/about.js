@@ -18,8 +18,6 @@ export default function AboutUs() {
           title='about.heading.title'
           description='about.heading.description'
           label='about.heading.label'
-          link='/services'
-          cta='about.heading.cta'
           image='/images/about.png'
           cardLabel='about.card.label'
           cardTitle='about.card.title'

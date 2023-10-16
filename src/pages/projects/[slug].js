@@ -27,8 +27,6 @@ export default function ProjectSlug() {
             title={t(project.title)}
             description={t(project.shortDescription)}
             label='projects.heading.label'
-            link='/projects'
-            cta='projects.heading.cta'
             image={project.image}
             cardLabel='projects.card.label'
             cardTitle='projects.card.title'

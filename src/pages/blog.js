@@ -31,8 +31,6 @@ export default function Blog() {
         title='blog.heading.title'
         description='blog.heading.description'
         label='blog.heading.label'
-        link='/about'
-        cta='blog.heading.cta'
         image='/images/blog.png'
         cardLabel='blog.card.label'
         cardTitle='blog.card.title'
@@ -60,7 +58,10 @@ export default function Blog() {
               </div>
             </div>
 
-            <div className='grid grid-flow-dense grid-cols-1 md:grid-cols-3 gap-4 mt-5 md:mt-10'>
+            <div
+              id='articles'
+              className='grid grid-flow-dense grid-cols-1 md:grid-cols-3 gap-4 mt-5 md:mt-10'
+            >
               {articles.map((article) => (
                 <ArticleCard article={article} key={article.name} />
               ))}

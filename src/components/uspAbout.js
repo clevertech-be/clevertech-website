@@ -11,6 +11,7 @@ export default function Usp({ usps }) {
         <div className='mt-8 lg:mt-12 space-y-8 grid grid-cols-1 gap-6 md:gap-12 md:space-y-0'>
           {usps.map((usp, index) => (
             <div
+              id={`usp${index + 1}`}
               key={index}
               className={'rounded-xl p-10 justify-between flex flex-col items-center'}
             >

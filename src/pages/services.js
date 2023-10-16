@@ -16,8 +16,6 @@ export default function Services() {
         title='services.heading.title'
         description='services.heading.description'
         label='services.heading.label'
-        link='/about'
-        cta='services.heading.cta'
         image='/images/services.png'
         cardLabel='services.card.label'
         cardTitle='services.card.title'

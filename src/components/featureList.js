@@ -4,10 +4,11 @@ import { useTranslate } from '../hooks/useTranslate'
 export default function FeatureList({ services }) {
   const { t } = useTranslate()
   return (
-    <section className='bg-white dark:bg-gray-900'>
+    <section className='bg-white dark:bg-gray-900' id='services'>
       <div className='py-8 px-4 mx-auto space-y-12 max-w-screen-xl lg:space-y-20 sm:py-16 lg:px-6 flex flex-col gap-10'>
         {services.map((service, index) => (
           <div
+            id={`service${index + 1}`}
             className={`gap-8 items-center md:gap-16 flex justify-between flex-col ${
               index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'
             }`}

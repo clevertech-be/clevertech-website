@@ -1,17 +1,7 @@
 import Image from 'next/image'
 import { useTranslate } from '../hooks/useTranslate'
-import Button from './button'
 
-export default function Heading({
-  title,
-  description,
-  label,
-  link,
-  cta,
-  image,
-  cardTitle,
-  cardDescription,
-}) {
+export default function Heading({ title, description, label, image, cardTitle, cardDescription }) {
   const { t } = useTranslate()
   return (
     <section className='bg-black text-white'>
@@ -33,7 +23,6 @@ export default function Heading({
           <div className='p-4 mt-4 w-full lg:mt-10 rounded-lg md:flex md:flex-col md:justify-center md:text-center md:items-center bg-primary-500 hidden'>
             <h2 className='mb-4 tracking-tight font-extrabold'>{t(cardTitle)}</h2>
             <p className='mb-4'>{t(cardDescription)}</p>
-            <Button link={link} message={t(cta)} />
           </div>
         </div>
       </div>

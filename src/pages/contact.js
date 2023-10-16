@@ -16,8 +16,6 @@ export default function ContactUs() {
         title='contact.heading.title'
         description='contact.heading.description'
         label='contact.heading.label'
-        link='/about'
-        cta='contact.heading.cta'
         image='/images/contact.png'
         cardLabel='contact.card.label'
         cardTitle='contact.card.title'

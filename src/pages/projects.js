@@ -14,8 +14,6 @@ export default function Projects() {
         title='projects.heading.title'
         description='projects.heading.description'
         label='projects.heading.label'
-        link='/about'
-        cta='projects.heading.cta'
         image='/images/projects.png'
         cardLabel='projects.card.label'
         cardTitle='projects.card.title'

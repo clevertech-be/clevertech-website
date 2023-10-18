@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
       <Link
-        href='#about'
+        href='/contact'
         className='inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-white bg-primary-600 rounded-full hover:bg-primary-700'
         role='alert'
       >

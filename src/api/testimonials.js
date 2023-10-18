@@ -13,7 +13,7 @@ export const testimonials = [
   },
   {
     name: 'testimonial.3.name',
-    avatar: '/images/testimonials/bilal.jpeg',
+    avatar: '/images/testimonials/jd.jpeg',
     role: 'testimonial.3.role',
     testimonial: 'testimonial.3.description',
   },

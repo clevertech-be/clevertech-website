@@ -7,11 +7,11 @@ export default function ProjectGallery({ projects, label, title, description }) 
   return (
     <section className='py-8 px-4 mx-auto max-w-screen-xl lg:px-12 sm:text-center lg:py-16'>
       <div className='mx-auto max-w-screen-md text-center mb-8 lg:mb-16'>
-        <p className='font-bold text-primary-600'>{t(label)}</p>
+        <p className='font-bold text-primary-600'>{label}</p>
         <h2 className='mb-4 md:text-4xl text-2xl tracking-tight font-extrabold text-black'>
-          {t(title)}
+          {title}
         </h2>
-        <p className='font-light text-black sm:text-xl'>{t(description)}</p>
+        <p className='font-light text-black sm:text-xl'>{description}</p>
       </div>
       {projects.map((project, index) => (
         <Link key={index} href={project.link}>

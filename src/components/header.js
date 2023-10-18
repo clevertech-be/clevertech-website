@@ -7,7 +7,7 @@ import { useTranslate } from '../hooks/useTranslate'
 import { useLocale } from '../hooks/useLocale'
 
 export default function Header() {
-  const { switchLocale } = useLocale()
+  const { switchLocale, locale } = useLocale()
   const { t } = useTranslate()
   return (
     <nav
@@ -45,15 +45,20 @@ export default function Header() {
                 }}
                 className={`text-white bg-transparent border-none focus:ring-0 focus:outline-none p-0`}
               >
-                {injected.locales.map((item, index) => (
-                  <option
-                    key={index}
-                    className={`uppercase text-white inline-flex items-center`}
-                    value={item}
-                  >
-                    {item.toUpperCase()}
-                  </option>
-                ))}
+                <option className={`uppercase text-white inline-flex items-center`} value={locale}>
+                  {locale.toUpperCase()}
+                </option>
+                {injected.locales
+                  .filter((l) => l !== locale)
+                  .map((item, index) => (
+                    <option
+                      key={index}
+                      className={`uppercase text-white inline-flex items-center`}
+                      value={item}
+                    >
+                      {item.toUpperCase()}
+                    </option>
+                  ))}
               </select>
             </div>
           </div>

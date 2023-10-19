@@ -1,4 +1,3 @@
-import Script from 'next/script'
 import injected from './injected.json'
 
 export const GA_TRACKING_ID = injected.gtag
@@ -25,12 +24,12 @@ export const event = ({ action, category, label, value }) => {
 
 export const GtagScript = () => (
   <>
-    <Script
+    <script
       id='gtag-script'
       async
       src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
     />
-    <Script
+    <script
       id='gtag-config'
       dangerouslySetInnerHTML={{
         __html: `

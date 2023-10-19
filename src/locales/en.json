@@ -80,7 +80,7 @@
   "home.services.label": "Services",
   "home.services.title": "Our Comprehensive Services",
   "home.services.description": "Discover the wide range of services we offer to elevate your digital presence and empower your business. From branding and marketing to web and software development, we've got you covered. Explore our services to find the perfect solutions tailored to your needs.",
-  "home.services.more": "Read more",
+  "home.services.more": "Read all",
   "home.services.button": "All services",
 
   "home.testimonials.label": "Testimonials",
@@ -102,17 +102,17 @@
   "usp1.title": "Fast Delivery",
   "usp1.description": "Time is money, and we deliver in record time without sacrificing quality.",
   "usp1.text": "At Clevertech, we understand that time is money. That's why we deliver projects in record time without sacrificing quality. Our streamlined processes and experienced team ensure you get your solutions easily, so you can start seeing the benefits faster.",
-  "usp1.messageLink": "See more",
+  "usp1.messageLink": "Complete story",
 
   "usp2.title": "Custom Solutions",
   "usp2.description": "Tailored to your needs, your vision, your way.",
   "usp2.text": "We don't believe in one-size-fits-all solutions. We work closely with you to understand your unique needs, your vision, and your way of doing business. Our solutions are fully customized to ensure they align perfectly with your goals.",
-  "usp2.messageLink": "See more",
+  "usp2.messageLink": "Complete story",
 
   "usp3.title": "Quality Assurance",
   "usp3.description": "Our commitment to excellence is in every detail.",
   "usp3.text": "Our commitment to excellence is evident in every detail of our work. We follow the highest industry standards for quality assurance. Our rigorous testing and quality control procedures guarantee that the final product we deliver meets the highest quality benchmarks, providing you with a robust and reliable solution.",
-  "usp3.messageLink": "See more",
+  "usp3.messageLink": "Complete story",
 
   "service.1.title": "Transforming Brands",
   "service.1.description": "We craft compelling brand identities that resonate with your audience.",
@@ -264,7 +264,7 @@
   "link.terms": "Terms",
   "link.cookies": "Cookies",
 
-  "blog.button": "Read more",
+  "blog.button": "All articles",
   "contact.form.success": "Your message has been sent successfully.",
   "contact.form.error": "There was an error while processing your request.",
   "contact.form.send": "Send message",

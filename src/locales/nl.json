@@ -185,15 +185,14 @@
 
   "team.1.name": "Mounir Hamza",
   "team.1.role": "CEO",
-  "team.1.description": "Als CEO van ons bedrijf leidt Mounir met een visie voor innovatie en een passie om bedrijven te helpen gedijen in het digitale tijdperk. Met jarenlange ervaring is hij de drijvende kracht achter ons succes.",
-
   "team.2.name": "Rachid Asli",
   "team.2.role": "CTO",
-  "team.2.description": "Rachid is onze Chief Technology Officer (CTO) en een technologieliefhebber. Hij is verantwoordelijk voor het vormgeven van onze technische strategieën en ervoor zorgen dat we cutting-edge oplossingen leveren aan onze klanten.",
-
   "team.3.name": "Mehdi",
   "team.3.role": "UX / UI Designer",
-  "team.3.description": "Mehdi is onze UX/UI Designer, toegewijd aan het creëren van gebruiksvriendelijke en visueel aantrekkelijke digitale ervaringen. Zijn ontwerpen combineren esthetiek en functionaliteit, waardoor uw merk onvergetelijk wordt.",
+  "team.4.name": "Arno",
+  "team.4.role": "Software Engineer",
+  "team.5.name": "Killian",
+  "team.5.role": "Software Engineer",
 
   "features.feature1": "Functie 1",
   "features.feature2": "Functie 2",

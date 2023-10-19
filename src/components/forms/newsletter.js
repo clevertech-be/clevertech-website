@@ -5,7 +5,14 @@ import Button from '../button'
 export default function NewsletterForm({ formSuccess, handleSubmit, formError }) {
   const { t } = useTranslate()
   return (
-    <form method='POST' onSubmit={handleSubmit} name='newsletter' netlify='true' className=''>
+    <form
+      method='POST'
+      onSubmit={handleSubmit}
+      name='newsletter'
+      netlify
+      data-netlify='true'
+      className=''
+    >
       <div className='flex gap-2 flex-col md:flex-row justify-between'>
         <input type='hidden' name='form-name' value='newsletter' />
         <input

@@ -9,11 +9,17 @@ export default function ContactForm({ formSuccess, handleSubmit, formError }) {
       method='POST'
       onSubmit={handleSubmit}
       name='contact'
+      netlify-honeypot='bot-field'
       data-netlify='true'
       netlify
       className='grid grid-cols-1 gap-8 mx-auto max-w-screen-md sm:grid-cols-2'
     >
       <input type='hidden' name='form-name' value='contact' />
+      <p class='hidden'>
+        <label>
+          Don’t fill this out if you’re human: <input name='bot-field' />
+        </label>
+      </p>
       <div className='flex flex-col gap-2 items-left'>
         <label htmlFor='first-name' className='block mb-2 text-sm font-bold text-white'>
           {t('contact.form.firstName')}

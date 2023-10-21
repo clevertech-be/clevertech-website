@@ -9,12 +9,18 @@ export default function NewsletterForm({ formSuccess, handleSubmit, formError })
       method='POST'
       onSubmit={handleSubmit}
       name='newsletter'
+      netlify-honeypot='bot-field'
       netlify
       data-netlify='true'
       className=''
     >
       <div className='flex gap-2 flex-col md:flex-row justify-between'>
         <input type='hidden' name='form-name' value='newsletter' />
+        <p class='hidden'>
+          <label>
+            Don’t fill this out if you’re human: <input name='bot-field' />
+          </label>
+        </p>
         <input
           type='email'
           name='email'

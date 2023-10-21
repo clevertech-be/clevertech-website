@@ -1,16 +1,18 @@
 import React from 'react'
 import { useTranslate } from '../../hooks/useTranslate'
 import Button from '../button'
+import { useRouter } from 'next/router'
 
 export default function ContactForm({ formSuccess, handleSubmit, formError }) {
   const { t } = useTranslate()
+  const router = useRouter()
   return (
     <form
       method='POST'
       onSubmit={handleSubmit}
       name='contact'
       netlify-honeypot='bot-field'
-      action='/'
+      action={router.pathname}
       data-netlify='true'
       className='grid grid-cols-1 gap-8 mx-auto max-w-screen-md sm:grid-cols-2'
     >

@@ -15,7 +15,7 @@ export default function Team({ team }) {
         </div>
         <div className='grid gap-8 mb-6 lg:mb-16 grid-cols-1 md:grid-cols-3'>
           {team.map((member) => (
-            <div key={member.name} className='items-left sm:flex sm:flex-col'>
+            <div key={member.name} className='items-left flex flex-col items-center'>
               <Image
                 width={150}
                 height={600}
@@ -24,12 +24,12 @@ export default function Team({ team }) {
                 src={member.avatar}
                 alt={`${member.name} Avatar`}
               />
-              <div className='p-5'>
+              <div className='p-5 text-center'>
                 <h3 className='text-xl font-bold tracking-tight text-primary-500'>
                   {t(member.name)}
                 </h3>
                 <span className='text-black'>{t(member.role)}</span>
-                <ul className='mt-3 mb-4 flex space-x-4'>
+                <ul className='mt-3 mb-4 flex space-x-4 justify-center'>
                   {member.socials.map((social, index) => (
                     <li key={index}>
                       <Link href={social.link}>

@@ -118,7 +118,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className='bg-primary-600 w-full'>
+      <div className='bg-primary-600 w-full hidden'>
         <div className='p-6 md:p-8 mx-auto font-bold leading-normal max-w-screen-xl flex flex-col md:flex-row gap-4 justify-center items-center text-xs'>
           <div className='flex flex-col md:flex-row items-center gap-2'>
             {injected.sla.map((item, index) => (

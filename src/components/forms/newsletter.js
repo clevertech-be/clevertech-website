@@ -10,6 +10,7 @@ export default function NewsletterForm({ formSuccess, handleSubmit, formError })
       onSubmit={handleSubmit}
       name='newsletter'
       netlify-honeypot='bot-field'
+      action='/'
       data-netlify='true'
       className=''
     >

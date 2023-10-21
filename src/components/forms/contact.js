@@ -10,6 +10,7 @@ export default function ContactForm({ formSuccess, handleSubmit, formError }) {
       onSubmit={handleSubmit}
       name='contact'
       netlify-honeypot='bot-field'
+      action='/'
       data-netlify='true'
       className='grid grid-cols-1 gap-8 mx-auto max-w-screen-md sm:grid-cols-2'
     >

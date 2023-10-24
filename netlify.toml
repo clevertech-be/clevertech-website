@@ -1,7 +1,3 @@
-# Build
-[build]
-  publish = "public"
-  command = "npm run build"
 # WWW
 [[redirects]]
   from = "https://www.clevertech.be/"

@@ -18,7 +18,8 @@ export default function Newsletter() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => {
+      .then((resp) => {
+        console.log(resp)
         setFormSuccess({ message: t('newsletter.form.success') })
         console.log(t('newsletter.form.success'))
       })

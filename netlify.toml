@@ -1,0 +1,21 @@
+# Build
+[build]
+  publish = "public"
+  command = "npm run build"
+# WWW
+[[redirects]]
+  from = "https://www.clevertech.be/"
+  to = "https://clevertech.be/"
+  status = 301
+  force = false
+# Netlify
+[[redirects]]
+  from = "https://clevertech.netlify.app.netlify.com"
+  to = "https://clevertech.be/"
+  status = 301
+  force = false
+# 404
+[[redirects]]
+from = "*"
+to = "/404"
+status = 404

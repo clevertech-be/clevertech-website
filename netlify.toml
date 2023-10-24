@@ -1,3 +1,7 @@
+# Build
+[build]
+  publish = ".next"
+  command = "npm run build"
 # WWW
 [[redirects]]
   from = "https://www.clevertech.be/"

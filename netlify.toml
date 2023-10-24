@@ -19,3 +19,6 @@
 from = "*"
 to = "/404"
 status = 404
+# Plugin
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

@@ -6,7 +6,7 @@
   force = false
 # Netlify
 [[redirects]]
-  from = "https://clevertech.netlify.app.netlify.com"
+  from = "https://clevertech.netlify.app"
   to = "https://clevertech.be/"
   status = 301
   force = false

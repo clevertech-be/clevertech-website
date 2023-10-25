@@ -94,12 +94,12 @@ export default function SEO() {
 
   const favicons = manifest.icons.concat([
     {
-      rel: 'icon',
-      src: '/favicon/favicon.ico',
-    },
-    {
       rel: 'manifest',
       src: '/manifest.json',
+    },
+    {
+      rel: 'icon',
+      src: '/favicon.ico',
     },
   ])
 

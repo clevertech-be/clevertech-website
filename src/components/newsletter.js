@@ -13,7 +13,7 @@ export default function Newsletter() {
 
     const myForm = event.target
     const formData = new FormData(myForm)
-    fetch('/', {
+    fetch('/fr', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams(formData).toString(),

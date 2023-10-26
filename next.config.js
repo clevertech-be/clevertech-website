@@ -15,4 +15,13 @@ module.exports = withPlugins([optimizedImages, withPWA, withImages], {
     locales: injected.locales,
     defaultLocale: injected.defaultLocale,
   },
+  async redirects() {
+    return [
+      {
+        source: '/(.*)',
+        destination: '/',
+        permanent: false,
+      },
+    ]
+  },
 })

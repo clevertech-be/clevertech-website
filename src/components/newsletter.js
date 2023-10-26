@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import { useTranslate } from '../hooks/useTranslate'
 import NewsletterForm from './forms/newsletter'
 import InfoBox from './infoBox'
+import { useRouter } from 'next/router'
 
 export default function Newsletter() {
   const { t } = useTranslate()
+  const router = useRouter()
   const [formSuccess, setFormSuccess] = useState()
   const [formError, setFormError] = useState()
 
@@ -13,13 +15,12 @@ export default function Newsletter() {
 
     const myForm = event.target
     const formData = new FormData(myForm)
-    fetch('/fr', {
+    fetch(`/${router.locale}${router.asPath}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams(formData).toString(),
     })
-      .then((resp) => {
-        console.log(resp)
+      .then(() => {
         setFormSuccess({ message: t('newsletter.form.success') })
         console.log(t('newsletter.form.success'))
       })

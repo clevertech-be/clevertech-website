@@ -6,16 +6,12 @@ export const team = [
     avatar: '/images/team/hamza.png',
     socials: [
       {
-        title: 'facebook',
-        link: 'https://www.facebook.com/clevertech',
-      },
-      {
-        title: 'instagram',
-        link: 'https://www.instagram.com/',
+        title: 'github',
+        link: 'https://www.github.com/hamzaPixl',
       },
       {
         title: 'linkedin',
-        link: 'https://www.linkedin.com/clevertech',
+        link: 'https://www.linkedin.com/in/hamza-mounir-0a7bb6139/',
       },
     ],
   },
@@ -26,16 +22,12 @@ export const team = [
     description: 'team.2.description',
     socials: [
       {
-        title: 'facebook',
-        link: 'https://www.facebook.com/clevertech',
-      },
-      {
         title: 'instagram',
         link: 'https://www.instagram.com/',
       },
       {
         title: 'linkedin',
-        link: 'https://www.linkedin.com/clevertech',
+        link: 'https://www.linkedin.com/in/rachid-asli/',
       },
     ],
   },
@@ -46,16 +38,8 @@ export const team = [
     avatar: '/images/team/mehdi.png',
     socials: [
       {
-        title: 'facebook',
-        link: 'https://www.facebook.com/clevertech',
-      },
-      {
-        title: 'instagram',
-        link: 'https://www.instagram.com/',
-      },
-      {
         title: 'linkedin',
-        link: 'https://www.linkedin.com/clevertech',
+        link: 'https://www.linkedin.com/in/mehdi-haminine-22a7b1227/',
       },
     ],
   },
@@ -66,16 +50,8 @@ export const team = [
     avatar: '/images/team/arno.png',
     socials: [
       {
-        title: 'facebook',
-        link: 'https://www.facebook.com/clevertech',
-      },
-      {
-        title: 'instagram',
-        link: 'https://www.instagram.com/',
-      },
-      {
         title: 'linkedin',
-        link: 'https://www.linkedin.com/clevertech',
+        link: 'https://www.linkedin.com/in/arno-pion/',
       },
     ],
   },
@@ -86,16 +62,8 @@ export const team = [
     avatar: '/images/team/killian.png',
     socials: [
       {
-        title: 'facebook',
-        link: 'https://www.facebook.com/clevertech',
-      },
-      {
-        title: 'instagram',
-        link: 'https://www.instagram.com/',
-      },
-      {
         title: 'linkedin',
-        link: 'https://www.linkedin.com/clevertech',
+        link: 'https://www.linkedin.com/in/killianpieyns/',
       },
     ],
   },

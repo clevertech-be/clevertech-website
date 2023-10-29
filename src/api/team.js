@@ -22,10 +22,6 @@ export const team = [
     description: 'team.2.description',
     socials: [
       {
-        title: 'instagram',
-        link: 'https://www.instagram.com/',
-      },
-      {
         title: 'linkedin',
         link: 'https://www.linkedin.com/in/rachid-asli/',
       },

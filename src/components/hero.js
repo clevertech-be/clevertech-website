@@ -1,32 +1,21 @@
 import { useTranslate } from '../hooks/useTranslate'
-import Link from 'next/link'
-import Image from 'next/image'
+import { cn } from '../utils/cn'
 
 export default function Hero() {
   const { t } = useTranslate()
 
   return (
-    <section className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
-      <Link
-        href='/contact'
-        className='inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-white bg-primary-600 rounded-full hover:bg-primary-700'
-        role='alert'
-      >
-        <span className='text-xs bg-white rounded-full text-black px-4 py-1.5 mr-3'>
-          {t('home.hero.label')}
-        </span>{' '}
-        <span className='text-sm font-medium'>{t('home.hero.message')}</span>
-      </Link>
-      <div className='flex justify-center items-center my-10'>
-        <Image loading='lazy' width={200} height={60} src='/logo.png' alt={`Logo`} />
+    <section
+      className={cn(
+        `w-full bg-[url('/images/hero-home.png')] bg-no-repeat bg-cover bg-center bg-background-900/40 bg-blend-multiply text-white rounded-xl`,
+      )}
+    >
+      <div className='py-60 mx-auto max-w-screen-xl text-center'>
+        <h1 className='mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl'>
+          {t('home.hero.title')}
+        </h1>
+        <span className='text-xl pl-2 mb-20'>{t('home.hero.title.span')}</span>
       </div>
-      <h1 className='mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white'>
-        {t('home.hero.title')}
-      </h1>
-      <span className='text-primary-600 pl-2'>{t('home.hero.title.span')}</span>
-      <p className='mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 '>
-        {t('home.hero.description')}
-      </p>
     </section>
   )
 }

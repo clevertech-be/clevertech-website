@@ -1,17 +1,17 @@
 {
-  "keywords": ["clevertech", "web", "design", "logo", "agency", "digital", "marketing", "seo"],
-  "title": "Clevertech digital agency",
-  "description": "Clevertech digital agency",
+  "keywords": ["web development", "digital solutions", "small businesses", "branding", "marketing"],
+  "title": "Pixl - Digital Agency",
+  "description": "Pixl is a digital agency that helps businesses with their online presence. We offer branding, marketing and web development services.",
   "manifest": {
-    "projectShortName": "Clevertech digital agency",
-    "themeColor": "#00000",
-    "url": "https://www.clevertech.be/",
-    "description": "Clevertech digital agency",
+    "projectShortName": "Pixl - Digital Agency",
+    "themeColor": "#11161E",
+    "url": "https://www.pixldev.be/",
+    "description": "Pixl - Digital Agency",
     "display": "standalone",
     "orientation": "portrait",
-    "backgroundColor": "#00000"
+    "backgroundColor": "#11161E"
   },
-  "gtag": "G-8D29YCXHEP",
+  "gtag": "G-",
   "pages": [
     {
       "title": "link.home",
@@ -20,14 +20,7 @@
       "meta": {
         "title": "home.meta.title",
         "description": "home.meta.description",
-        "keywords": [
-          "digital solutions",
-          "small businesses",
-          "branding",
-          "marketing",
-          "web development",
-          "online presence"
-        ]
+        "keywords": []
       }
     },
     {
@@ -36,13 +29,16 @@
       "meta": {
         "title": "projects.meta.title",
         "description": "projects.meta.description",
-        "keywords": [
-          "portfolio",
-          "Clevertech",
-          "successful projects",
-          "digital solutions",
-          "business transformation"
-        ]
+        "keywords": []
+      }
+    },
+    {
+      "title": "link.teams",
+      "link": "/teams",
+      "meta": {
+        "title": "teams.meta.title",
+        "description": "teams.meta.description",
+        "keywords": []
       }
     },
     {
@@ -51,13 +47,7 @@
       "meta": {
         "title": "services.meta.title",
         "description": "services.meta.description",
-        "keywords": [
-          "our services, digital solutions",
-          "small businesses",
-          "branding",
-          "marketing",
-          "success"
-        ]
+        "keywords": []
       }
     },
     {
@@ -66,13 +56,7 @@
       "meta": {
         "title": "about.meta.title",
         "description": "about.meta.description",
-        "keywords": [
-          "about us",
-          "Clevertech",
-          "digital solutions",
-          "small businesses",
-          "brand success"
-        ]
+        "keywords": []
       }
     },
     {
@@ -82,7 +66,7 @@
       "meta": {
         "title": "contact.meta.title",
         "description": "contact.meta.description",
-        "keywords": ["contact us", "Clevertech", "digital solutions", "inquiries", "online success"]
+        "keywords": []
       }
     },
     {
@@ -91,18 +75,101 @@
       "meta": {
         "title": "blog.meta.title",
         "description": "blog.meta.description",
-        "keywords": ["blog", "Clevertech", "insights", "branding", "marketing", "web development"]
+        "keywords": []
       }
+    }
+  ],
+  "usps": [
+    {
+      "name": "project.zaaz.name",
+      "description": "project.zaaz.description",
+      "image": "/images/project-zaaz.png",
+      "link": "projects/zaaz"
+    },
+    {
+      "name": "project.clevertech.name",
+      "description": "project.clevertech.description",
+      "image": "/images/project-clevertech.png",
+      "link": "projects/clevertech"
+    },
+    {
+      "name": "project.switchy.name",
+      "description": "project.switchy.description",
+      "image": "/images/project-switchy.png",
+      "link": "projects/switchy"
+    }
+  ],
+  "faqs": [
+    {
+      "title": "faq.1.title",
+      "description": "faq.1.description"
+    },
+    {
+      "title": "faq.2.title",
+      "description": "faq.2.description"
+    },
+    {
+      "title": "faq.3.title",
+      "description": "faq.3.description"
+    },
+    {
+      "title": "faq.4.title",
+      "description": "faq.4.description"
+    },
+    {
+      "title": "faq.5.title",
+      "description": "faq.5.description"
+    }
+  ],
+  "services": [
+    {
+      "title": "service.web.title",
+      "image": "/images/service-web.png",
+      "description": "service.web.description",
+      "link": "/services/web"
+    },
+
+    {
+      "title": "service.app.title",
+      "image": "/images/service-app.png",
+      "link": "/services/app",
+      "description": "service.app.description"
+    },
+    {
+      "title": "service.seo.title",
+      "link": "/services/seo",
+      "image": "/images/service-seo.png",
+      "description": "service.seo.description"
+    },
+    {
+      "title": "service.security.title",
+      "image": "/images/service-security.png",
+      "link": "/services/security",
+      "description": "service.security.description"
+    },
+    {
+      "title": "service.brand.title",
+      "link": "/services/brand",
+      "image": "/images/service-brand.png",
+      "description": "service.brand.description"
     }
   ],
   "socials": [
     {
       "title": "github",
-      "link": "https://www.github.com/clevertech-be"
+      "link": "https://www.github.com/pixldev-be"
     },
     {
       "title": "linkedin",
-      "link": "https://www.linkedin.com/company/98963692/admin/feed/posts/"
+      "link": "https://www.linkedin.com/"
+    },
+    {
+      "title": "twitter",
+      "link": "https://www.twitter.com/"
+    },
+    {
+      "title": "whatsapp",
+      "link": "https://www.whatsapp.com/"
     }
   ],
   "sla": [
@@ -119,18 +186,110 @@
       "link": "/policy/cookie"
     }
   ],
+  "articles": [
+    {
+      "name": "article.zaaz.name",
+      "description": "article.zaaz.description",
+      "image": "/images/article.png",
+      "link": "articles/zaaz"
+    },
+    {
+      "name": "article.clevertech.name",
+      "description": "article.clevertech.description",
+      "image": "/images/article.png",
+      "link": "articles/clevertech"
+    },
+    {
+      "name": "article.switchy.name",
+      "description": "article.switchy.description",
+      "image": "/images/article.png",
+      "link": "articles/switchy"
+    }
+  ],
+  "teams": [
+    {
+      "name": "Hamza Mounir",
+      "role": "team.hamza.role",
+      "image": "/images/team-hamza.png"
+    },
+    {
+      "name": "Hamza Mounir",
+      "role": "team.hamza.role",
+      "image": "/images/team-hamza.png"
+    },
+    {
+      "name": "Hamza Mounir",
+      "role": "team.hamza.role",
+      "image": "/images/team-hamza.png"
+    },
+    {
+      "name": "Hamza Mounir",
+      "role": "team.hamza.role",
+      "image": "/images/team-hamza.png"
+    },
+    {
+      "name": "Hamza Mounir",
+      "role": "team.hamza.role",
+      "image": "/images/team-hamza.png"
+    },
+    {
+      "name": "Hamza Mounir",
+      "role": "team.hamza.role",
+      "image": "/images/team-hamza.png"
+    }
+  ],
+  "projects": [
+    {
+      "name": "project.zaaz.name",
+      "description": "project.zaaz.description",
+      "image": "/images/project-zaaz.png",
+      "link": "projects/zaaz"
+    },
+    {
+      "name": "project.clevertech.name",
+      "description": "project.clevertech.description",
+      "image": "/images/project-clevertech.png",
+      "link": "projects/clevertech"
+    },
+    {
+      "name": "project.switchy.name",
+      "description": "project.switchy.description",
+      "image": "/images/project-switchy.png",
+      "link": "projects/switchy"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Hamza mounir",
+      "avatar": "/images/testimonials-hamza.png",
+      "role": "testimonial.hamza.role",
+      "testimonial": "testimonial.hamza.description"
+    },
+    {
+      "name": "Hamza mounir",
+      "avatar": "/images/testimonials-hamza.png",
+      "role": "testimonial.hamza.role",
+      "testimonial": "testimonial.hamza.description"
+    },
+    {
+      "name": "Hamza mounir",
+      "avatar": "/images/testimonials-hamza.png",
+      "role": "testimonial.hamza.role",
+      "testimonial": "testimonial.hamza.description"
+    }
+  ],
   "address": {
-    "url": "https://maps.app.goo.gl/DxtYrkE5j5ih6bbT7",
-    "address": "Avenue Roi Albert I 64, 1780 Wemmel, Belgique"
+    "url": "https://maps.app.goo.gl/Jh3a8WCWeuxEXThCA",
+    "address": "Koningslosesteenweg 5/101, 1853 Grimbergen, Belgique"
   },
-  "companyName": "Clevertech BV",
+  "companyName": "Pixl SRL",
   "tel": "+32488203567",
-  "email": "contact@clevertech.be",
-  "tva": "BE 1001.198.366",
+  "email": "contact@pixldev.be",
+  "tva": "BE 0805.449.693",
   "locales": ["fr", "nl", "en"],
   "defaultLocale": "en",
   "author": {
-    "name": "Clevertech",
-    "url": "https://www.clevertech.be"
+    "name": "Pixl",
+    "url": "https://www.pixldev.be"
   }
 }

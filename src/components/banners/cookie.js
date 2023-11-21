@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { hasCookie, setCookie } from 'cookies-next'
-import { InvertedButton } from '../button'
+import Button from '../button'
 import Link from 'next/link'
 import { useTranslate } from '../../hooks/useTranslate'
 
@@ -20,7 +20,7 @@ export default function Cookie() {
   return (
     !showConsent && (
       <div className='fixed inset-0 bg-black bg-opacity-70'>
-        <div className='fixed bottom-0 left-0 right-0 bg-primary-100 flex justify-center'>
+        <div className='fixed bottom-0 left-0 right-0 bg-white flex justify-center'>
           <div className='md:max-w-screen-2xl flex items-left md:items-center justify-between p-10 flex-col md:flex-row'>
             <div className='text-black text-base flex flex-col md:mb-0 mb-10 md:mr-20'>
               <span>{t('policy.cookie.title')}</span>
@@ -34,7 +34,7 @@ export default function Cookie() {
                 </Link>
               </span>
             </div>
-            <InvertedButton message='Accept' onClick={() => acceptCookie()} />
+            <Button message='Accept' onClick={() => acceptCookie()} primary={true} />
           </div>
         </div>
       </div>

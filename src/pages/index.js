@@ -1,47 +1,27 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../container/layout'
 import Hero from '../components/hero'
-import Container from '../components/container'
-import Newsletter from '../components/newsletter'
-import Testimonials from '../components/testimonials'
-import Blog from '../components/blog'
-import { allArticles } from '../api/articles'
+import injected from '../injected.json'
 import Services from '../components/services'
-import Usp from '../components/usp'
-import ProjectGallery from '../components/projectGallery'
-import { usps } from '../api/usps'
-import { services } from '../api/services'
-import { testimonials } from '../api/testimonials'
-import { InvertedButton } from '../components/button'
-import { useTranslate } from '../hooks/useTranslate'
-import { allProjects } from '../api/projects'
+import Projects from '../components/projects'
+import Blog from '../components/blog'
+import Teams from '../components/teams'
+import Testimonials from '../components/testimonials'
+import CTA from '../components/cta'
+import Button from '../components/button'
 
 export default function Home() {
-  const { t } = useTranslate()
   return (
     <Layout>
       <Hero />
-      <div className='w-full bg-white'>
-        <Container>
-          <Usp usps={usps} />
-          <Services services={services} />
-          <ProjectGallery
-            label={t('projects.gallery.label')}
-            title={t('projects.gallery.title')}
-            description={t('projects.gallery.description')}
-            projects={allProjects}
-          />
-          <div className='mt-10 justify-center flex'>
-            <InvertedButton link='/projects' message={t('projects.button')} />
-          </div>
-          <Testimonials testimonials={testimonials} />
-          <Newsletter />
-          <Blog articles={allArticles.slice(0, 3)} />
-          <div className='mb-5 justify-center flex'>
-            <InvertedButton link='/blog' message={t('blog.button')} />
-          </div>
-        </Container>
-      </div>
+      <Services services={injected.services} />
+      <Projects projects={injected.projects} />
+      <Teams teams={injected.teams} />
+      <Blog articles={injected.articles} />
+      <Testimonials testimonials={injected.testimonials} />
+      <CTA title='Ready to get started?' description='Get in touch or create an account.'>
+        <Button className='w-full' link='/contact' primary={true} message='Contact Us' />
+      </CTA>
     </Layout>
   )
 }

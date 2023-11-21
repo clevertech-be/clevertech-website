@@ -1,7 +1,7 @@
 {
-  "name": "clevertech-website",
-  "short_name": "clevertech-website",
-  "description": "Clevertech website",
+  "name": "Pixl - Digital Agency",
+  "short_name": "Pixl - Digital Agency",
+  "description": "Pixl is a digital agency that helps businesses with their online presence. We offer branding, marketing and web development services.",
   "icons": [
     {
       "src": "/favicon/android-chrome-36x36.png",
@@ -50,9 +50,9 @@
     }
   ],
   "start_url": "/?source=pwa",
-  "background_color": "#DC2028",
+  "background_color": "#11161E",
   "orientation": "portrait",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#DC2028"
+  "theme_color": "#11161E"
 }

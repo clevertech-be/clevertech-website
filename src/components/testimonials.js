@@ -1,43 +1,71 @@
-import Image from 'next/image'
 import { useTranslate } from '../hooks/useTranslate'
+import HintIcon from '../icons/hint'
+import NextIcon from '../icons/next'
 
 export default function Testimonials({ testimonials }) {
   const { t } = useTranslate()
   return (
-    <section className='p-5 rounded-lg' id='testimonials'>
-      <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
-        <div className='mx-auto max-w-screen-sm mb-8 lg:mb-16'>
-          <p className='font-bold text-primary-600 mb-5'>{t('home.testimonials.label')} </p>{' '}
-          <h2 className='mb-4 md:text-4xl text-3xl tracking-tight font-extrabold text-black'>
+    <section>
+      <div className='flex flex-col gap-5 mb-20'>
+        <div className='mb-6 lg:mb-8 flex flex-row gap-4 text-white'>
+          <HintIcon />
+          <h2 className='text-3xl lg:text-4xl tracking-tight font-extrabold text-left'>
             {t('home.testimonials.title')}
           </h2>
-          <p className='font-light text-black sm:text-xl '>{t('home.testimonials.description')} </p>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto my-5'>
+        <p className='text-xl max-w-xl tracking-tight font-extrabold text-left text-white'>
+          {t('home.testimonials.description')}
+        </p>
+      </div>
+      <div
+        id='testimonial-carousel'
+        className='relative border-2 p-10 rounded-xl border-white/50'
+        data-carousel='slide'
+      >
+        <div className='overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-52 sm:h-48'>
           {testimonials.map((item, index) => (
-            <div
-              className={`${
-                index === 1 ? 'bg-black text-white' : 'bg-gray-200 text-black'
-              } mx-auto w-full max-w-screen-md shadow-lg p-5 justify-center items-center rounded-lg flex flex-col mb-4`}
+            <figure
+              className='hidden mx-auto w-full max-w-screen-md text-center mt-10'
+              data-carousel-item
               key={index}
             >
-              <p className='text-lg font-medium '>{t(item.testimonial)}</p>
-              <div className='flex justify-center items-center mt-6 space-x-3'>
-                <Image
-                  loading='lazy'
-                  width={20}
-                  height={20}
-                  className='w-6 h-6 rounded-full'
-                  src={item.avatar}
-                  alt='profile picture'
-                />
-                <div className='flex items-center divide-x-2 divide-primary-600'>
-                  <div className='pr-3 font-medium '>{t(item.name)}</div>
-                  <div className='pl-3 text-sm font-light  '>{t(item.role)}</div>
+              <blockquote>
+                <p className='text-lg font-medium text-white mb-10'>{t(item.testimonial)}</p>
+              </blockquote>
+              <figcaption className='mt-6 space-x-3'>
+                <div className='flex  justify-center items-center divide-x-2 divide-primary-500'>
+                  <div className='pr-3 font-medium text-white'>{t(item.name)}</div>
+                  <div className='pl-3 text-sm font-light text-white '>{t(item.role)}</div>
                 </div>
-              </div>
-            </div>
+              </figcaption>
+            </figure>
           ))}
+        </div>
+        <div className='flex justify-center items-center'>
+          <button
+            type='button'
+            className='flex justify-center items-center mr-4 h-full cursor-pointer group focus:outline-none'
+            data-carousel-prev
+          >
+            <span className='text-primary-500  hover:text-white transition-all ease-in-out duration-300'>
+              <div className='rotate-180'>
+                <NextIcon />
+              </div>
+              <span className='hidden'>{t('home.testimonials.previous')}</span>
+            </span>
+          </button>
+          <button
+            type='button'
+            className='flex justify-center items-center h-full cursor-pointer group focus:outline-none'
+            data-carousel-next
+          >
+            <span className='text-primary-500  hover:text-white transition-all ease-in-out duration-300'>
+              <div>
+                <NextIcon />
+              </div>
+              <span className='hidden'>{t('home.testimonials.next')}</span>
+            </span>
+          </button>
         </div>
       </div>
     </section>

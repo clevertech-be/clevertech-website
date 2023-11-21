@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: http://clevertech.be
+Host: https://pixldev.be
 
 # Sitemaps
-Sitemap: http://clevertech.be/sitemap.xml
+Sitemap: https://pixldev.be/sitemap.xml

@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'http://clevertech.be',
+  siteUrl: 'https://pixldev.be',
   generateRobotsTxt: true,
 }

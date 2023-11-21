@@ -1,5 +1,5 @@
 {
-  "name": "clevertech-website",
+  "name": "pixldev-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -21,6 +21,7 @@
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
     "axios": "^1.4.0",
+    "clsx": "^2.0.0",
     "cookies-next": "^2.1.2",
     "flowbite": "^1.7.0",
     "flowbite-react": "^0.4.11",
@@ -35,6 +36,7 @@
     "react-intl": "^6.4.2",
     "react-query": "^3.39.3",
     "react-type-animation": "^3.0.1",
+    "tailwind-merge": "^2.0.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
   },

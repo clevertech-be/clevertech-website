@@ -14,7 +14,7 @@ export default function ContactForm({ formSuccess, handleSubmit, formError }) {
       netlify-honeypot='bot-field'
       action={router.pathname}
       data-netlify='true'
-      className='grid grid-cols-1 gap-8 mx-auto max-w-screen-md sm:grid-cols-2'
+      className='grid grid-cols-2 gap-8 mx-auto max-w-screen-md items-center'
     >
       <input type='hidden' name='form-name' value='contact' />
       <p className='hidden'>
@@ -23,75 +23,70 @@ export default function ContactForm({ formSuccess, handleSubmit, formError }) {
         </label>
       </p>
       <div className='flex flex-col gap-2 items-left'>
-        <label htmlFor='first-name' className='block mb-2 text-sm font-bold text-white'>
+        <label htmlFor='first-name' className='text-sm my-2 text-white/50'>
           {t('contact.form.firstName')}
         </label>
         <input
           type='text'
           name='first-name'
-          className='block w-full text-sm rounded-lg shadow-sm border-2 bg-primary-500 text-white focus:border-white focus:ring-white border-white placeholder:text-white'
-          placeholder='Bonnie'
+          className='shadow-sm text-white bg-background-900 border-b-2 border-0 focus:border-white focus:ring-0 focus:outline-0'
           required
         />
       </div>
       <div className='flex flex-col gap-2 items-left'>
-        <label htmlFor='last-name' className='block mb-2 text-sm font-bold text-white'>
+        <label htmlFor='last-name' className='text-sm my-2 text-white/50'>
           {t('contact.form.lastName')}
         </label>
         <input
           type='text'
           name='last-name'
-          className='block w-full text-sm rounded-lg shadow-sm border-2 bg-primary-500 text-white focus:border-white focus:ring-white border-white placeholder:text-white'
-          placeholder='Green'
+          className='shadow-sm text-white bg-background-900 border-b-2 border-0 focus:border-white focus:ring-0 focus:outline-0'
           required
         />
       </div>
-      <div className='flex flex-col gap-2 items-left'>
-        <label htmlFor='email' className='block mb-2 text-sm font-bold text-white'>
+      <div className='col-span-2 flex flex-col gap-2 items-left'>
+        <label htmlFor='email' className='text-sm my-2 text-white/50'>
           {t('contact.form.email')}
         </label>
         <input
           type='email'
           name='email'
-          className='shadow-sm border-2 text-sm rounded-lg bg-primary-500 text-white focus:border-white focus:ring-white border-white placeholder:text-white'
-          placeholder='name@clevertech.be'
+          className='shadow-sm text-sm text-white bg-background-900 border-b-2 border-0 focus:border-white focus:ring-0 focus:outline-0'
           required
         />
       </div>
-      <div className='flex flex-col gap-2 items-left'>
-        <label htmlFor='phone-number' className='block mb-2 text-sm font-bold text-white'>
+      <div className='col-span-2 flex flex-col gap-2 items-left'>
+        <label htmlFor='phone-number' className='text-sm my-2 text-white/50'>
           {t('contact.form.phoneNumber')}
         </label>
         <input
           type='tel'
           name='phone-number'
-          className='block w-full text-sm rounded-lg shadow-sm border-2 bg-primary-500 text-white focus:border-white focus:ring-white border-white placeholder:text-white'
-          placeholder='+12 345 6789'
+          className='shadow-sm text-white bg-background-900 border-b-2 border-0 focus:border-white focus:ring-0 focus:outline-0'
           required
         />
       </div>
-      <div className='sm:col-span-2'>
-        <label htmlFor='message' className='block mb-2 text-sm font-bold text-white '>
+      <div className='col-span-2'>
+        <label htmlFor='message' className='text-sm my-2 text-white/50'>
           {t('contact.form.message')}
         </label>
         <textarea
           name='message'
           rows='6'
-          className='block p-2.5 w-full text-sm rounded-lg shadow-sm border-2 bg-primary-500 text-white focus:border-white focus:ring-white border-white placeholder:text-white'
-          placeholder='...'
+          className='w-full text-sm shadow-sm text-white bg-background-900 border-b-2 border-0 focus:border-white focus:ring-0 focus:outline-0'
         ></textarea>
         {formSuccess && (
-          <div className='mt-4 bg-white p-2 rounded-lg text-green-500 transition-all'>
+          <div className='mt-4 text-white p-2 bg-green-500 rounded-2xl text-center'>
             {formSuccess.message}
           </div>
         )}
         {formError && (
-          <div className='mt-4 bg-white p-2 rounded-lg text-red-500 transition-all'>
+          <div className='mt-4 text-white p-2 bg-red-500 rounded-2xl text-center'>
             {formError.message}
           </div>
         )}
       </div>
-      <Button message={t('contact.form.submit')} className={'sm:col-span-2'} />
+      <Button message={t('contact.form.submit')} primary={true} className='col-span-2' />
     </form>
   )
 }

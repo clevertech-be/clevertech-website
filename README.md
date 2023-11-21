@@ -1,22 +1,22 @@
-# Clevertech Website
+# Pixl Website
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/clevertech-be/clevertech-website/blob/master/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/clevertech-be/clevertech-website/commits/master)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/hamzaPixl/pixl-dev/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/hamzaPixl/pixl-dev/commits/master)
 
 <br />
 <p align="center">
-  <h3 align="center">Clevertech Website</h3>
+  <h3 align="center">Pixl Website</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/clevertech-be/clevertech-website/blob/master/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/hamzaPixl/pixl-dev/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://clevertech-website.be/">View Demo</a>
+    <a href="https://pixldev.be/">View Demo</a>
     ·
-    <a href="https://github.com/clevertech-be/clevertech-website/issues">Report Bug</a>
+    <a href="https://github.com/hamzaPixl/pixl-dev/issues">Report Bug</a>
     ·
-    <a href="https://github.com/clevertech-be/clevertech-website/issues">Request Feature</a>
+    <a href="https://github.com/hamzaPixl/pixl-dev/issues">Request Feature</a>
   </p>
 </p>
 
@@ -53,8 +53,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Hamza Mounir - hamza@clevertech.be
-Rachid Asli - rachid@clevertech.be
+Hamza Mounir - hamza@pixldev.be
 
 ## Link
 

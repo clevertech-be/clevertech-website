@@ -1,0 +1,47 @@
+import Link from 'next/link'
+import { useTranslate } from '../hooks/useTranslate'
+import HintIcon from '../icons/hint'
+import Image from 'next/image'
+import Button from './button'
+
+export default function Projects({ projects }) {
+  const { t } = useTranslate()
+  return (
+    <section>
+      <div>
+        <div className='mb-6 lg:mb-8 flex flex-row gap-4 text-white'>
+          <HintIcon />
+          <h2 className='text-3xl lg:text-4xl tracking-tight font-extrabold text-left'>
+            {t('home.projects.title')}
+          </h2>
+        </div>
+      </div>
+      <div className='gap-4 my-8 sm:grid grid-cols-3 sm:mt-12'>
+        {projects.map((project, index) => (
+          <Link key={index} href={project.link}>
+            <div className='rounded-xl border-2 border-white/50'>
+              <Image
+                loading='lazy'
+                width={600}
+                height={300}
+                src={project.image}
+                className='rounded-t-xl h-80 object-cover'
+                alt='project gallery'
+              />
+              <div className='text-white font-bold rounded-xl flex flex-col gap-4 px-5 py-5'>
+                <h2 className='text-2xl font-extrabold text-primary-500'>{t(project.name)}</h2>
+                <p className='text-xl'>{t(project.description)}</p>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+      <Button
+        className='w-full'
+        link='/projects'
+        primary={true}
+        message={t('home.projects.button')}
+      />
+    </section>
+  )
+}

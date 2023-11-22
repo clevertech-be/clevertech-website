@@ -22,9 +22,9 @@ export default function Team() {
             <Image
               loading='lazy'
               width={600}
-              height={300}
+              height={100}
               src={member.image}
-              className='rounded-t-xl h-80 object-cover'
+              className='rounded-t-xl h-60 object-cover'
               alt='member gallery'
             />
             <div className='text-white font-bold rounded-xl flex flex-col gap-4 px-5 py-5'>

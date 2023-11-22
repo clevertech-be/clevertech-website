@@ -1,9 +1,16 @@
 import Link from 'next/link'
 import React from 'react'
 import { cn } from '../utils/cn'
-import Image from 'next/image'
 
-export default function Button({ message, link, icon, primary, secondary, onClick, className }) {
+export default function Button({
+  message,
+  link,
+  primary,
+  secondary,
+  onClick,
+  className,
+  children,
+}) {
   return (
     <button
       onClick={onClick}
@@ -19,14 +26,14 @@ export default function Button({ message, link, icon, primary, secondary, onClic
       {link ? (
         <Link href={link}>
           <div className='inline-flex justify-center items-center px-2'>
-            {icon && <Image src={icon} alt='icon' width={20} height={20} loading='lazy' />}
             <span>{message}</span>
+            {children}
           </div>
         </Link>
       ) : (
         <div className='inline-flex justify-center items-center px-2'>
-          {icon && <Image src={icon} alt='icon' width={20} height={20} loading='lazy' />}
           <span>{message}</span>
+          {children}
         </div>
       )}
     </button>

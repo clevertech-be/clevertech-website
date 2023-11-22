@@ -7,7 +7,7 @@ import Button from './button'
 export default function Projects({ projects }) {
   const { t } = useTranslate()
   return (
-    <section>
+    <section className='my-20'>
       <div>
         <div className='mb-6 lg:mb-8 flex flex-row gap-4 text-white'>
           <HintIcon />
@@ -18,19 +18,19 @@ export default function Projects({ projects }) {
       </div>
       <div className='gap-4 my-8 sm:grid grid-cols-3 sm:mt-12'>
         {projects.map((project, index) => (
-          <Link key={index} href={project.link}>
+          <Link key={index} href={project.link} className='m-2'>
             <div className='rounded-xl border-2 border-white/50'>
               <Image
                 loading='lazy'
                 width={600}
-                height={300}
+                height={200}
                 src={project.image}
-                className='rounded-t-xl h-80 object-cover'
+                className='rounded-t-xl h-60 object-cover'
                 alt='project gallery'
               />
               <div className='text-white font-bold rounded-xl flex flex-col gap-4 px-5 py-5'>
-                <h2 className='text-2xl font-extrabold text-primary-500'>{t(project.name)}</h2>
-                <p className='text-xl'>{t(project.description)}</p>
+                <h2 className='text-2xl font-extrabold'>{t(project.name)}</h2>
+                <p className='text-lg opacity-50'>{t(project.description)}</p>
               </div>
             </div>
           </Link>

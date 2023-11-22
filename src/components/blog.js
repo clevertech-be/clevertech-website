@@ -7,7 +7,7 @@ import Button from './button'
 export default function Blog({ articles }) {
   const { t } = useTranslate()
   return (
-    <section>
+    <section className='my-20'>
       <div className='mb-6 lg:mb-8 flex flex-row gap-4 text-white'>
         <HintIcon />
         <h2 className='text-3xl lg:text-4xl tracking-tight font-extrabold text-left'>
@@ -17,18 +17,18 @@ export default function Blog({ articles }) {
       <div className='gap-4 my-8 sm:grid grid-cols-3 sm:mt-12'>
         {articles.map((article, index) => (
           <Link key={index} href={article.link}>
-            <div className='rounded-xl border-2 border-white/50'>
+            <div className='rounded-xl border-2 border-white/50 m-2'>
               <Image
                 loading='lazy'
                 width={600}
-                height={300}
+                height={200}
                 src={article.image}
-                className='rounded-t-xl h-80 object-cover'
+                className='rounded-t-xl h-60 object-cover'
                 alt='article gallery'
               />
               <div className='text-white font-bold rounded-xl flex flex-col gap-4 px-5 py-5'>
-                <h2 className='text-2xl font-extrabold text-primary-500'>{t(article.name)}</h2>
-                <p className='text-xl'>{t(article.description)}</p>
+                <h2 className='text-2xl font-extrabold'>{t(article.name)}</h2>
+                <p className='text-lg opacity-50'>{t(article.description)}</p>
               </div>
             </div>
           </Link>

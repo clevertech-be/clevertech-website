@@ -5,7 +5,7 @@ import NextIcon from '../icons/next'
 export default function Testimonials({ testimonials }) {
   const { t } = useTranslate()
   return (
-    <section>
+    <section className='w-full my-20'>
       <div className='flex flex-col gap-5 mb-20'>
         <div className='mb-6 lg:mb-8 flex flex-row gap-4 text-white'>
           <HintIcon />
@@ -19,10 +19,10 @@ export default function Testimonials({ testimonials }) {
       </div>
       <div
         id='testimonial-carousel'
-        className='relative border-2 p-10 rounded-xl border-white/50'
+        className='relative border-2 p-5 sm:p-10 rounded-xl border-white/50'
         data-carousel='slide'
       >
-        <div className='overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-52 sm:h-48'>
+        <div className='overflow-hidden relative mx-auto max-w-screen-md h-80 sm:h-48'>
           {testimonials.map((item, index) => (
             <figure
               className='hidden mx-auto w-full max-w-screen-md text-center mt-10'
@@ -30,11 +30,11 @@ export default function Testimonials({ testimonials }) {
               key={index}
             >
               <blockquote>
-                <p className='text-lg font-medium text-white mb-10'>{t(item.testimonial)}</p>
+                <p className='text-lg font-medium text-white sm:mb-10'>{t(item.testimonial)}</p>
               </blockquote>
               <figcaption className='mt-6 space-x-3'>
                 <div className='flex  justify-center items-center divide-x-2 divide-primary-500'>
-                  <div className='pr-3 font-medium text-white'>{t(item.name)}</div>
+                  <div className='pr-3 font-medium text-white'>{item.name}</div>
                   <div className='pl-3 text-sm font-light text-white '>{t(item.role)}</div>
                 </div>
               </figcaption>

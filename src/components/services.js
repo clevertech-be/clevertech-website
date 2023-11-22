@@ -6,7 +6,7 @@ import HintIcon from '../icons/hint'
 export default function Services({ services }) {
   const { t } = useTranslate()
   return (
-    <section>
+    <section className='my-20 w-full'>
       <div>
         <div className='mb-6 lg:mb-8 flex flex-row gap-4 text-white'>
           <HintIcon />

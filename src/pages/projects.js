@@ -24,7 +24,7 @@ export default function Projects() {
           <Link
             key={index}
             href={project.link}
-            className='text-white font-bold flex flex-col gap-4 px-5 py-5 rounded-xl relative'
+            className='text-white font-bold flex flex-col gap-4 px-5 py-5 rounded-xl relative overflow-hidden'
           >
             <Image
               loading='lazy'
@@ -34,7 +34,7 @@ export default function Projects() {
               className='relative rounded-xl h-96 object-cover'
               alt='project illustration'
             />
-            <div className='absolute bottom-0 right-0 rounded-2xl mr-20 mb-20 py-5 pl-5 pr-10 bg-background-900 text-white text-base flex flex-col gap-2'>
+            <div className='absolute bottom-0 right-0 rounded-2xl mr-20 mb-20 py-5 pl-5 pr-10 bg-background-900 text-white text-base flex flex-col gap-2  ease-in-out duration-500 hover:rotate-6 hover:scale-125'>
               <h2 className='font-extrabold'>{t(project.name)}</h2>
               <div className='text-primary-500 flex flex-row items-center gap-5'>
                 <p>Learn more</p>

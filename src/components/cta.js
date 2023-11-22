@@ -5,6 +5,7 @@ export default function CTA({ title, description, children }) {
     <section
       className={cn(
         `w-full bg-[url('/images/cta.png')] bg-no-repeat bg-cover bg-center bg-background-900/50 bg-blend-lighten rounded-xl`,
+        'my-10',
       )}
     >
       <div className='p-10 md:py-40 flex flex-col justify-center items-center gap-10 text-white text-center'>

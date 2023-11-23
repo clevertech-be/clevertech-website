@@ -6,6 +6,8 @@ import Button from './button'
 import { useTranslate } from '../hooks/useTranslate'
 import { useScrollPosition } from '../hooks/useScrollPostition'
 import { cn } from '../utils/cn'
+import ChatIcon from '../icons/chat'
+import getIcon from '../icons/icon'
 
 export default function Header() {
   const scrollPosition = useScrollPosition()
@@ -32,15 +34,16 @@ export default function Header() {
                 <Link
                   href={item.link}
                   key={index}
-                  className='text-white/60 font-bold text-sm md:text-md leading-normal border-b-2  py-2 border-transparent hover:border-primary-600 transition-all ease-in-out duration-300'
+                  className='text-white font-normal text-sm md:text-md leading-normal flex flex-row gap-1 items-center py-2 hover:text-primary-600 transition-all ease-in-out duration-300'
                 >
+                  {item.icon && getIcon(item.icon)}
                   {t(item.title)}
                 </Link>
               ))}
           </div>
-          <div className='flex flex-row gap-5 items-center'>
-            <Button message={t('header.contact')} link='/contact' primary={true} />
-          </div>
+          <Button message={t('header.contact')} link='/contact' primary={true}>
+            <ChatIcon />
+          </Button>
         </div>
       </div>
     </nav>

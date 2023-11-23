@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../container/layout'
 import injected from '../injected.json'
 import CTA from '../components/cta'
-import Button from '../components/button'
 import { useTranslate } from '../hooks/useTranslate'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -11,14 +10,14 @@ export default function Blog() {
   const { t } = useTranslate()
   return (
     <Layout>
-      <div className='w-full flex flex-row gap-10 justify-between text-start items-center text-white rounded-xl border-2 border-white/50 font-bold text-2xl'>
-        <h1 className='border-r-2 border-white/50 p-5'>Our latest Articles</h1>
-        <p className='p-5'>
+      <div className='w-full flex flex-col md:flex-row gap-10 justify-between text-center md:text-end items-center text-white text-xl border-2 border-white/50 rounded-xl'>
+        <h1 className='font-bold p-5'>Our latest Articles</h1>
+        <p className='max-w-2xl p-5'>
           We’ve worked with a wide range of businesses, from startups to enterprises. We are
           confident that we can help you achieve your goals.
         </p>
       </div>
-      <div className='gap-10 my-8 grid grid-cols-2'>
+      <div className='gap-10 my-8 grid sm:grid-cols-2'>
         {injected.articles.map((article, index) => (
           <Link
             key={index}
@@ -40,9 +39,7 @@ export default function Blog() {
           </Link>
         ))}
       </div>
-      <CTA title='Ready to get started?' description='Get in touch or create an account.'>
-        <Button className='w-full' link='/contact' primary={true} message='Contact Us' />
-      </CTA>
+      <CTA title='Ready to get started?' description='Get in touch or create an account.' />
     </Layout>
   )
 }

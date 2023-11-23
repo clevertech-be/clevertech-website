@@ -4,7 +4,6 @@ import injected from '../injected.json'
 import Teams from '../components/teams'
 import Testimonials from '../components/testimonials'
 import CTA from '../components/cta'
-import Button from '../components/button'
 import Usps from '../components/usps'
 import Image from 'next/image'
 
@@ -18,17 +17,15 @@ export default function About() {
         <div className='flex flex-col justify-center items-center mx-auto px-5 md:px-20'>
           <Image
             src='/images/about.png'
-            width={1000}
+            width={500}
             height={500}
             alt='About'
-            className='rounded-xl'
+            className='rounded-xl w-screen'
             loading='lazy'
           />
-          <div className='flex flex-row justify-between pt-10'>
-            <p className='text-white text-left'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <p className='text-white/60 text-right'>
+          <div className='text-white flex flex-col sm:flex-row justify-between text-center sm:text-start gap-5 pt-10'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className='opacity-50'>
               Discover the essence and core of our vision. We are here to empower businesses, big
               and small, with cutting-edge digital solutions. Join us in the digital process.
             </p>
@@ -38,9 +35,7 @@ export default function About() {
       <Usps usps={injected.usps} />
       <Testimonials testimonials={injected.testimonials} />
       <Teams teams={injected.teams} />
-      <CTA title='Ready to get started?' description='Get in touch or create an account.'>
-        <Button className='w-full' link='/contact' primary={true} message='Contact Us' />
-      </CTA>
+      <CTA title='Ready to get started?' description='Get in touch or create an account.' />
     </Layout>
   )
 }

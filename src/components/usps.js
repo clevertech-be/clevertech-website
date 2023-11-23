@@ -7,13 +7,13 @@ export default function Usps({ usps }) {
     <section>
       <div className='gap-4 my-8 sm:grid grid-cols-3 sm:mt-12'>
         {usps.map((usp, index) => (
-          <div className='' key={index}>
+          <div className='rounded-xl border-2 border-white/50 m-2' key={index}>
             <Image
               loading='lazy'
               width={600}
-              height={300}
+              height={200}
               src={usp.image}
-              className='rounded-t-xl h-80 object-cover'
+              className='rounded-t-xl h-60 object-cover'
               alt='usp gallery'
             />
             <div className='text-white font-bold rounded-xl flex flex-col gap-4 px-5 py-5'>

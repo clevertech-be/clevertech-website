@@ -3,6 +3,7 @@ import { useTranslate } from '../hooks/useTranslate'
 import HintIcon from '../icons/hint'
 import Image from 'next/image'
 import Button from './button'
+import NextIcon from '../icons/next'
 
 export default function Blog({ articles }) {
   const { t } = useTranslate()
@@ -28,7 +29,6 @@ export default function Blog({ articles }) {
               />
               <div className='text-white font-bold rounded-xl flex flex-col gap-4 px-5 py-5'>
                 <h2 className='text-2xl font-extrabold'>{t(article.name)}</h2>
-                <p className='text-lg opacity-50'>{t(article.description)}</p>
               </div>
             </div>
           </Link>
@@ -39,7 +39,9 @@ export default function Blog({ articles }) {
         link='/articles'
         primary={true}
         message={t('home.articles.button')}
-      />
+      >
+        <NextIcon />
+      </Button>
     </section>
   )
 }

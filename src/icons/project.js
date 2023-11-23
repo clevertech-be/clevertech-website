@@ -2,14 +2,14 @@ export default function ProjectIcon() {
   return (
     <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'>
       <path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M5.75 9.75V6.25C5.75 5.97386 5.97386 5.75 6.25 5.75H9.75C10.0261 5.75 10.25 5.97386 10.25 6.25V9.75C10.25 10.0261 10.0261 10.25 9.75 10.25H6.25C5.97386 10.25 5.75 10.0261 5.75 9.75ZM9.25 9.25H6.75V6.75H9.25V9.25Z'
         fill='currentColor'
       />
       <path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M2.5 3.5C2.5 3.5 2.5 3.08579 2.79289 2.79289C2.79289 2.79289 3.08579 2.5 3.5 2.5H12.5C12.5 2.5 12.9142 2.5 13.2071 2.79289C13.2071 2.79289 13.5 3.08579 13.5 3.5V12.5C13.5 12.5 13.5 12.9142 13.2071 13.2071C13.2071 13.2071 12.9142 13.5 12.5 13.5H3.5C3.5 13.5 3.08579 13.5 2.79289 13.2071C2.79289 13.2071 2.5 12.9142 2.5 12.5V3.5ZM3.5 3.5V12.5H12.5V3.5H3.5Z'
         fill='currentColor'
       />

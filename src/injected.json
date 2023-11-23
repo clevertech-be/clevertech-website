@@ -25,6 +25,7 @@
     },
     {
       "title": "link.projects",
+      "icon": "project",
       "link": "/projects",
       "meta": {
         "title": "projects.meta.title",
@@ -33,6 +34,7 @@
       }
     },
     {
+      "icon": "team",
       "title": "link.teams",
       "link": "/teams",
       "meta": {
@@ -43,6 +45,7 @@
     },
     {
       "title": "link.services",
+      "icon": "service",
       "link": "/services",
       "meta": {
         "title": "services.meta.title",
@@ -52,6 +55,7 @@
     },
     {
       "title": "link.about",
+      "icon": "code",
       "link": "/about",
       "meta": {
         "title": "about.meta.title",
@@ -71,6 +75,7 @@
     },
     {
       "title": "link.blog",
+      "icon": "blog",
       "link": "/blog",
       "meta": {
         "title": "blog.meta.title",

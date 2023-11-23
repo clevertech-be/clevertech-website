@@ -2,8 +2,8 @@ export default function ServiceIcon() {
   return (
     <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'>
       <path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M1 4C1 4 1 3.58579 1.29289 3.29289C1.29289 3.29289 1.58579 3 2 3H14C14 3 14.4142 3 14.7071 3.29289C14.7071 3.29289 15 3.58579 15 4V5.5C15 5.5 15 5.91421 14.7071 6.20711C14.7071 6.20711 14.4142 6.5 14 6.5H2C2 6.5 1.58579 6.5 1.29289 6.20711C1.29289 6.20711 1 5.91421 1 5.5V4ZM2 4V5.5H14V4H2Z'
         fill='currentColor'
       />

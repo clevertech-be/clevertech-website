@@ -3,6 +3,7 @@ import { useTranslate } from '../hooks/useTranslate'
 import HintIcon from '../icons/hint'
 import Image from 'next/image'
 import Button from './button'
+import NextIcon from '../icons/next'
 
 export default function Projects({ projects }) {
   const { t } = useTranslate()
@@ -30,7 +31,6 @@ export default function Projects({ projects }) {
               />
               <div className='text-white font-bold rounded-xl flex flex-col gap-4 px-5 py-5'>
                 <h2 className='text-2xl font-extrabold'>{t(project.name)}</h2>
-                <p className='text-lg opacity-50'>{t(project.description)}</p>
               </div>
             </div>
           </Link>
@@ -41,7 +41,9 @@ export default function Projects({ projects }) {
         link='/projects'
         primary={true}
         message={t('home.projects.button')}
-      />
+      >
+        <NextIcon />
+      </Button>
     </section>
   )
 }

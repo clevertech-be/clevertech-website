@@ -2,6 +2,7 @@ import { useTranslate } from '../hooks/useTranslate'
 import HintIcon from '../icons/hint'
 import Image from 'next/image'
 import Button from './button'
+import NextIcon from '../icons/next'
 
 export default function Teams({ teams }) {
   const { t } = useTranslate()
@@ -36,7 +37,9 @@ export default function Teams({ teams }) {
           </div>
         ))}
       </div>
-      <Button className='w-full' link='/teams' primary={true} message={t('home.team.button')} />
+      <Button className='w-full' link='/teams' primary={true} message={t('home.team.button')}>
+        <NextIcon />
+      </Button>
     </section>
   )
 }

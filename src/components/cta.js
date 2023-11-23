@@ -1,6 +1,8 @@
+import ChatIcon from '../icons/chat'
 import { cn } from '../utils/cn'
+import Button from './button'
 
-export default function CTA({ title, description, children }) {
+export default function CTA({ title, description }) {
   return (
     <section
       className={cn(
@@ -13,7 +15,9 @@ export default function CTA({ title, description, children }) {
           {title}
         </h1>
         <p className='text-2xl'>{description}</p>
-        <div className=''>{children}</div>
+        <Button className='w-full' link='/contact' primary={true} message='Contact Us'>
+          <ChatIcon />
+        </Button>
       </div>
     </section>
   )

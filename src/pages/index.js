@@ -8,7 +8,6 @@ import Blog from '../components/blog'
 import Teams from '../components/teams'
 import Testimonials from '../components/testimonials'
 import CTA from '../components/cta'
-import Button from '../components/button'
 
 export default function Home() {
   return (
@@ -19,9 +18,7 @@ export default function Home() {
       <Teams teams={injected.teams} />
       <Blog articles={injected.articles} />
       <Testimonials testimonials={injected.testimonials} />
-      <CTA title='Ready to get started?' description='Get in touch or create an account.'>
-        <Button className='w-full' link='/contact' primary={true} message='Contact Us' />
-      </CTA>
+      <CTA title='Ready to get started?' description='Get in touch or create an account.' />
     </Layout>
   )
 }
